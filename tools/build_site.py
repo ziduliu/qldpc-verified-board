@@ -112,67 +112,77 @@ if refuted:
     summary_html.append("<li><b>leaderboard claims not reproduced (%d of %d re-measured):</b> %s.</li>" % (len(refuted), len(refuted) + len(held), "; ".join(parts)))
     summary_md.append("- leaderboard claims not reproduced (%d of %d re-measured): %s" % (len(refuted), len(refuted) + len(held), "; ".join("%s claimed d ≤ %d, operator of weight %d found %s" % (nm(e).split(",≤")[0] + "]]", e["claimed"]["d"], e["d"], md_link(e)) for e in refuted)))
 summary_html.append("</ul>")
+cards = []
+for b in ("≤ 8", "9–10", "11–12"):
+    e = best_exact.get(b)
+    if e:
+        cards.append('<div class="card"><div class="lab">best certified code, check weight %s</div><div class="big">%s</div><div class="val">k d²/n = <b>%.1f</b> · %s</div><div class="sub">%s</div><div class="sub">%s</div></div>'
+                     % (b, nm(e), e["kd2_over_n"], e["family"], html.escape(e["construction"]), link(e)))
+if sce_bound:
+    e = sce_bound[0]
+    cards.append('<div class="card"><div class="lab">best search bound (operator published)</div><div class="big">%s</div><div class="val">k d²/n = <b>%.1f</b> · check weight %d</div><div class="sub">lightest operator found by the v5 search; the true distance may be smaller</div><div class="sub">%s</div></div>'
+                 % (nm(e), e["kd2_over_n"], e["w"], link(e)))
+if refuted or held:
+    inner = "; ".join("%s claimed ≤%d, found %d (%s)" % (nm(e).split(",≤")[0] + "]]", e["claimed"]["d"], e["d"], link(e)) for e in refuted) or "none"
+    cards.append('<div class="card"><div class="lab">leaderboard claims re-measured</div><div class="big">%d of %d not reproduced</div><div class="sub">%s</div><div class="sub">the other %d claims held under 600 s to 7200 s searches</div></div>'
+                 % (len(refuted), len(refuted) + len(held), inner, len(held)))
+summary_cards = '<div class="cards">' + "".join(cards) + '</div>' 
 
 # ------------------------------------------------------------------ page
 head = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Verified qLDPC codes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>
 <style>
-body{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;margin:0 16px 40px;color:#1b1b1b;background:#fff;max-width:1400px}
-h1{font-size:1.5em;margin:18px 0 4px}h2{font-size:1.15em;margin:22px 0 6px}p{max-width:78em;line-height:1.45}
-ul.sum{max-width:78em;line-height:1.5;padding-left:1.2em}ul.sum li{margin:4px 0}
-.controls{display:flex;flex-wrap:wrap;gap:10px 18px;margin:12px 0;font-size:.92em;align-items:center}
-select,input{font:inherit;padding:2px 4px}
-table{border-collapse:collapse;font-size:.86em;width:100%}th,td{padding:4px 7px;border-bottom:1px solid #e3e3e3;vertical-align:top;text-align:left}
-th{background:#f3f4f6;cursor:pointer;white-space:nowrap;position:sticky;top:0}td.num{text-align:right;font-variant-numeric:tabular-nums}
-tr.exact td.st{color:#0b6e2f;font-weight:600}tr.search td.st{color:#8a5a00}tr.lower td.st{color:#1f5fbf}
-tr.bandhead td{background:#eef1f5;font-weight:600;padding:6px 7px}
-.small{color:#555;font-size:.9em}.wrap{overflow-x:auto}details{font-size:.9em}summary{cursor:pointer;color:#1f5fbf}
-.tag{display:inline-block;padding:0 6px;border-radius:9px;background:#eef1f5;font-size:.85em;margin-left:4px}.pend{background:#fff1cc}
-dl{max-width:78em}dt{font-weight:600;margin-top:6px}dd{margin:0 0 4px 1.2em;line-height:1.45}
+:root{--ink:#1c2430;--muted:#5b6672;--line:#e4e8ee;--panel:#f6f8fa;--accent:#1f5fbf;--lp:#1f5fbf;--tb:#4a9cc0;--pp:#d9731a;--ok:#176b3a;--warn:#8a5a00}
+*{box-sizing:border-box}body{font-family:"IBM Plex Sans",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;color:var(--ink);background:#fff;font-size:15px;line-height:1.5}
+header{border-bottom:1px solid var(--line);background:#fff}header .in{max-width:1400px;margin:0 auto;padding:22px 24px 16px}
+h1{font-size:1.7em;font-weight:600;margin:0 0 6px;letter-spacing:-.01em}header p{margin:0;color:var(--muted);max-width:80em}
+main{max-width:1400px;margin:0 auto;padding:8px 24px 48px}h2{font-size:1.15em;font-weight:600;margin:28px 0 10px;letter-spacing:-.005em}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:10px 0 4px}
+.card{border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:#fff}.card .lab{font-size:.78em;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.card .big{font-family:"IBM Plex Mono",monospace;font-size:1.25em;font-weight:500;margin:4px 0 2px}.card .sub{font-size:.9em;color:var(--muted)}.card a{color:var(--accent)}
+.card .val{font-size:.95em}.card .val b{font-weight:600}
+dl{max-width:80em;margin:0}dt{font-weight:600;margin-top:8px}dd{margin:0 0 4px 1.2em;color:#2a3440}
+.controls{display:flex;flex-wrap:wrap;gap:8px 18px;margin:10px 0;padding:10px 12px;background:var(--panel);border:1px solid var(--line);border-radius:8px;font-size:.92em;align-items:center}
+select,input[type=number]{font:inherit;font-size:.95em;padding:3px 6px;border:1px solid #c9d0d8;border-radius:5px;background:#fff}
+.plots{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:8px 0 12px}@media (max-width:1100px){.plots{grid-template-columns:1fr}}
+.plot{border:1px solid var(--line);border-radius:8px;padding:8px;background:#fff}.plot h3{font-size:.95em;font-weight:600;margin:4px 6px 6px}
+#plot3d{width:100%;height:440px}
+table{border-collapse:collapse;font-size:.86em;width:100%}th,td{padding:5px 8px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+th{background:var(--panel);cursor:pointer;white-space:nowrap;position:sticky;top:0;font-weight:600}td.num{text-align:right;font-variant-numeric:tabular-nums;font-family:"IBM Plex Mono",monospace;font-size:.95em}
+tbody tr:nth-child(even){background:#fafbfc}tr.exact td.st{color:var(--ok);font-weight:600}tr.search td.st{color:var(--warn)}tr.lower td.st{color:var(--accent)}
+.small{color:var(--muted);font-size:.9em}.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px}details{font-size:.9em}summary{cursor:pointer;color:var(--accent)}
+.tag{display:inline-block;padding:0 7px;border-radius:9px;background:#eef1f5;font-size:.82em;margin-left:4px;color:#2a3440}.pend{background:#fff1cc}
+code{font-family:"IBM Plex Mono",monospace;font-size:.92em}a{color:var(--accent)}footer{color:var(--muted);font-size:.85em;margin-top:30px}
 </style></head><body>
-<h1>Verified quantum LDPC codes</h1>
-<p>Codes with encoding rate k/n above 0.1, found by structured concept evolution (SCE, <a href="https://arxiv.org/abs/2606.24808">arXiv:2606.24808</a>),
-and entries of the Unitary Foundation qLDPC challenge re-measured with the same search. Every row says what is actually proven about the
-distance and links the files to check it.</p>
+<header><div class="in"><h1>Verified quantum LDPC codes</h1>
+<p>Codes found by structured concept evolution (SCE, <a href="https://arxiv.org/abs/2606.24808">arXiv:2606.24808</a>) and entries of the Unitary Foundation qLDPC
+challenge re-measured with the same search; encoding rate k/n above 0.1. Every row says what is proven about the distance and links the files to check it.</p></div></header>
+<main>
 <h2>Summary</h2>
-""" + "\n".join(summary_html) + """
-<h2>How to read a row</h2>
-<dl>
-<dt>exact</dt><dd>a certificate (irreducible-cluster enumeration, Dumer, Kovalev and Pryadko 2017; for pair-partition codes together with the
-even-weight argument: the all-ones vector lies in the row spaces of H_X and H_Z, so every logical operator has even weight) shows that no lighter
-logical operator exists, and an explicit operator of weight d is given in the operator file.</dd>
-<dt>search bound (d ≤ w)</dt><dd>the lightest logical operator found by a GPU search (directed BP+OSD, "v5": 600 s to 7200 s per run, several
-seeds); the operator is published so anyone can check it. The true distance may be smaller.</dd>
-<dt>lower bound (d ≥ w)</dt><dd>a certificate without a matching operator.</dd>
-<dt>operator file pending</dt><dd>the certificate or search exists but the operator file has not been stored yet; the row is excluded from the summary until it is.</dd>
-<dt>leaderboard, re-measured</dt><dd>an entry of <a href="https://github.com/unitaryfoundation/qldpc-challenge">unitaryfoundation/qldpc-challenge</a>
-(snapshot eb2aeae, 2026-11-01), its matrices rebuilt from the entry's check lists (not copied here), searched with the same v5 runs; the row gives the
-claimed distance, the lightest operator we found, and the operator file. Entry authors are the people named in the linked entry.</dd>
-<dt>notation</dt><dd>C_n is the cyclic group of order n, × a direct product, C_m ⋊ C_r a semidirect product, D_m the dihedral group of order 2m;
-"template (J, L)" is a pair-partition template with column weight J and row weight L (Okada and Kasai, <a href="https://arxiv.org/abs/2607.14091">arXiv:2607.14091</a>;
-Lee et al., <a href="https://arxiv.org/abs/2609.30069">arXiv:2609.30069</a>), so the check weight is L; "protograph shapes (a,b) × (c,d)" are the
-sizes of the two group-algebra matrices of a lifted-product code (arXiv:2606.24808). The check weight w is the largest row weight of H_X and H_Z.</dd>
-<dt>checking</dt><dd><code>tools/check_all.py</code> verifies for every row with matrices: H_X H_Z^T = 0, n, k, the check weights, every listed
-operator (commutes with the opposite checks, lies outside its stabilizer group, has the stated weight) and, where a certificate uses it, the
-even-weight condition. It does not re-run the exact enumerations; their records are referenced in the evidence column.</dd>
-</dl>
-<h2>Codes</h2>
+""" + summary_cards + """
+<h2>Explore</h2>
 <div class="controls">
 <label>family <select id="fam"><option value="">all</option><option>lifted-product</option><option>two-block</option><option>pair-partition</option></select></label>
 <label>status <select id="st"><option value="">all</option><option>exact</option><option>search bound</option><option>lower bound</option></select></label>
 <label>origin <select id="kd"><option value="">all</option><option>SCE</option><option>leaderboard, re-measured</option></select></label>
-<label>check weight from <input id="wlo" type="number" value="4" min="3" max="20" style="width:4em"> to <input id="w" type="number" value="12" min="4" max="20" style="width:4em"></label>
-<label>n ≤ <input id="n" type="number" value="2400" min="10" style="width:5em"></label>
-<label><input id="pub" type="checkbox" checked> published codes in the plot</label>
+<label>check weight <input id="wlo" type="number" value="4" min="3" max="20" style="width:4em"> to <input id="w" type="number" value="12" min="4" max="20" style="width:4em"></label>
+<label>n ≤ <input id="n" type="number" value="2400" min="10" style="width:5.5em"></label>
+<label><input id="pub" type="checkbox" checked> published codes</label>
 <label><input id="showpend" type="checkbox"> rows with a pending operator file</label>
+<label>3-D surface <select id="surf"><option value="proven">proven distances</option><option value="all">incl. search bounds</option><option value="none">none</option></select></label>
 <span id="count" class="small"></span>
 </div>
-<div id="tip" style="display:none;position:absolute;background:#1b1b1b;color:#fff;padding:3px 7px;border-radius:4px;font-size:.85em;pointer-events:none;white-space:nowrap;z-index:5"></div>
-<div id="plotbox" style="margin:6px 0 14px"><svg id="plot" width="100%" viewBox="0 0 980 420" style="max-width:980px;display:block;font-family:inherit"></svg>
-<p class="small">k d²/n against n for the rows that pass the filters. Circle lifted-product, diamond two-block, square pair-partition; filled exact,
-open search bound, triangle lower bound; black edge SCE, grey leaderboard with a dashed line from the claimed value; small light markers published codes
-(parameters as printed, from the literature survey of 2026-10-18 and the pair-partition catalogue of arXiv:2609.30069). Move the mouse over a point for its [[n,k,d]].</p></div>
-<p class="small">Rows are grouped by check weight and sorted by k d²/n inside a group; click a column head to sort differently. Rows with identical parameters are merged (×2 = two inequivalent codes, distinct spectra).</p>
+<div id="tip" style="display:none;position:absolute;background:#1c2430;color:#fff;padding:3px 7px;border-radius:4px;font-size:.85em;pointer-events:none;white-space:nowrap;z-index:5"></div>
+<div class="plots">
+<div class="plot"><h3>k d²/n against n</h3><svg id="plot" width="100%" viewBox="0 0 700 420" style="display:block;font-family:inherit"></svg>
+<p class="small" style="margin:6px 6px 2px">Circle lifted-product, diamond two-block, square pair-partition; filled exact, open search bound, triangle lower bound; black edge SCE, grey leaderboard with a dashed line from the claimed value; small light markers published codes. Hover for [[n,k,d]].</p></div>
+<div class="plot"><h3>Frontier in (n, w, k d²/n)</h3><div id="plot3d"></div>
+<p class="small" style="margin:6px 6px 2px">Points as on the left (colour by family, SCE in dark edges). The surface is the frontier F(n, w) = largest k d²/n among the shown codes with at most n qubits and check weight at most w, from proven distances or including search bounds. Drag to rotate, scroll to zoom.</p></div>
+</div>
+<h2>Codes</h2>
+<p class="small">Grouped by check weight, sorted by k d²/n inside a group; click a column head to sort differently. Rows with identical parameters are merged (×2 = two inequivalent codes, distinct spectra). Internal run names are in the provenance fold of each row.</p>
 <div class="wrap"><table id="t"><thead><tr>
 <th data-k="name">code</th><th data-k="n" class="num">n</th><th data-k="k" class="num">k</th><th data-k="d" class="num">d</th><th data-k="w" class="num">w</th>
 <th data-k="fom" class="num">k d²/n</th><th data-k="family">family</th><th data-k="status">status</th><th data-k="kind">origin</th>
@@ -198,6 +208,8 @@ for r in rows:
     body.append('<td class="small">%s<details><summary>provenance</summary>%s%s</details></td>' % (html.escape(r["construction"]), det, ("<br><i>%s</i>" % cite) if cite else ""))
     body.append('<td class="small">%s</td><td class="small">%s</td></tr>' % (html.escape(r["evidence"]), " · ".join(link(x) for x in es)))
 tail = r"""</tbody></table></div>
+<footer>Data and tools: <a href="https://github.com/ziduliu/qldpc-verified-board">github.com/ziduliu/qldpc-verified-board</a>. Pair-partition construction: Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069. Leaderboard: unitaryfoundation/qldpc-challenge.</footer>
+</main>
 <script>
 const ENTRIES=__ENTRIES__;const PUB=__PUB__;
 const rows=[...document.querySelectorAll('#t tbody tr')];
@@ -217,11 +229,11 @@ document.getElementById('plot').addEventListener('mousemove',ev=>{const t=ev.tar
   if(t){tip.textContent=t;tip.style.display='block';tip.style.left=(ev.pageX+12)+'px';tip.style.top=(ev.pageY-28)+'px';}else tip.style.display='none';});
 document.getElementById('plot').addEventListener('mouseleave',()=>{tip.style.display='none';});
 function plot(sel){
-  const W=980,H=420,L=58,R=16,T=14,B=44;
+  const W=700,H=420,L=58,R=16,T=14,B=44;
   const pubOn=document.getElementById('pub').checked,wlo=+document.getElementById('wlo').value,wm=+w.value,nm=+n.value,f=fam.value;
   const pts=sel.map(e=>({x:e.n,y:e.kd2_over_n,fam:e.family,st:e.d_status,who:e.origin,name:e.name,w:e.w,claimed:e.claimed?e.k*e.claimed.d*e.claimed.d/e.n:null}));
   const pubs=pubOn?PUB.filter(r=>r.w>=wlo&&r.w<=wm&&r.n<=nm&&(!f||r.family===f)).map(r=>({x:r.n,y:r.k*r.d*r.d/r.n,fam:r.family,st:r.d_status,
-    name:"[["+r.n+","+r.k+","+(r.d_status==="upper_bound"?"≤":r.d_status==="lower_bound"?"≥":"")+r.d+"]]  w = "+r.w+(r.arxiv?"  arXiv:"+r.arxiv:"")})):[];
+    w:r.w,name:"[["+r.n+","+r.k+","+(r.d_status==="upper_bound"?"≤":r.d_status==="lower_bound"?"≥":"")+r.d+"]]  w = "+r.w+(r.arxiv?"  arXiv:"+r.arxiv:"")})):[];
   const all=pts.concat(pubs);
   const xmax=Math.max(100,...all.map(p=>p.x))*1.04, ymax=Math.max(10,...all.map(p=>p.y),...pts.map(p=>p.claimed||0))*1.08;
   const X=v=>L+(W-L-R)*v/xmax, Y=v=>T+(H-T-B)*(1-v/ymax);
@@ -238,6 +250,24 @@ function plot(sel){
   for(const p of pts){const c=COL[p.fam]||"#888",board=p.who==="board",shape=p.st==="lower_bound"?"tri":SH[p.fam];
     g+=marker(X(p.x),Y(p.y),board?5:6,shape,p.st==="upper_bound"?"white":(board?"#bbb":c),board?"#555":"black",board?1.2:1.6,1,`${p.name}   w = ${p.w}   k d²/n = ${p.y.toFixed(1)}`);}
   document.getElementById('plot').innerHTML=g;
+  plot3d(pts,pubs);
+}
+function plot3d(pts,pubs){
+  const mode=document.getElementById('surf').value;
+  const sym=f=>f==="lifted-product"?"circle":f==="two-block"?"diamond":"square";
+  const tr=[];
+  const mk=(arr,name,size,line,opacity)=>{if(!arr.length)return;tr.push({type:"scatter3d",mode:"markers",name:name,x:arr.map(p=>p.x),y:arr.map(p=>p.w),z:arr.map(p=>p.y),
+    text:arr.map(p=>p.name),hovertemplate:"%{text}<br>n=%{x}, w=%{y}, k d²/n=%{z:.1f}<extra></extra>",
+    marker:{size:size,symbol:arr.map(p=>sym(p.fam)+(p.st==="upper_bound"?"-open":"")),color:arr.map(p=>COL[p.fam]||"#888"),opacity:opacity,line:line}});};
+  const sce=pts.filter(p=>p.who!=="board"),bd=pts.filter(p=>p.who==="board");
+  mk(sce,"SCE",5,{color:"#111",width:1.5},0.95);mk(bd,"leaderboard, re-measured",4,{color:"#666",width:1},0.9);mk(pubs,"published",2.5,{width:0},0.45);
+  if(mode!=="none"){const all=pts.concat(pubs).filter(p=>mode==="all"||p.st!=="upper_bound");
+    if(all.length){const nmax=Math.max(...all.map(p=>p.x)),ws=[...new Set(all.map(p=>p.w))].sort((a,b)=>a-b),wmin=ws[0],wmax=ws[ws.length-1];
+      const xs=[],ys=[],zs=[];for(let w=wmin;w<=wmax;w++)ys.push(w);for(let n=100;n<=nmax+50;n+=50)xs.push(n);
+      for(const w of ys){const row=[];for(const n of xs){let m=0;for(const p of all)if(p.x<=n&&p.w<=w&&p.y>m)m=p.y;row.push(m);}zs.push(row);}
+      tr.push({type:"surface",x:xs,y:ys,z:zs,name:"frontier",showscale:false,opacity:0.35,colorscale:[[0,"#dbe7f5"],[1,"#1f5fbf"]],hovertemplate:"n ≤ %{x}, w ≤ %{y}: best k d²/n %{z:.0f}<extra>frontier</extra>"});}}
+  Plotly.react("plot3d",tr,{margin:{l:0,r:0,t:4,b:0},showlegend:true,legend:{orientation:"h",y:0,x:0,font:{size:11}},
+    scene:{xaxis:{title:"n"},yaxis:{title:"check weight w",dtick:1},zaxis:{title:"k d²/n"},camera:{eye:{x:1.5,y:-1.6,z:0.9}}}},{displaylogo:false,responsive:true});
 }
 function apply(){
   const f=fam.value,s=st.value,k=kd.value,wm=+w.value,wlo=+document.getElementById('wlo').value,nm=+n.value,sp=document.getElementById('showpend').checked;let c=0;const sel=new Set();
@@ -245,7 +275,7 @@ function apply(){
     r.style.display=ok?'':'none';c+=ok;if(ok)r.dataset.slugs.split(' ').forEach(x=>sel.add(x));}
   count.textContent=c+' rows shown';plot(ENTRIES.filter(e=>sel.has(e.slug)));
 }
-for(const id of['fam','st','kd','w','wlo','n','pub','showpend']) document.getElementById(id).addEventListener('input',apply);
+for(const id of['fam','st','kd','w','wlo','n','pub','showpend','surf']) document.getElementById(id).addEventListener('input',apply);
 apply();
 let dir={};document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;dir[k]=!dir[k];const tb=document.querySelector('#t tbody');
 const idx=[...th.parentNode.children].indexOf(th);const get=r=>{const t=r.children[idx].textContent;const v=parseFloat(t.replace(/[^0-9.\-]/g,''));return (k==='name'||k==='family'||k==='status'||k==='kind')?t:v;};
