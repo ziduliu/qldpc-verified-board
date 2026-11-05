@@ -125,7 +125,7 @@ for e in sorted(entries, key=lambda e: -e["kd2_over_n"]):
         links.append('<a href="%s">board entry</a>' % e["claimed"]["entry"])
     claimed = ("claimed ≤%d" % e["claimed"]["d"]) if e.get("claimed") else ""
     rows.append(dict(name=e["name"].replace("<=", "≤").replace(">=", "≥"), n=e["n"], k=e["k"], d=e["d"], w=e["w"], fom=e["kd2_over_n"], family=e["family"],
-                     status=STATUS[e["d_status"]], kind={"ours": "this board", "board": "leaderboard, re-measured", "published": "published"}[kind],
+                     status=STATUS[e["d_status"]], kind={"ours": "SCE", "board": "leaderboard, re-measured", "published": "published"}[kind],
                      construction=e["construction"], source=e["source"]["reference"], evidence=evidence, links=" ".join(links), claimed=claimed, slug=e["slug"]))
 
 head = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -146,17 +146,21 @@ tr.exact td.st{color:#0b6e2f;font-weight:600}tr.search td.st{color:#8a5a00}tr.lo
 and an explicit operator of that weight is given. <b>search bound</b>: the lightest logical operator found by a long GPU search
 (directed BP+OSD, 600 s to 3600 s per run, several runs), with the operator published so that anyone can check it; the true
 distance may be smaller. <b>lower bound</b>: a certificate without a matching operator. Leaderboard rows are entries of the
-Unitary Foundation qLDPC challenge re-measured with the same search; the arrow in the figure runs from the claimed distance to
-the lightest operator we found. Check matrices and operator supports are in the repository; <code>tools/check_all.py</code>
+Unitary Foundation qLDPC challenge re-measured with the same search; in the plot a dashed line runs from the claimed value
+down to the lightest operator we found. Check matrices and operator supports are in the repository; <code>tools/check_all.py</code>
 re-verifies everything.</p>
 <div class="controls">
 <label>family <select id="fam"><option value="">all</option><option>lifted-product</option><option>two-block</option><option>pair-partition</option></select></label>
 <label>status <select id="st"><option value="">all</option><option>exact</option><option>search bound</option><option>lower bound</option></select></label>
-<label>origin <select id="kd"><option value="">all</option><option>this board</option><option>leaderboard, re-measured</option></select></label>
-<label>check weight ≤ <input id="w" type="number" value="12" min="4" max="20" style="width:4em"></label>
+<label>origin <select id="kd"><option value="">all</option><option>SCE</option><option>leaderboard, re-measured</option></select></label>
+<label>check weight from <input id="wlo" type="number" value="4" min="3" max="20" style="width:4em"> to <input id="w" type="number" value="12" min="4" max="20" style="width:4em"></label>
 <label>n ≤ <input id="n" type="number" value="2400" min="10" style="width:5em"></label>
+<label><input id="pub" type="checkbox" checked> show published codes in the plot</label>
 <span id="count" class="small"></span>
 </div>
+<div id="plotbox" style="margin:6px 0 14px"><svg id="plot" width="100%" viewBox="0 0 980 420" style="max-width:980px;display:block;font-family:inherit"></svg>
+<p class="small">k d²/n against n for the rows that pass the filters (same markers as the table: circle lifted-product, diamond two-block, square pair-partition;
+filled exact, open search bound, triangle lower bound; black edge SCE (this board), grey leaderboard with a thin line from the claimed value; small light markers published codes). Hover a point for its parameters.</p></div>
 <div class="wrap"><table id="t"><thead><tr>
 <th data-k="name">code</th><th data-k="n" class="num">n</th><th data-k="k" class="num">k</th><th data-k="d" class="num">d</th><th data-k="w" class="num">w</th>
 <th data-k="fom" class="num">k d²/n</th><th data-k="family">family</th><th data-k="status">status</th><th data-k="kind">origin</th>
@@ -165,27 +169,65 @@ re-verifies everything.</p>
 body = []
 for r in rows:
     cls = {"exact": "exact", "search bound": "search", "lower bound": "lower", "bounded": "lower"}[r["status"]]
-    body.append('<tr class="%s" data-fam="%s" data-st="%s" data-kd="%s" data-w="%d" data-n="%d" data-fom="%.2f">' % (cls, r["family"], r["status"], r["kind"], r["w"], r["n"], r["fom"]))
+    body.append('<tr class="%s" data-fam="%s" data-st="%s" data-kd="%s" data-w="%d" data-n="%d" data-fom="%.2f" data-slug="%s">' % (cls, r["family"], r["status"], r["kind"], r["w"], r["n"], r["fom"], r["slug"]))
     body.append("<td><b>%s</b>%s</td><td class=num>%d</td><td class=num>%d</td><td class=num>%d</td><td class=num>%d</td><td class=num>%.1f</td><td>%s</td><td class=st>%s</td><td>%s</td>"
                 % (html.escape(r["name"]), (' <span class="tag">%s</span>' % r["claimed"]) if r["claimed"] else "", r["n"], r["k"], r["d"], r["w"], r["fom"], r["family"], r["status"], r["kind"]))
     body.append('<td class="small">%s<br>%s</td><td class="small">%s</td><td class="small">%s</td></tr>' % (html.escape(r["construction"]), html.escape(r["source"]), html.escape(r["evidence"]), r["links"]))
 tail = """</tbody></table></div>
-<h2 style="font-size:1.15em">k d²/n against n</h2>
-<p class="small">Published codes (parameters as printed, from the literature survey of 2026-10-18 and the pair-partition catalogue of arXiv:2609.30069)
-are small markers; entries of this board have black edges; leaderboard entries are grey with an arrow from the claim to the re-measured value.
-Lines are the running maximum of k d²/n over n per family (solid: proven distances only; dashed: including search bounds).</p>
-<img src="frontier.png" alt="k d^2/n against n for lifted-product and pair-partition codes">
 <script>
+const ENTRIES=__ENTRIES__;const PUB=__PUB__;
 const rows=[...document.querySelectorAll('#t tbody tr')];
-function apply(){const f=fam.value,s=st.value,k=kd.value,wm=+w.value,nm=+n.value;let c=0;
-for(const r of rows){const ok=(!f||r.dataset.fam===f)&&(!s||r.dataset.st===s)&&(!k||r.dataset.kd===k)&&(+r.dataset.w<=wm)&&(+r.dataset.n<=nm);r.style.display=ok?'':'none';c+=ok;}
-count.textContent=c+' of '+rows.length+' codes';}
-for(const id of['fam','st','kd','w','n'])document.getElementById(id).addEventListener('input',apply);apply();
+const SH={"lifted-product":"circle","two-block":"diamond","pair-partition":"square"};
+const COL={"lifted-product":"#1f5fbf","two-block":"#5aa9c9","pair-partition":"#e07b00"};
+function esc(t){return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;");}
+function marker(x,y,r,shape,fill,stroke,sw,opacity,title){
+  let body;
+  if(shape==="tri") body=`<polygon points="${x},${y-r*1.2} ${x-r*1.1},${y+r*0.8} ${x+r*1.1},${y+r*0.8}"`;
+  else if(shape==="circle") body=`<circle cx="${x}" cy="${y}" r="${r}"`;
+  else if(shape==="diamond") body=`<polygon points="${x},${y-r*1.3} ${x+r*1.3},${y} ${x},${y+r*1.3} ${x-r*1.3},${y}"`;
+  else body=`<rect x="${x-r}" y="${y-r}" width="${2*r}" height="${2*r}"`;
+  const tag=body.slice(1,body.indexOf(" "));
+  return body+` fill="${fill}" stroke="${stroke}" stroke-width="${sw}" opacity="${opacity}"><title>${esc(title)}</title></${tag}>`;
+}
+function plot(sel){
+  const W=980,H=420,L=58,R=16,T=14,B=44;
+  const pubOn=document.getElementById('pub').checked,wlo=+document.getElementById('wlo').value,wm=+w.value,nm=+n.value,f=fam.value;
+  const pts=sel.map(e=>({x:e.n,y:e.kd2_over_n,fam:e.family,st:e.d_status,who:e.source.kind,name:e.name,w:e.w,claimed:e.claimed?e.k*e.claimed.d*e.claimed.d/e.n:null}));
+  const pubs=pubOn?PUB.filter(r=>r.w>=wlo&&r.w<=wm&&r.n<=nm&&(!f||r.family===f)).map(r=>({x:r.n,y:r.k*r.d*r.d/r.n,fam:r.family,st:r.d_status,
+    name:"[["+r.n+","+r.k+","+(r.d_status==="upper_bound"?"≤":r.d_status==="lower_bound"?"≥":"")+r.d+"]]  w="+r.w+(r.arxiv?"  arXiv:"+r.arxiv:"")})):[];
+  const all=pts.concat(pubs);
+  const xmax=Math.max(100,...all.map(p=>p.x))*1.04, ymax=Math.max(10,...all.map(p=>p.y),...pts.map(p=>p.claimed||0))*1.08;
+  const X=v=>L+(W-L-R)*v/xmax, Y=v=>T+(H-T-B)*(1-v/ymax);
+  const xt=xmax>1500?500:xmax>600?200:100, yt=ymax>400?100:ymax>150?50:ymax>60?20:10;
+  let g="";
+  for(let v=0;v<=xmax;v+=xt) g+=`<line x1="${X(v)}" y1="${T}" x2="${X(v)}" y2="${H-B}" stroke="#eee"/><text x="${X(v)}" y="${H-B+16}" text-anchor="middle" font-size="11" fill="#444">${v}</text>`;
+  for(let v=0;v<=ymax;v+=yt) g+=`<line x1="${L}" y1="${Y(v)}" x2="${W-R}" y2="${Y(v)}" stroke="#eee"/><text x="${L-6}" y="${Y(v)+4}" text-anchor="end" font-size="11" fill="#444">${v}</text>`;
+  g+=`<rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="none" stroke="#999"/>`;
+  g+=`<text x="${(L+W-R)/2}" y="${H-6}" text-anchor="middle" font-size="12" fill="#222">n (data qubits)</text>`;
+  g+=`<text transform="translate(14,${(T+H-B)/2}) rotate(-90)" text-anchor="middle" font-size="12" fill="#222">k d²/n</text>`;
+  for(const p of pubs){const c=COL[p.fam]||"#888";g+=marker(X(p.x),Y(p.y),3,p.st==="lower_bound"?"tri":SH[p.fam],p.st==="upper_bound"?"none":c,c,0.8,0.45,p.name);}
+  for(const p of pts){if(p.claimed&&p.claimed>p.y){g+=`<line x1="${X(p.x)}" y1="${Y(p.claimed)}" x2="${X(p.x)}" y2="${Y(p.y)}" stroke="#777" stroke-width="1" stroke-dasharray="3,2"/>`;
+    g+=`<text x="${X(p.x)+5}" y="${Y(p.claimed)+4}" font-size="9" fill="#777">claimed</text>`;}}
+  for(const p of pts){const c=COL[p.fam]||"#888",board=p.who==="board",shape=p.st==="lower_bound"?"tri":SH[p.fam];
+    g+=marker(X(p.x),Y(p.y),board?5:6,shape,p.st==="upper_bound"?"white":(board?"#bbb":c),board?"#555":"black",board?1.2:1.6,1,`${p.name}  w=${p.w}  k d²/n=${p.y.toFixed(1)}`);}
+  document.getElementById('plot').innerHTML=g;
+}
+function apply(){
+  const f=fam.value,s=st.value,k=kd.value,wm=+w.value,wlo=+document.getElementById('wlo').value,nm=+n.value;let c=0;const sel=new Set();
+  for(const r of rows){const ok=(!f||r.dataset.fam===f)&&(!s||r.dataset.st===s)&&(!k||r.dataset.kd===k)&&(+r.dataset.w<=wm)&&(+r.dataset.w>=wlo)&&(+r.dataset.n<=nm);
+    r.style.display=ok?'':'none';c+=ok;if(ok)sel.add(r.dataset.slug);}
+  count.textContent=c+' of '+rows.length+' codes';plot(ENTRIES.filter(e=>sel.has(e.slug)));
+}
+for(const id of['fam','st','kd','w','wlo','n','pub']) document.getElementById(id).addEventListener('input',apply);
+apply();
 let dir={};document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;dir[k]=!dir[k];const tb=document.querySelector('#t tbody');
-const idx=[...th.parentNode.children].indexOf(th);const get=r=>{const t=r.children[idx].textContent;const v=parseFloat(t.replace(/[^0-9.\\-]/g,''));return (k==='name'||k==='family'||k==='status'||k==='kind')?t:v;};
+const idx=[...th.parentNode.children].indexOf(th);const get=r=>{const t=r.children[idx].textContent;const v=parseFloat(t.replace(/[^0-9.\-]/g,''));return (k==='name'||k==='family'||k==='status'||k==='kind')?t:v;};
 rows.sort((a,b)=>{const x=get(a),y=get(b);return (x>y?1:x<y?-1:0)*(dir[k]?1:-1);});rows.forEach(r=>tb.appendChild(r));}));
 </script></body></html>"""
-open(os.path.join(ROOT, "docs", "index.html"), "w").write(head + "\n".join(body) + tail)
+slim = [dict(slug=e["slug"], name=e["name"].replace("<=", "≤").replace(">=", "≥"), n=e["n"], k=e["k"], d=e["d"], w=e["w"], kd2_over_n=e["kd2_over_n"], family=e["family"],
+             d_status=e["d_status"], source=dict(kind=e["source"]["kind"]), claimed=(dict(d=e["claimed"]["d"]) if e.get("claimed") else None)) for e in entries]
+page = (head + "\n".join(body) + tail).replace("__ENTRIES__", json.dumps(slim)).replace("__PUB__", json.dumps(published))
+open(os.path.join(ROOT, "docs", "index.html"), "w").write(page)
 
 # ------------------------------------------------------------------ README tables (between the markers)
 def md_name(e):
