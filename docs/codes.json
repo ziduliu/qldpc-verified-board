@@ -1940,6 +1940,38 @@
 "date": "2026-11-05"
 },
 {
+"slug": "pp-680-144-48ce3d43",
+"name": "[[680,144,<=34]]",
+"n": 680,
+"k": 144,
+"d": 34,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 34,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 244.8,
+"family": "pair-partition",
+"construction": "cyclic group C_68 (written C_4 \u00d7 C_17 by the program), template (4, 10)",
+"origin": "sce",
+"provenance": "evolution line v5b (gpt-6.1-sol, 2026-11-05), program fdf985050f568c38, archive 48ce3d431bf7219d",
+"citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s \u00d7 2 and 3600 s \u00d7 2 (v5): 34 in all four"
+},
+"witness": "witnesses/pp-680-144-48ce3d43.json",
+"matrices": {
+"HX": "matrices/pp-680-144-48ce3d43/HX.mtx",
+"HZ": "matrices/pp-680-144-48ce3d43/HZ.mtx"
+},
+"claimed": null,
+"pending": null,
+"instance_group": null,
+"date": "2026-11-05"
+},
+{
 "slug": "pp-680-144-c6873368",
 "name": "[[680,144,<=32]]",
 "n": 680,
