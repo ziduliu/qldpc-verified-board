@@ -3,6 +3,16 @@
 A table of quantum LDPC codes in which every distance statement says what is actually proven, with the files needed
 to check it. Site: the `docs/` folder (GitHub Pages). Data: `codes/*.json`, one entry per code.
 
+## k d²/n against n
+
+![k d^2/n against n for lifted-product and pair-partition codes](docs/frontier.png)
+
+Three check-weight bands. Small markers are published codes (parameters as printed: the literature survey of 2026-10-18 and
+the pair-partition catalogue of arXiv:2609.30069); black-edged markers are entries of this board; grey markers with an
+arrow are leaderboard entries, drawn from the claimed distance down to the lightest operator we found. Filled: exact
+distance; open: search upper bound; triangle: lower bound only. Lines are the running maximum of k d²/n over n for each
+family (solid: proven distances only; dashed: including search bounds). `tools/build_site.py` redraws it from the data.
+
 ## What a row means
 
 - **exact** distance `d`: a certificate shows that no logical operator of weight below `d` exists on either side
