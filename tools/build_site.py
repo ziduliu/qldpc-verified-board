@@ -158,9 +158,10 @@ re-verifies everything.</p>
 <label><input id="pub" type="checkbox" checked> show published codes in the plot</label>
 <span id="count" class="small"></span>
 </div>
+<div id="tip" style="display:none;position:absolute;background:#1b1b1b;color:#fff;padding:3px 7px;border-radius:4px;font-size:.85em;pointer-events:none;white-space:nowrap;z-index:5"></div>
 <div id="plotbox" style="margin:6px 0 14px"><svg id="plot" width="100%" viewBox="0 0 980 420" style="max-width:980px;display:block;font-family:inherit"></svg>
 <p class="small">k d²/n against n for the rows that pass the filters (same markers as the table: circle lifted-product, diamond two-block, square pair-partition;
-filled exact, open search bound, triangle lower bound; black edge SCE (this board), grey leaderboard with a thin line from the claimed value; small light markers published codes). Hover a point for its parameters.</p></div>
+filled exact, open search bound, triangle lower bound; black edge SCE (this board), grey leaderboard with a thin line from the claimed value; small light markers published codes). Move the mouse over a point to see its [[n,k,d]], check weight and k d²/n.</p></div>
 <div class="wrap"><table id="t"><thead><tr>
 <th data-k="name">code</th><th data-k="n" class="num">n</th><th data-k="k" class="num">k</th><th data-k="d" class="num">d</th><th data-k="w" class="num">w</th>
 <th data-k="fom" class="num">k d²/n</th><th data-k="family">family</th><th data-k="status">status</th><th data-k="kind">origin</th>
@@ -186,9 +187,12 @@ function marker(x,y,r,shape,fill,stroke,sw,opacity,title){
   else if(shape==="circle") body=`<circle cx="${x}" cy="${y}" r="${r}"`;
   else if(shape==="diamond") body=`<polygon points="${x},${y-r*1.3} ${x+r*1.3},${y} ${x},${y+r*1.3} ${x-r*1.3},${y}"`;
   else body=`<rect x="${x-r}" y="${y-r}" width="${2*r}" height="${2*r}"`;
-  const tag=body.slice(1,body.indexOf(" "));
-  return body+` fill="${fill}" stroke="${stroke}" stroke-width="${sw}" opacity="${opacity}"><title>${esc(title)}</title></${tag}>`;
+  return body+` fill="${fill}" stroke="${stroke}" stroke-width="${sw}" opacity="${opacity}" data-t="${esc(title)}"/>`;
 }
+const tip=document.getElementById('tip');
+document.getElementById('plot').addEventListener('mousemove',ev=>{const t=ev.target.getAttribute&&ev.target.getAttribute('data-t');
+  if(t){tip.textContent=t;tip.style.display='block';tip.style.left=(ev.pageX+12)+'px';tip.style.top=(ev.pageY-28)+'px';}else tip.style.display='none';});
+document.getElementById('plot').addEventListener('mouseleave',()=>{tip.style.display='none';});
 function plot(sel){
   const W=980,H=420,L=58,R=16,T=14,B=44;
   const pubOn=document.getElementById('pub').checked,wlo=+document.getElementById('wlo').value,wm=+w.value,nm=+n.value,f=fam.value;
@@ -209,7 +213,7 @@ function plot(sel){
   for(const p of pts){if(p.claimed&&p.claimed>p.y){g+=`<line x1="${X(p.x)}" y1="${Y(p.claimed)}" x2="${X(p.x)}" y2="${Y(p.y)}" stroke="#777" stroke-width="1" stroke-dasharray="3,2"/>`;
     g+=`<text x="${X(p.x)+5}" y="${Y(p.claimed)+4}" font-size="9" fill="#777">claimed</text>`;}}
   for(const p of pts){const c=COL[p.fam]||"#888",board=p.who==="board",shape=p.st==="lower_bound"?"tri":SH[p.fam];
-    g+=marker(X(p.x),Y(p.y),board?5:6,shape,p.st==="upper_bound"?"white":(board?"#bbb":c),board?"#555":"black",board?1.2:1.6,1,`${p.name}  w=${p.w}  k d²/n=${p.y.toFixed(1)}`);}
+    g+=marker(X(p.x),Y(p.y),board?5:6,shape,p.st==="upper_bound"?"white":(board?"#bbb":c),board?"#555":"black",board?1.2:1.6,1,`${p.name}   w = ${p.w}   k d²/n = ${p.y.toFixed(1)}`);}
   document.getElementById('plot').innerHTML=g;
 }
 function apply(){
