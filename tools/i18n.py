@@ -11,8 +11,8 @@ PAGE_DIR = {"en": "", "zh": "zh/", "de": "de/"}
 
 T = {
     "en": dict(
-        brand1="qLDPC verified board", brand2="Quantum LDPC codes with checkable distances",
-        title="Verified qLDPC codes",
+        brand1="LLM-discovered code frontier", brand2="Quantum LDPC codes with checkable distances",
+        title="LLM-discovered code frontier",
         h1="Verified quantum LDPC codes",
         intro='Codes found by structured concept evolution (SCE, <a href="https://arxiv.org/abs/2606.24808">arXiv:2606.24808</a>) and entries of the Unitary Foundation qLDPC\nchallenge re-measured with the same search; encoding rate k/n above 0.1. Every row says what is proven about the distance and links the files to check it.',
         h_summary="Summary", h_explore="Explore", h_codes="Codes",
@@ -49,8 +49,8 @@ T = {
                 fhover="n ≤ %{x}, w ≤ %{y}: best k d²/n %{z:.0f}"),
     ),
     "zh": dict(
-        brand1="经过验证的 qLDPC 码表", brand2="码距可以核验的量子 LDPC 码",
-        title="经过验证的 qLDPC 码",
+        brand1="LLM 发现的码前沿", brand2="码距可以核验的量子 LDPC 码",
+        title="LLM 发现的码前沿",
         h1="经过验证的量子 LDPC 码",
         intro='由结构化概念演化（SCE，<a href="https://arxiv.org/abs/2606.24808">arXiv:2606.24808</a>）找到的码，以及用同一种搜索重新测量的 Unitary Foundation qLDPC\n挑战赛条目；只列出编码率 k/n 大于 0.1 的码。每一行都写明关于码距已经证明了什么，并链接到可以用来核验的文件。',
         h_summary="概览", h_explore="浏览", h_codes="码列表",
@@ -87,8 +87,8 @@ T = {
                 fhover="n ≤ %{x}，w ≤ %{y}：最大 k d²/n %{z:.0f}"),
     ),
     "de": dict(
-        brand1="Verifizierte qLDPC-Tabelle", brand2="Quanten-LDPC-Codes mit prüfbaren Distanzen",
-        title="Verifizierte qLDPC-Codes",
+        brand1="LLM-entdeckte Code-Front", brand2="Quanten-LDPC-Codes mit prüfbaren Distanzen",
+        title="LLM-entdeckte Code-Front",
         h1="Verifizierte Quanten-LDPC-Codes",
         intro='Codes, die mit strukturierter Konzeptevolution (SCE, <a href="https://arxiv.org/abs/2606.24808">arXiv:2606.24808</a>) gefunden wurden, und Einträge der qLDPC-Challenge\nder Unitary Foundation, mit derselben Suche neu vermessen; nur Codes mit Coderate k/n über 0.1. Jede Zeile gibt an, was über die Distanz bewiesen ist, und verlinkt die Dateien, mit denen man es prüfen kann.',
         h_summary="Übersicht", h_explore="Erkunden", h_codes="Codes",
