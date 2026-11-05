@@ -26,13 +26,13 @@
    "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 3 on either side, and an operator of weight 3; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
   }
  },
- "witness": null,
+ "witness": "witnesses/lp-476-252-945df1a1.json",
  "matrices": {
   "HX": "matrices/lp-476-252-945df1a1/HX.mtx",
   "HZ": "matrices/lp-476-252-945df1a1/HZ.mtx"
  },
  "claimed": null,
- "pending": "operator file",
+ "pending": null,
  "instance_group": null,
  "date": "2026-11-05"
 }

@@ -18,9 +18,9 @@
  "citation": "github.com/unitaryfoundation/qldpc-challenge",
  "evidence": {
   "kind": "search",
-  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 30; 600 s seed 1: 30; 3600 s seed 0: 30; 3600 s seed 1: 30"
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 30; 600 s seed 1: 30; 3600 s seed 0: 30; 3600 s seed 1: 30; 600 s seed 4: 30; the claimed distance held"
  },
- "witness": null,
+ "witness": "witnesses/board-410-48-30.json",
  "matrices": null,
  "claimed": {
   "d": 30,
@@ -30,7 +30,7 @@
   "model": "Gemini 4 Argon",
   "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/410-48-30.json"
  },
- "pending": "operator file",
+ "pending": null,
  "instance_group": null,
  "date": "2026-11-05"
 }

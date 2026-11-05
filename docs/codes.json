@@ -19,9 +19,9 @@
 "citation": "github.com/unitaryfoundation/qldpc-challenge",
 "evidence": {
 "kind": "search",
-"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 29; 600 s seed 1: 29; 3600 s seed 0: 29; 3600 s seed 1: 29"
+"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 29; 600 s seed 1: 29; 3600 s seed 0: 29; 3600 s seed 1: 29; 600 s seed 4: 29; the claimed distance held"
 },
-"witness": null,
+"witness": "witnesses/board-1000-200-29.json",
 "matrices": null,
 "claimed": {
 "d": 29,
@@ -31,7 +31,7 @@
 "model": "Claude Opus 5.5 (Claude Code)",
 "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/1000-200-29.json"
 },
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -55,9 +55,9 @@
 "citation": "github.com/unitaryfoundation/qldpc-challenge",
 "evidence": {
 "kind": "search",
-"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 30; 600 s seed 1: 30; 3600 s seed 0: 30; 3600 s seed 1: 30"
+"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 30; 600 s seed 1: 30; 3600 s seed 0: 30; 3600 s seed 1: 30; 600 s seed 4: 30; the claimed distance held"
 },
-"witness": null,
+"witness": "witnesses/board-410-48-30.json",
 "matrices": null,
 "claimed": {
 "d": 30,
@@ -67,7 +67,7 @@
 "model": "Gemini 4 Argon",
 "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/410-48-30.json"
 },
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -271,9 +271,9 @@
 "citation": "github.com/unitaryfoundation/qldpc-challenge",
 "evidence": {
 "kind": "search",
-"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 34; 600 s seed 1: 34; 3600 s seed 0: 34; 3600 s seed 1: 34"
+"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 34; 600 s seed 1: 34; 3600 s seed 0: 34; 3600 s seed 1: 34; 600 s seed 4: 34; the claimed distance held"
 },
-"witness": null,
+"witness": "witnesses/board-972-166-34.json",
 "matrices": null,
 "claimed": {
 "d": 34,
@@ -283,7 +283,7 @@
 "model": "Claude Opus 5.5 (Claude Code)",
 "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/972-166-34.json"
 },
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -343,9 +343,9 @@
 "citation": "github.com/unitaryfoundation/qldpc-challenge",
 "evidence": {
 "kind": "search",
-"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 32; 600 s seed 1: 32; 3600 s seed 0: 32; 3600 s seed 1: 32"
+"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 32; 600 s seed 1: 32; 3600 s seed 0: 32; 3600 s seed 1: 32; 600 s seed 4: 32; the claimed distance held"
 },
-"witness": null,
+"witness": "witnesses/board-996-166-32.json",
 "matrices": null,
 "claimed": {
 "d": 32,
@@ -355,7 +355,7 @@
 "model": "Claude Opus 5.5 (Claude Code)",
 "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-32.json"
 },
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -379,9 +379,9 @@
 "citation": "github.com/unitaryfoundation/qldpc-challenge",
 "evidence": {
 "kind": "search",
-"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 34; 600 s seed 1: 34; 3600 s seed 0: 34; 3600 s seed 1: 34"
+"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 34; 600 s seed 1: 34; 3600 s seed 0: 34; 3600 s seed 1: 34; 600 s seed 4: 34; the claimed distance held"
 },
-"witness": null,
+"witness": "witnesses/board-996-166-34.json",
 "matrices": null,
 "claimed": {
 "d": 34,
@@ -391,7 +391,7 @@
 "model": "Claude Opus 5.5 (Claude Code)",
 "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-34.json"
 },
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -415,9 +415,9 @@
 "citation": "github.com/unitaryfoundation/qldpc-challenge",
 "evidence": {
 "kind": "search",
-"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 36; 600 s seed 1: 36; 3600 s seed 0: 36; 3600 s seed 1: 36"
+"method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 36; 600 s seed 1: 36; 3600 s seed 0: 36; 3600 s seed 1: 36; 600 s seed 4: 36; the claimed distance held"
 },
-"witness": null,
+"witness": "witnesses/board-996-166-36.json",
 "matrices": null,
 "claimed": {
 "d": 36,
@@ -427,7 +427,7 @@
 "model": "Claude Opus 5.5 (Claude Code)",
 "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-36.json"
 },
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -459,13 +459,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 3 on either side, and an operator of weight 3; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-476-252-945df1a1.json",
 "matrices": {
 "HX": "matrices/lp-476-252-945df1a1/HX.mtx",
 "HZ": "matrices/lp-476-252-945df1a1/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -497,13 +497,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 6 on either side, and an operator of weight 6; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-483-220-b7bb3363.json",
 "matrices": {
 "HX": "matrices/lp-483-220-b7bb3363/HX.mtx",
 "HZ": "matrices/lp-483-220-b7bb3363/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -535,13 +535,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 14 on either side, and an operator of weight 14; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-496-72-e23c4a10.json",
 "matrices": {
 "HX": "matrices/lp-496-72-e23c4a10/HX.mtx",
 "HZ": "matrices/lp-496-72-e23c4a10/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -573,13 +573,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 4 on either side, and an operator of weight 4; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-504-297-cf5015a2.json",
 "matrices": {
 "HX": "matrices/lp-504-297-cf5015a2/HX.mtx",
 "HZ": "matrices/lp-504-297-cf5015a2/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -611,13 +611,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 5 on either side, and an operator of weight 5; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-520-252-612dfb68.json",
 "matrices": {
 "HX": "matrices/lp-520-252-612dfb68/HX.mtx",
 "HZ": "matrices/lp-520-252-612dfb68/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -649,13 +649,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 8 on either side, and an operator of weight 8; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-544-200-15d39679.json",
 "matrices": {
 "HX": "matrices/lp-544-200-15d39679/HX.mtx",
 "HZ": "matrices/lp-544-200-15d39679/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -687,13 +687,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 4 on either side, and an operator of weight 4; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-544-288-217b1dab.json",
 "matrices": {
 "HX": "matrices/lp-544-288-217b1dab/HX.mtx",
 "HZ": "matrices/lp-544-288-217b1dab/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -725,13 +725,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 18 on either side, and an operator of weight 18; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-550-110-f018ef54.json",
 "matrices": {
 "HX": "matrices/lp-550-110-f018ef54/HX.mtx",
 "HZ": "matrices/lp-550-110-f018ef54/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -763,13 +763,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 7 on either side, and an operator of weight 7; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-550-220-d8d92f24.json",
 "matrices": {
 "HX": "matrices/lp-550-220-d8d92f24/HX.mtx",
 "HZ": "matrices/lp-550-220-d8d92f24/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -801,13 +801,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 5 on either side, and an operator of weight 5; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-550-226-aa1b8eb1.json",
 "matrices": {
 "HX": "matrices/lp-550-226-aa1b8eb1/HX.mtx",
 "HZ": "matrices/lp-550-226-aa1b8eb1/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -839,13 +839,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 5 on either side, and an operator of weight 5; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-552-240-ccf067d3.json",
 "matrices": {
 "HX": "matrices/lp-552-240-ccf067d3/HX.mtx",
 "HZ": "matrices/lp-552-240-ccf067d3/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -877,13 +877,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 4 on either side, and an operator of weight 4; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-552-258-8f79c779.json",
 "matrices": {
 "HX": "matrices/lp-552-258-8f79c779/HX.mtx",
 "HZ": "matrices/lp-552-258-8f79c779/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -915,13 +915,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 14 on either side, and an operator of weight 14; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-560-130-d233cc72.json",
 "matrices": {
 "HX": "matrices/lp-560-130-d233cc72/HX.mtx",
 "HZ": "matrices/lp-560-130-d233cc72/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -953,13 +953,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 10 on either side, and an operator of weight 10; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-560-224-db18259e.json",
 "matrices": {
 "HX": "matrices/lp-560-224-db18259e/HX.mtx",
 "HZ": "matrices/lp-560-224-db18259e/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -991,13 +991,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 4 on either side, and an operator of weight 4; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-570-288-f4eda3e5.json",
 "matrices": {
 "HX": "matrices/lp-570-288-f4eda3e5/HX.mtx",
 "HZ": "matrices/lp-570-288-f4eda3e5/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1029,13 +1029,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 22 on either side, and an operator of weight 22; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-572-67-82b2bf20.json",
 "matrices": {
 "HX": "matrices/lp-572-67-82b2bf20/HX.mtx",
 "HZ": "matrices/lp-572-67-82b2bf20/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1067,13 +1067,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 9 on either side, and an operator of weight 9; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-576-150-38483df5.json",
 "matrices": {
 "HX": "matrices/lp-576-150-38483df5/HX.mtx",
 "HZ": "matrices/lp-576-150-38483df5/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1105,13 +1105,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 15 on either side, and an operator of weight 15; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-576-82-30b645d7.json",
 "matrices": {
 "HX": "matrices/lp-576-82-30b645d7/HX.mtx",
 "HZ": "matrices/lp-576-82-30b645d7/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1143,13 +1143,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 12 on either side, and an operator of weight 12; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-580-116-ba427de1.json",
 "matrices": {
 "HX": "matrices/lp-580-116-ba427de1/HX.mtx",
 "HZ": "matrices/lp-580-116-ba427de1/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1181,13 +1181,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 14 on either side, and an operator of weight 14; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-580-132-239bca5f.json",
 "matrices": {
 "HX": "matrices/lp-580-132-239bca5f/HX.mtx",
 "HZ": "matrices/lp-580-132-239bca5f/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1219,13 +1219,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 7 on either side, and an operator of weight 7; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-580-180-67395015.json",
 "matrices": {
 "HX": "matrices/lp-580-180-67395015/HX.mtx",
 "HZ": "matrices/lp-580-180-67395015/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1257,13 +1257,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 4 on either side, and an operator of weight 4; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-583-287-ac08dff0.json",
 "matrices": {
 "HX": "matrices/lp-583-287-ac08dff0/HX.mtx",
 "HZ": "matrices/lp-583-287-ac08dff0/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1295,13 +1295,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 6 on either side, and an operator of weight 6; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-584-200-4c556c11.json",
 "matrices": {
 "HX": "matrices/lp-584-200-4c556c11/HX.mtx",
 "HZ": "matrices/lp-584-200-4c556c11/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1333,13 +1333,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 20 on either side, and an operator of weight 20; sliced runs with manifests in the paper repository, records/exact_v5_20261022_refinement"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-585-117-c841b78f.json",
 "matrices": {
 "HX": "matrices/lp-585-117-c841b78f/HX.mtx",
 "HZ": "matrices/lp-585-117-c841b78f/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1371,13 +1371,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 18 on either side, and an operator of weight 18; sliced runs with manifests in the paper repository, records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-585-119-8bd2c5b8.json",
 "matrices": {
 "HX": "matrices/lp-585-119-8bd2c5b8/HX.mtx",
 "HZ": "matrices/lp-585-119-8bd2c5b8/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1409,13 +1409,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 24 on either side, and an operator of weight 24; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-585-121-dc333332.json",
 "matrices": {
 "HX": "matrices/lp-585-121-dc333332/HX.mtx",
 "HZ": "matrices/lp-585-121-dc333332/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1447,13 +1447,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 10 on either side, and an operator of weight 10; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-588-176-7084834c.json",
 "matrices": {
 "HX": "matrices/lp-588-176-7084834c/HX.mtx",
 "HZ": "matrices/lp-588-176-7084834c/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1485,13 +1485,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 12 on either side, and an operator of weight 12; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-588-176-b51b14af.json",
 "matrices": {
 "HX": "matrices/lp-588-176-b51b14af/HX.mtx",
 "HZ": "matrices/lp-588-176-b51b14af/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1523,13 +1523,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 18 on either side, and an operator of weight 18; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-592-83-3c772243.json",
 "matrices": {
 "HX": "matrices/lp-592-83-3c772243/HX.mtx",
 "HZ": "matrices/lp-592-83-3c772243/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -1561,13 +1561,13 @@
 "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 7 on either side, and an operator of weight 7; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
 }
 },
-"witness": null,
+"witness": "witnesses/lp-598-195-8031fd1f.json",
 "matrices": {
 "HX": "matrices/lp-598-195-8031fd1f/HX.mtx",
 "HZ": "matrices/lp-598-195-8031fd1f/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 },
@@ -2203,13 +2203,13 @@
 }
 }
 },
-"witness": null,
+"witness": "witnesses/pp-992-252-0e23013f.json",
 "matrices": {
 "HX": "matrices/pp-992-252-0e23013f/HX.mtx",
 "HZ": "matrices/pp-992-252-0e23013f/HZ.mtx"
 },
 "claimed": null,
-"pending": "operator file",
+"pending": null,
 "instance_group": null,
 "date": "2026-11-05"
 }

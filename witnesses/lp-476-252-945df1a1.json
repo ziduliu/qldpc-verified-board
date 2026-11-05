@@ -1,0 +1,1 @@
+{"note": "logical operators of weight 3 found by the GPU search (v5, 2026-11-05) and verified against the matrices; weights {'x': 3, 'z': 3}", "wx": [[5, 16, 55], [6, 17, 42], [112, 130, 143], [2, 22, 65], [1, 21, 64]], "wz": [[11, 17, 358], [12, 18, 119], [13, 15, 356], [29, 52, 275], [3, 15, 226]]}

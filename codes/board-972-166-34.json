@@ -18,9 +18,9 @@
  "citation": "github.com/unitaryfoundation/qldpc-challenge",
  "evidence": {
   "kind": "search",
-  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 34; 600 s seed 1: 34; 3600 s seed 0: 34; 3600 s seed 1: 34"
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 34; 600 s seed 1: 34; 3600 s seed 0: 34; 3600 s seed 1: 34; 600 s seed 4: 34; the claimed distance held"
  },
- "witness": null,
+ "witness": "witnesses/board-972-166-34.json",
  "matrices": null,
  "claimed": {
   "d": 34,
@@ -30,7 +30,7 @@
   "model": "Claude Opus 5.5 (Claude Code)",
   "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/972-166-34.json"
  },
- "pending": "operator file",
+ "pending": null,
  "instance_group": null,
  "date": "2026-11-05"
 }

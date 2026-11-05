@@ -1,0 +1,1 @@
+{"note": "logical operators of weight 4 found by the GPU search (v5, 2026-11-05) and verified against the matrices; weights {'x': 4, 'z': 4}", "wx": [[7, 32, 39, 41], [19, 49, 50, 51], [8, 28, 67, 89], [1, 21, 76, 82], [2, 34, 36, 43]], "wz": [[8, 28, 264, 284], [5, 11, 133, 134], [13, 31, 269, 287], [11, 25, 268, 282], [34, 40, 162, 163]]}

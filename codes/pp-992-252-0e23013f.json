@@ -38,13 +38,13 @@
    }
   }
  },
- "witness": null,
+ "witness": "witnesses/pp-992-252-0e23013f.json",
  "matrices": {
   "HX": "matrices/pp-992-252-0e23013f/HX.mtx",
   "HZ": "matrices/pp-992-252-0e23013f/HZ.mtx"
  },
  "claimed": null,
- "pending": "operator file",
+ "pending": null,
  "instance_group": null,
  "date": "2026-11-05"
 }
