@@ -188,6 +188,9 @@ def rel(src, dst):
     return (up + i18n.PAGE_DIR[dst]) or "./"
 
 
+EMBLEM = open(os.path.join(ROOT, "docs", "favicon.svg")).read().strip().replace('<svg xmlns="http://www.w3.org/2000/svg" ', '<svg aria-hidden="true" ')
+
+
 def head(lang):
     t_ = i18n.T[lang]
     alt = "".join('<link rel="alternate" hreflang="%s" href="%s">' % (i18n.HTML_LANG[l], rel(lang, l)) for l in i18n.LANGS)
@@ -195,19 +198,19 @@ def head(lang):
                   for l in i18n.LANGS)
     st, org = t_["status"], t_["origin"]
     return ("""<!doctype html><html lang="%s"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>%s</title>%s
+<title>%s</title>%s<link rel="icon" type="image/svg+xml" href="%sfavicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@400;700&family=Roboto+Mono:wght@400;500&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.0/plotly.min.js"></script>
 <style>
 %s
 </style></head><body>
-<header><div class="in"><a class="brand cond" href="%s"><svg viewBox="0 0 60 60" aria-hidden="true"><circle cx="30" cy="30" r="28" fill="none" stroke="currentColor" stroke-width="1.5"/><g stroke="currentColor" stroke-width="1.1" fill="none"><path d="M18 21 L14 39 M18 21 L26 39 M18 21 L34 39 M30 21 L14 39 M30 21 L34 39 M30 21 L46 39 M42 21 L26 39 M42 21 L46 39 M42 21 L34 39"/></g><g fill="currentColor"><rect x="15" y="18" width="6" height="6"/><rect x="27" y="18" width="6" height="6"/><rect x="39" y="18" width="6" height="6"/><circle cx="14" cy="40" r="3"/><circle cx="26" cy="40" r="3"/><circle cx="34" cy="40" r="3"/><circle cx="46" cy="40" r="3"/></g></svg><span><span class="b1">%s</span><span class="b2">%s</span></span></a>
+<header><div class="in"><a class="brand cond" href="%s">__EMBLEM__<span><span class="b1">%s</span><span class="b2">%s</span></span></a>
 <nav class="lang" aria-label="Language · 语言 · Sprache">%s</nav></div></header>
 <section class="hero"><div class="in"><h1>%s</h1>
 <p>%s</p></div></section>
 <main>
 <h2>%s</h2>
-""" % (i18n.HTML_LANG[lang], t_["title"], alt, CSS, rel(lang, lang), t_["brand1"], t_["brand2"], nav, t_["h1"], t_["intro"], t_["h_summary"])
+""" % (i18n.HTML_LANG[lang], t_["title"], alt, "../" if i18n.PAGE_DIR[lang] else "", CSS, rel(lang, lang), t_["brand1"], t_["brand2"], nav, t_["h1"], t_["intro"], t_["h_summary"])
         + summary_cards(lang) + """
 <h2>%s</h2>
 <div class="controls">
@@ -345,7 +348,7 @@ slim = [dict(slug=e["slug"], name=nm(e), n=e["n"], k=e["k"], d=e["d"], w=e["w"],
 for lang in i18n.LANGS:
     t_ = i18n.T[lang]
     page = (head(lang) + body(lang) + "\n" + TAIL.replace("__FOOTER__", t_["footer"])).replace("__ENTRIES__", json.dumps(slim)).replace(
-        "__PUB__", json.dumps(published)).replace("__I18N__", json.dumps(t_["js"], ensure_ascii=False))
+        "__PUB__", json.dumps(published)).replace("__I18N__", json.dumps(t_["js"], ensure_ascii=False)).replace("__EMBLEM__", EMBLEM)
     d = os.path.join(ROOT, "docs", i18n.PAGE_DIR[lang])
     os.makedirs(d, exist_ok=True)
     open(os.path.join(d, "index.html"), "w").write(page)
