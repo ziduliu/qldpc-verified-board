@@ -141,11 +141,13 @@ def summary_cards(lang):
 # ------------------------------------------------------------------ pages
 CSS = """:root{--ink:#1c2430;--muted:#5b6672;--line:#e4e8ee;--panel:#f6f8fa;--accent:#1f5fbf;--lp:#1f5fbf;--tb:#4a9cc0;--pp:#d9731a;--ok:#176b3a;--warn:#8a5a00}
 *{box-sizing:border-box}body{font-family:"IBM Plex Sans",-apple-system,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",Helvetica,Arial,sans-serif;margin:0;color:var(--ink);background:#fff;font-size:15px;line-height:1.5}
-header{border-bottom:1px solid var(--line);background:#fff}header .in{max-width:1400px;margin:0 auto;padding:10px 24px 16px}
-.topbar{display:flex;justify-content:flex-end;margin-bottom:4px}
-.lang{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;font-size:.85em}
-.lang a{padding:3px 11px;color:var(--muted);text-decoration:none;border-left:1px solid var(--line)}.lang a:first-child{border-left:0}
-.lang a:hover{background:var(--panel);color:var(--ink)}.lang a[aria-current=page]{background:var(--accent);color:#fff}
+header{border-bottom:1px solid var(--line);background:#fff}header .in{max-width:1400px;margin:0 auto;padding:18px 24px 16px}
+.langbar{background:#eaf0f8;border-bottom:1px solid #d3deec}
+.langbar .in{max-width:1400px;margin:0 auto;padding:8px 24px;display:flex;justify-content:flex-end;align-items:center;gap:12px;flex-wrap:wrap}
+.langbar .ll{color:#2a3440;font-weight:500;font-size:.95em}
+.lang{display:inline-flex;border:1px solid #9fb3cf;border-radius:7px;overflow:hidden;background:#fff}
+.lang a{padding:5px 16px;color:#1c2430;text-decoration:none;font-weight:500;font-size:.98em;border-left:1px solid #9fb3cf}.lang a:first-child{border-left:0}
+.lang a:hover{background:#dbe7f5}.lang a[aria-current=page]{background:var(--accent);color:#fff}
 .lang a:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 h1{font-size:1.7em;font-weight:600;margin:0 0 6px;letter-spacing:-.01em}header p{margin:0;color:var(--muted);max-width:80em}
 main{max-width:1400px;margin:0 auto;padding:8px 24px 48px}h2{font-size:1.15em;font-weight:600;margin:28px 0 10px;letter-spacing:-.005em}
@@ -186,7 +188,8 @@ def head(lang):
 <style>
 %s
 </style></head><body>
-<header><div class="in"><div class="topbar"><nav class="lang" aria-label="Language">%s</nav></div><h1>%s</h1>
+<div class="langbar"><div class="in"><span class="ll">Language · 语言 · Sprache</span><nav class="lang" aria-label="Language">%s</nav></div></div>
+<header><div class="in"><h1>%s</h1>
 <p>%s</p></div></header>
 <main>
 <h2>%s</h2>
