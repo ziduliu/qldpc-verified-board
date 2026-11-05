@@ -133,40 +133,53 @@ def summary_cards(lang):
         inner = "; ".join(t_["card_board_item"] % (nm(e).split(",≤")[0] + "]]", e["claimed"]["d"], e["d"], link(e, lang)) for e in refuted) or t_["card_board_none"]
         if lang == "zh":
             inner = inner.replace("; ", "；")
-        cards.append('<div class="card"><div class="lab">%s</div><div class="big">%s</div><div class="sub">%s</div><div class="sub">%s</div></div>'
+        cards.append('<div class="card"><div class="lab">%s</div><div class="big txt">%s</div><div class="sub">%s</div><div class="sub">%s</div></div>'
                      % (t_["card_board_lab"], t_["card_board_big"] % (len(refuted), len(refuted) + len(held)), inner, t_["card_board_held"] % len(held)))
     return '<div class="cards">' + "".join(cards) + '</div>'
 
 
 # ------------------------------------------------------------------ pages
-CSS = """:root{--ink:#1c2430;--muted:#5b6672;--line:#e4e8ee;--panel:#f6f8fa;--accent:#1f5fbf;--lp:#1f5fbf;--tb:#4a9cc0;--pp:#d9731a;--ok:#176b3a;--warn:#8a5a00}
-*{box-sizing:border-box}body{font-family:"IBM Plex Sans",-apple-system,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",Helvetica,Arial,sans-serif;margin:0;color:var(--ink);background:#fff;font-size:15px;line-height:1.5}
-header{border-bottom:1px solid var(--line);background:#fff}header .in{max-width:1400px;margin:0 auto;padding:18px 24px 16px}
-.langbar{background:#eaf0f8;border-bottom:1px solid #d3deec}
-.langbar .in{max-width:1400px;margin:0 auto;padding:8px 24px;display:flex;justify-content:flex-end;align-items:center;gap:12px;flex-wrap:wrap}
-.langbar .ll{color:#2a3440;font-weight:500;font-size:.95em}
-.lang{display:inline-flex;border:1px solid #9fb3cf;border-radius:7px;overflow:hidden;background:#fff}
-.lang a{padding:5px 16px;color:#1c2430;text-decoration:none;font-weight:500;font-size:.98em;border-left:1px solid #9fb3cf}.lang a:first-child{border-left:0}
-.lang a:hover{background:#dbe7f5}.lang a[aria-current=page]{background:var(--accent);color:#fff}
-.lang a:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
-h1{font-size:1.7em;font-weight:600;margin:0 0 6px;letter-spacing:-.01em}header p{margin:0;color:var(--muted);max-width:80em}
-main{max-width:1400px;margin:0 auto;padding:8px 24px 48px}h2{font-size:1.15em;font-weight:600;margin:28px 0 10px;letter-spacing:-.005em}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:10px 0 4px}
-.card{border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:#fff}.card .lab{font-size:.78em;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
-.card .big{font-family:"IBM Plex Mono",monospace;font-size:1.25em;font-weight:500;margin:4px 0 2px}.card .sub{font-size:.9em;color:var(--muted)}.card a{color:var(--accent)}
-.card .val{font-size:.95em}.card .val b{font-weight:600}
-dl{max-width:80em;margin:0}dt{font-weight:600;margin-top:8px}dd{margin:0 0 4px 1.2em;color:#2a3440}
-.controls{display:flex;flex-wrap:wrap;gap:8px 18px;margin:10px 0;padding:10px 12px;background:var(--panel);border:1px solid var(--line);border-radius:8px;font-size:.92em;align-items:center}
-select,input[type=number]{font:inherit;font-size:.95em;padding:3px 6px;border:1px solid #c9d0d8;border-radius:5px;background:#fff}
-.plots{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:8px 0 12px}@media (max-width:1100px){.plots{grid-template-columns:1fr}}
-.plot{border:1px solid var(--line);border-radius:8px;padding:8px;background:#fff}.plot h3{font-size:.95em;font-weight:600;margin:4px 6px 6px}
-#plot3d{width:100%;height:440px}
-table{border-collapse:collapse;font-size:.86em;width:100%}th,td{padding:5px 8px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
-th{background:var(--panel);cursor:pointer;white-space:nowrap;position:sticky;top:0;font-weight:600}td.num{text-align:right;font-variant-numeric:tabular-nums;font-family:"IBM Plex Mono",monospace;font-size:.95em}
-tbody tr:nth-child(even){background:#fafbfc}tr.exact td.st{color:var(--ok);font-weight:600}tr.search td.st{color:var(--warn)}tr.lower td.st{color:var(--accent)}
-.small{color:var(--muted);font-size:.9em}.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px}details{font-size:.9em}summary{cursor:pointer;color:var(--accent)}
-.tag{display:inline-block;padding:0 7px;border-radius:9px;background:#eef1f5;font-size:.82em;margin-left:4px;color:#2a3440}.pend{background:#fff1cc}
-code{font-family:"IBM Plex Mono",monospace;font-size:.92em}a{color:var(--accent)}footer{color:var(--muted);font-size:.85em;margin-top:30px}"""
+CSS = """:root{--brand:#00707f;--brand-d:#00525d;--brand-l:#e8f2f4;--brand-m:#9cc6cd;--ink:#1d2b30;--muted:#55666c;--line:#d8e3e6;--ok:#1a7340;--warn:#9a5b00}
+*{box-sizing:border-box}
+body{font-family:"Roboto",-apple-system,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",Helvetica,Arial,sans-serif;margin:0;color:var(--ink);background:#fff;font-size:15px;line-height:1.55;border-top:8px solid var(--brand)}
+.cond,h1,h2,.plot h3,.hero p,.lang a,footer{font-family:"Roboto Condensed","Roboto",-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",Helvetica,Arial,sans-serif}
+header .in{max-width:1400px;margin:0 auto;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px 28px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:16px;color:var(--brand);text-decoration:none}
+.brand svg{width:60px;height:60px;flex:none}
+.brand .b1{display:block;font-weight:700;font-size:1.12em;letter-spacing:.14em;text-transform:uppercase;line-height:1.3}
+.brand .b2{display:block;font-size:.84em;letter-spacing:.14em;text-transform:uppercase;line-height:1.4}
+.lang{display:inline-flex;border:1.5px solid var(--brand)}
+.lang a{padding:6px 16px;color:var(--brand);text-decoration:none;font-size:1.02em;border-left:1.5px solid var(--brand)}.lang a:first-child{border-left:0}
+.lang a:hover{background:var(--brand-l)}.lang a[aria-current=page]{background:var(--brand);color:#fff}
+.lang a:focus-visible{outline:2px solid var(--brand-d);outline-offset:2px}
+.hero{background:var(--brand);color:#fff}
+.hero .in{max-width:1400px;margin:0 auto;padding:44px 24px 50px}
+.hero h1{font-weight:400;font-size:clamp(2em,4.4vw,3.1em);line-height:1.12;text-transform:uppercase;margin:0 0 18px;letter-spacing:.005em;text-wrap:balance}
+.hero p{font-size:clamp(1.08em,1.6vw,1.3em);line-height:1.45;max-width:58em;margin:0}.hero a{color:#fff}
+main{max-width:1400px;margin:0 auto;padding:8px 24px 56px}
+h2{font-weight:400;color:var(--brand);text-transform:uppercase;text-align:center;font-size:clamp(1.6em,3vw,2.1em);letter-spacing:.01em;margin:46px 0 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:10px 0 4px}
+.card{border:1px solid var(--line);border-top:4px solid var(--brand);padding:14px 16px;background:#fff}
+.card .lab{font-size:.76em;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);font-weight:500}
+.card .big{font-family:"Roboto Mono",monospace;font-size:1.28em;font-weight:500;margin:6px 0 2px}.card .sub{font-size:.9em;color:var(--muted)}
+.card .val{font-size:.95em}.card .val b{font-weight:700}.card .big.txt{font-family:"Roboto Condensed","Roboto","PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;font-size:1.4em;font-weight:400}
+.cards,.controls,.wrap,.card{min-width:0}
+.controls{display:flex;flex-wrap:wrap;gap:8px 18px;margin:10px 0;padding:12px 14px;background:var(--brand-l);border-left:4px solid var(--brand);font-size:.92em;align-items:center}
+select,input[type=number]{font:inherit;font-size:.95em;padding:3px 6px;border:1px solid var(--brand-m);border-radius:0;background:#fff;color:var(--ink)}
+input[type=checkbox]{accent-color:var(--brand)}
+.plots{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;margin:10px 0 12px}@media (max-width:1100px){.plots{grid-template-columns:minmax(0,1fr)}}
+.plot{border:1px solid var(--line);padding:10px;background:#fff;min-width:0;overflow:hidden}
+.plot h3{font-weight:400;font-size:1.25em;letter-spacing:.01em;color:var(--brand);margin:2px 6px 8px}
+#plot3d{width:100%;max-width:100%;height:440px}
+table{border-collapse:collapse;font-size:.86em;width:100%}th,td{padding:6px 9px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+th{background:var(--brand);color:#fff;cursor:pointer;white-space:nowrap;position:sticky;top:0;font-weight:500}
+td.num{text-align:right;font-variant-numeric:tabular-nums;font-family:"Roboto Mono",monospace;font-size:.95em}
+tbody tr:nth-child(even){background:#f5f9fa}tr.exact td.st{color:var(--ok);font-weight:700}tr.search td.st{color:var(--warn)}tr.lower td.st{color:var(--brand)}
+.small{color:var(--muted);font-size:.9em}.wrap{overflow-x:auto;border:1px solid var(--line)}details{font-size:.9em}summary{cursor:pointer;color:var(--brand)}
+.tag{display:inline-block;padding:0 7px;background:var(--brand-l);font-size:.82em;margin-left:4px;color:var(--brand-d)}.pend{background:#fff1cc;color:#5c4400}
+code{font-family:"Roboto Mono",monospace;font-size:.92em}a{color:var(--brand)}a:hover{color:var(--brand-d)}
+footer{background:var(--brand);color:#fff;font-size:1em}footer .in{max-width:1400px;margin:0 auto;padding:22px 24px 26px}footer a{color:#fff}
+@media (max-width:640px){.brand svg{width:46px;height:46px}.brand .b1{font-size:.98em}.brand .b2{font-size:.74em}.lang a{padding:5px 12px}}"""
 
 
 def rel(src, dst):
@@ -183,17 +196,18 @@ def head(lang):
     st, org = t_["status"], t_["origin"]
     return ("""<!doctype html><html lang="%s"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>%s</title>%s
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@400;700&family=Roboto+Mono:wght@400;500&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.0/plotly.min.js"></script>
 <style>
 %s
 </style></head><body>
-<div class="langbar"><div class="in"><span class="ll">Language · 语言 · Sprache</span><nav class="lang" aria-label="Language">%s</nav></div></div>
-<header><div class="in"><h1>%s</h1>
-<p>%s</p></div></header>
+<header><div class="in"><a class="brand cond" href="%s"><svg viewBox="0 0 60 60" aria-hidden="true"><circle cx="30" cy="30" r="28" fill="none" stroke="currentColor" stroke-width="1.5"/><g stroke="currentColor" stroke-width="1.1" fill="none"><path d="M18 21 L14 39 M18 21 L26 39 M18 21 L34 39 M30 21 L14 39 M30 21 L34 39 M30 21 L46 39 M42 21 L26 39 M42 21 L46 39 M42 21 L34 39"/></g><g fill="currentColor"><rect x="15" y="18" width="6" height="6"/><rect x="27" y="18" width="6" height="6"/><rect x="39" y="18" width="6" height="6"/><circle cx="14" cy="40" r="3"/><circle cx="26" cy="40" r="3"/><circle cx="34" cy="40" r="3"/><circle cx="46" cy="40" r="3"/></g></svg><span><span class="b1">%s</span><span class="b2">%s</span></span></a>
+<nav class="lang" aria-label="Language · 语言 · Sprache">%s</nav></div></header>
+<section class="hero"><div class="in"><h1>%s</h1>
+<p>%s</p></div></section>
 <main>
 <h2>%s</h2>
-""" % (i18n.HTML_LANG[lang], t_["title"], alt, CSS, nav, t_["h1"], t_["intro"], t_["h_summary"])
+""" % (i18n.HTML_LANG[lang], t_["title"], alt, CSS, rel(lang, lang), t_["brand1"], t_["brand2"], nav, t_["h1"], t_["intro"], t_["h_summary"])
         + summary_cards(lang) + """
 <h2>%s</h2>
 <div class="controls">
@@ -207,7 +221,7 @@ def head(lang):
 <label>%s <select id="surf"><option value="proven">%s</option><option value="all">%s</option><option value="none">%s</option></select></label>
 <span id="count" class="small"></span>
 </div>
-<div id="tip" style="display:none;position:absolute;background:#1c2430;color:#fff;padding:3px 7px;border-radius:4px;font-size:.85em;pointer-events:none;white-space:nowrap;z-index:5"></div>
+<div id="tip" style="display:none;position:absolute;background:#00444d;color:#fff;padding:3px 7px;border-radius:4px;font-size:.85em;pointer-events:none;white-space:nowrap;z-index:5"></div>
 <div class="plots">
 <div class="plot"><h3>%s</h3><svg id="plot" width="100%%" viewBox="0 0 700 420" style="display:block;font-family:inherit"></svg>
 <p class="small" style="margin:6px 6px 2px">%s</p></div>
@@ -252,13 +266,13 @@ def body(lang):
 
 
 TAIL = r"""</tbody></table></div>
-<footer>__FOOTER__</footer>
 </main>
+<footer><div class="in">__FOOTER__</div></footer>
 <script>
 const ENTRIES=__ENTRIES__;const PUB=__PUB__;const I18N=__I18N__;
 const rows=[...document.querySelectorAll('#t tbody tr')];
 const SH={"lifted-product":"circle","two-block":"diamond","pair-partition":"square"};
-const COL={"lifted-product":"#1f5fbf","two-block":"#5aa9c9","pair-partition":"#e07b00"};
+const COL={"lifted-product":"#00707f","two-block":"#62aab6","pair-partition":"#e07b00"};
 function esc(t){return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;");}
 function marker(x,y,r,shape,fill,stroke,sw,opacity,title){
   let body;
@@ -283,9 +297,9 @@ function plot(sel){
   const X=v=>L+(W-L-R)*v/xmax, Y=v=>T+(H-T-B)*(1-v/ymax);
   const xt=xmax>1500?500:xmax>600?200:100, yt=ymax>400?100:ymax>150?50:ymax>60?20:10;
   let g="";
-  for(let v=0;v<=xmax;v+=xt) g+=`<line x1="${X(v)}" y1="${T}" x2="${X(v)}" y2="${H-B}" stroke="#eee"/><text x="${X(v)}" y="${H-B+16}" text-anchor="middle" font-size="11" fill="#444">${v}</text>`;
-  for(let v=0;v<=ymax;v+=yt) g+=`<line x1="${L}" y1="${Y(v)}" x2="${W-R}" y2="${Y(v)}" stroke="#eee"/><text x="${L-6}" y="${Y(v)+4}" text-anchor="end" font-size="11" fill="#444">${v}</text>`;
-  g+=`<rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="none" stroke="#999"/>`;
+  for(let v=0;v<=xmax;v+=xt) g+=`<line x1="${X(v)}" y1="${T}" x2="${X(v)}" y2="${H-B}" stroke="#e3ecee"/><text x="${X(v)}" y="${H-B+16}" text-anchor="middle" font-size="11" fill="#444">${v}</text>`;
+  for(let v=0;v<=ymax;v+=yt) g+=`<line x1="${L}" y1="${Y(v)}" x2="${W-R}" y2="${Y(v)}" stroke="#e3ecee"/><text x="${L-6}" y="${Y(v)+4}" text-anchor="end" font-size="11" fill="#444">${v}</text>`;
+  g+=`<rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="none" stroke="#9fb5ba"/>`;
   g+=`<text x="${(L+W-R)/2}" y="${H-6}" text-anchor="middle" font-size="12" fill="#222">${esc(I18N.xlab)}</text>`;
   g+=`<text transform="translate(14,${(T+H-B)/2}) rotate(-90)" text-anchor="middle" font-size="12" fill="#222">k d²/n</text>`;
   for(const p of pubs){const c=COL[p.fam]||"#888";g+=marker(X(p.x),Y(p.y),3,p.st==="lower_bound"?"tri":SH[p.fam],p.st==="upper_bound"?"none":c,c,0.8,0.45,p.name);}
@@ -309,7 +323,7 @@ function plot3d(pts,pubs){
     if(all.length){const nmax=Math.max(...all.map(p=>p.x)),ws=[...new Set(all.map(p=>p.w))].sort((a,b)=>a-b),wmin=ws[0],wmax=ws[ws.length-1];
       const xs=[],ys=[],zs=[];for(let w=wmin;w<=wmax;w++)ys.push(w);for(let n=100;n<=nmax+50;n+=50)xs.push(n);
       for(const w of ys){const row=[];for(const n of xs){let m=0;for(const p of all)if(p.x<=n&&p.w<=w&&p.y>m)m=p.y;row.push(m);}zs.push(row);}
-      tr.push({type:"surface",x:xs,y:ys,z:zs,name:I18N.front,showscale:false,opacity:0.35,colorscale:[[0,"#dbe7f5"],[1,"#1f5fbf"]],hovertemplate:I18N.fhover+"<extra>"+I18N.front+"</extra>"});}}
+      tr.push({type:"surface",x:xs,y:ys,z:zs,name:I18N.front,showscale:false,opacity:0.35,colorscale:[[0,"#e8f2f4"],[1,"#00707f"]],hovertemplate:I18N.fhover+"<extra>"+I18N.front+"</extra>"});}}
   Plotly.react("plot3d",tr,{margin:{l:0,r:0,t:4,b:0},showlegend:true,legend:{orientation:"h",y:0,x:0,font:{size:11}},
     scene:{xaxis:{title:"n"},yaxis:{title:I18N.waxis,dtick:1},zaxis:{title:"k d²/n"},camera:{eye:{x:1.5,y:-1.6,z:0.9}}}},{displaylogo:false,responsive:true});
 }
@@ -343,7 +357,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-COL = {"lifted-product": "#1f5fbf", "two-block": "#5aa9c9", "pair-partition": "#e07b00"}
+COL = {"lifted-product": "#00707f", "two-block": "#62aab6", "pair-partition": "#e07b00"}
 MK = {"lifted-product": "o", "two-block": "D", "pair-partition": "s"}
 fig, axes = plt.subplots(3, 1, figsize=(8.6, 12.2), sharex=True)
 for ax, (lo, hi, title) in zip(axes, ((0, 8, "check weight ≤ 8"), (9, 10, "check weight 9–10"), (11, 12, "check weight 11–12"))):
