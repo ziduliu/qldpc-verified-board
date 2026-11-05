@@ -30,7 +30,7 @@ pts = []
 for r in published:
     pts.append(dict(fam=r["family"], who="pub", n=r["n"], k=r["k"], d=r["d"], w=r["w"], status=r["d_status"], fom=r["k"] * r["d"] ** 2 / r["n"]))
 for e in entries:
-    if e["family"] not in COL:
+    if e["family"] not in COL or "hand-designed" in e["source"]["reference"]:
         continue
     st = {"exact": "exact", "upper_bound": "upper_bound", "lower_bound": "lower_bound", "bounded": "lower_bound"}[e["d_status"]]
     pts.append(dict(fam=e["family"], who=("board" if e["source"]["kind"] == "board" else "ours"), n=e["n"], k=e["k"], d=e["d"], w=e["w"], status=st,
@@ -201,39 +201,49 @@ def md_links(e):
     return " ".join(out)
 
 
-def md_evidence(e):
-    ev = e.get("evidence") or {}
-    if ev.get("kind") == "certificate":
-        c = ev.get("certificate") or {}
-        t = "certificate through weight %s" % c.get("complete_through")
-        if e.get("witness"):
-            t += ", operators of weight %d" % e["d_upper"]
-        elif c.get("found"):
-            t += ", operator of weight %d" % c["found"]
-        return t
-    m = ev.get("method", "")
-    return m.split(": ", 1)[-1][:70]
+def md_found(e):
+    r = e["source"]["reference"]
+    if "arXiv:2606.24808" in r:
+        return "paper run (arXiv:2606.24808), " + ("level-1 refinement" if "refinement" in r else r.split("run ")[1].split(",")[0] if "run " in r else "")
+    for key in ("line n700smoke", "line v5a", "line n700a", "line l8smoke1", "line l8a", "pp_scratch_opus_20261030", "pp_catalog_opus_20261030", "line n700a / v5a"):
+        if key in r:
+            return "evolution " + key.replace("pp_", "run pp_")
+    return "evolution run"
 
 
-ours_exact = sorted([e for e in entries if e["source"]["kind"] == "ours" and e["d_status"] in ("exact", "lower_bound")], key=lambda e: -e["kd2_over_n"])
-ours_search = sorted([e for e in entries if e["source"]["kind"] == "ours" and e["d_status"] == "upper_bound"], key=lambda e: -e["kd2_over_n"])
-board = sorted([e for e in entries if e["source"]["kind"] == "board"], key=lambda e: -e["kd2_over_n"])
-md = ["### Codes of this board with a certificate (%d)\n" % len(ours_exact), "| code | w | k d²/n | family | construction | evidence | files |", "|---|---|---|---|---|---|---|"]
-for e in ours_exact:
-    md.append("| %s | %d | %.1f | %s | %s | %s | %s |" % (md_name(e), e["w"], e["kd2_over_n"], e["family"], e["construction"].replace("|", "/"), md_evidence(e), md_links(e)))
-md += ["", "### Codes of this board with a search bound only (%d)\n" % len(ours_search), "| code | w | k d²/n | family | construction | search | files |", "|---|---|---|---|---|---|---|"]
-for e in ours_search:
-    md.append("| %s | %d | %.1f | %s | %s | %s | %s |" % (md_name(e), e["w"], e["kd2_over_n"], e["family"], e["construction"].replace("|", "/"), md_evidence(e), md_links(e)))
-md += ["", "### Leaderboard entries re-measured (%d)\n" % len(board), "| entry | claimed | lightest operator found | k d²/n after | our search | files |", "|---|---|---|---|---|---|"]
+evo = [e for e in entries if e["source"]["kind"] == "ours" and "hand-designed" not in e["source"]["reference"]]
+STATUS_MD = {"exact": "exact", "upper_bound": "search bound", "lower_bound": "lower bound", "bounded": "bounded"}
+big = sorted([e for e in evo if e["kd2_over_n"] >= 25], key=lambda e: -e["kd2_over_n"])
+small = sorted([e for e in evo if e["kd2_over_n"] < 25], key=lambda e: -e["kd2_over_n"])
+groups = []
+for e in big:
+    key = (e["name"], e["family"], e["w"], round(e["kd2_over_n"]), e["d_status"], md_found(e))
+    for g in groups:
+        if g["key"] == key:
+            g["n"] += 1; g["links"].append(md_links(e)); break
+    else:
+        groups.append(dict(key=key, n=1, e=e, links=[md_links(e)]))
+md = ["### Codes found by our evolution runs (%d)\n" % len(evo), "| code | family | w | k d²/n | distance | found by | files |", "|---|---|---|---|---|---|---|"]
+for g in groups:
+    e = g["e"]
+    md.append("| %s%s | %s | %d | %.0f | %s | %s | %s |" % (md_name(e), " ×%d" % g["n"] if g["n"] > 1 else "", e["family"], e["w"], e["kd2_over_n"], STATUS_MD[e["d_status"]], md_found(e), " · ".join(g["links"])))
+if small:
+    md.append("| %d further codes of the high-rate cells (d 3–9, k d²/n below 25) | lifted-product | 8–12 | | exact | paper and weight-9 runs | see below |" % len(small))
+    md += ["", "<details><summary>the %d small codes</summary>\n" % len(small), "| code | w | k d²/n | files |", "|---|---|---|---|"]
+    for e in small:
+        md.append("| %s | %d | %.1f | %s |" % (md_name(e), e["w"], e["kd2_over_n"], md_links(e)))
+    md += ["", "</details>"]
+board = sorted([e for e in entries if e["source"]["kind"] == "board"], key=lambda e: -(e["k"] * e["claimed"]["d"] ** 2 / e["n"]))
+md += ["", "### Leaderboard entries re-measured (%d)\n" % len(board), "| entry | w | claimed d | lightest operator we found | k d²/n claimed → re-measured | files |", "|---|---|---|---|---|---|"]
 for e in board:
     held = e["d"] >= e["claimed"]["d"]
-    md.append("| %s | ≤%d | %s%d | %.1f | %s | %s |" % (e["claimed"]["entry"].split("/")[-1][:-5], e["claimed"]["d"], "" if not held else "held at ", e["d"], e["kd2_over_n"], md_evidence(e), md_links(e)))
+    cl = e["k"] * e["claimed"]["d"] ** 2 / e["n"]
+    md.append("| [[%d,%d]] | %d | ≤%d | %s | %s | %s |" % (e["n"], e["k"], e["w"], e["claimed"]["d"], "held (nothing lighter found)" if held else "%d" % e["d"],
+                                                       ("%.0f" % cl) if held else "%.0f → %.0f" % (cl, e["kd2_over_n"]), md_links(e)))
 readme = os.path.join(ROOT, "README.md")
 r = open(readme).read()
 a, b = "<!-- codes:start -->", "<!-- codes:end -->"
 if a in r and b in r:
     r = r[:r.index(a) + len(a)] + "\n" + "\n".join(md) + "\n" + r[r.index(b):]
     open(readme, "w").write(r)
-    print("README tables:", len(ours_exact), len(ours_search), len(board))
-open(os.path.join(ROOT, "docs", ".nojekyll"), "w").write("")
-print("entries", len(entries), "published refs", len(published))
+    print("README tables:", len(evo), "evolution codes,", len(board), "board rows")
