@@ -132,7 +132,7 @@ summary_cards = '<div class="cards">' + "".join(cards) + '</div>'
 head = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Verified qLDPC codes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.0/plotly.min.js"></script>
 <style>
 :root{--ink:#1c2430;--muted:#5b6672;--line:#e4e8ee;--panel:#f6f8fa;--accent:#1f5fbf;--lp:#1f5fbf;--tb:#4a9cc0;--pp:#d9731a;--ok:#176b3a;--warn:#8a5a00}
 *{box-sizing:border-box}body{font-family:"IBM Plex Sans",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;color:var(--ink);background:#fff;font-size:15px;line-height:1.5}
