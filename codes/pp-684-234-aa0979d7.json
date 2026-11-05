@@ -1,0 +1,32 @@
+{
+ "slug": "pp-684-234-aa0979d7",
+ "name": "[[684,234,<=24]]",
+ "n": 684,
+ "k": 234,
+ "d": 24,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 24,
+ "w": 12,
+ "wX": 12,
+ "wZ": 12,
+ "kd2_over_n": 197.05,
+ "family": "pair-partition",
+ "construction": "group Z_3 x Z_19, template (4, 12), shortened, check weight 12",
+ "source": {
+  "kind": "ours",
+  "reference": "pair-partition construction inside our evolution framework; line v5a (2026-11-02), program family pp_j4l12_c3xc19_overlapfibres_shortened, archive aa0979d7bc395762"
+ },
+ "evidence": {
+  "kind": "search",
+  "method": "GPU directed BP+OSD search (v5): 600 s x 2 and 3600 s x 2 (v5): 24; operator supports not yet saved, a witness run is queued"
+ },
+ "witness": null,
+ "matrices": {
+  "HX": "matrices/pp-684-234-aa0979d7/HX.mtx",
+  "HZ": "matrices/pp-684-234-aa0979d7/HZ.mtx"
+ },
+ "claimed": null,
+ "notes": null,
+ "date": "2026-11-05"
+}

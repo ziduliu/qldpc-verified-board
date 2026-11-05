@@ -1,0 +1,37 @@
+{
+ "slug": "lp-578-32-6612ba96",
+ "name": "[[578,32,<=46]]",
+ "n": 578,
+ "k": 32,
+ "d": 46,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 46,
+ "w": 10,
+ "wX": 10,
+ "wZ": 10,
+ "kd2_over_n": 117.15,
+ "family": "two-block",
+ "construction": "group C_17 x C_17, protograph shapes (1,1) x (1,1), lift size 289",
+ "source": {
+  "kind": "ours",
+  "reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 0 (FOM objective)",
+  "repository": "https://github.com/ziduliu/sce-qldpc",
+  "files": {
+   "HX": "fom/cell0_n578_k32_6612ba96961ef2c1_HX.mtx",
+   "HZ": "fom/cell0_n578_k32_6612ba96961ef2c1_HZ.mtx"
+  }
+ },
+ "evidence": {
+  "kind": "search",
+  "method": "GPU directed BP+OSD search (v5), 600 s x 2 and 3600 s x 2, plus two-hour runs of the earlier estimator and QDistRnd 1e9 information sets; lightest weight found 46"
+ },
+ "witness": "witnesses/lp-578-32-6612ba96.json",
+ "matrices": {
+  "HX": "matrices/lp-578-32-6612ba96/HX.mtx",
+  "HZ": "matrices/lp-578-32-6612ba96/HZ.mtx"
+ },
+ "claimed": null,
+ "notes": null,
+ "date": "2026-11-05"
+}

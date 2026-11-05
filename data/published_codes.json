@@ -1,0 +1,5652 @@
+[
+{
+"family": "two-block",
+"n": 254,
+"k": 28,
+"d": 20,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "1904.02703",
+"description": "GB l=127 a=1+x15+x20+x28+x66 b=1+x58+x59+x100+x121; wr=10, w"
+},
+{
+"family": "two-block",
+"n": 306,
+"k": 22,
+"d": 24,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 20,
+"d": 21,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 20,
+"d": 22,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=12,12,8 A=x5y3+x4y8+x2y4+x7y6 B=x10y+x8y+x11y"
+},
+{
+"family": "two-block",
+"n": 204,
+"k": 22,
+"d": 17,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "lifted-product",
+"n": 468,
+"k": 36,
+"d": 20,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2607.28605",
+"description": "canonical symmetric LP, C36, 2x3 base (Zheng-Zheng-Jiang-Xu)"
+},
+{
+"family": "two-block",
+"n": 248,
+"k": 16,
+"d": 21,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 22,
+"d": 18,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 16,
+"d": 21,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 14,
+"d": 24,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=12,12,4 A=x6y4+x11y4+x3y6+x11y3 B=y11+x2y7+x5"
+},
+{
+"family": "two-block",
+"n": 306,
+"k": 26,
+"d": 18,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 24,
+"d": 17,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 192,
+"k": 20,
+"d": 16,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=24,4,6 A=x9y3+x4+x6+x19y2 B=x22y+x8y+x7+x5y"
+},
+{
+"family": "two-block",
+"n": 204,
+"k": 24,
+"d": 15,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 256,
+"k": 14,
+"d": 22,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=16,8,4 A=x9y3+y4+x14+x3y6 B=x14y+x4y+x3+x13y"
+},
+{
+"family": "two-block",
+"n": 248,
+"k": 18,
+"d": 19,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "lifted-product",
+"n": 475,
+"k": 31,
+"d": 20,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2111.07029",
+"description": "lifted product LP04 family (Raveendran et al.)"
+},
+{
+"family": "two-block",
+"n": 216,
+"k": 14,
+"d": 20,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=18,6,3 A=y4+x11y4+x3+x11y3 B=x6y5+x2y+x5y5+x1"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 20,
+"d": 18,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 280,
+"k": 22,
+"d": 18,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 210,
+"k": 20,
+"d": 16,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 192,
+"k": 18,
+"d": 16,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=24,4,6 A=x21y3+x20+x2+x23y2 B=x18y+y+x11+x17y"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 20,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 186,
+"k": 12,
+"d": 19,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 224,
+"k": 26,
+"d": 14,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=28,4,7 A=x13y3+x16+x10+x11y2 B=x26y+x16y+x3+x"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 20,
+"d": 20,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2507.21396",
+"description": "ZSZ semidirect-product two-block codes (self-correcting, neu"
+},
+{
+"family": "lifted-product",
+"n": 425,
+"k": 29,
+"d": 18,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2111.07029",
+"description": "lifted product LP04 family (Raveendran et al.)"
+},
+{
+"family": "two-block",
+"n": 234,
+"k": 26,
+"d": 14,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2605.14173",
+"description": "univariate bicycle (UB) GB subclass"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 16,
+"d": 15,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 504,
+"k": 12,
+"d": 30,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=42,6,7 A=x27+y+y2 B=y3+x37+x38"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 14,
+"d": 16,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 576,
+"k": 12,
+"d": 32,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=24,12,8 A=x21+y7+y2 B=y9+x13+x14"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 12,
+"d": 17,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 8,
+"d": 30,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (30,6) A=y+y2+x3y+x9 B=y3+x25+x26 [MX]"
+},
+{
+"family": "two-block",
+"n": 160,
+"k": 16,
+"d": 14,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=20,4,5 A=x17y3+x12+x10+x15y2 B=x6y+x12y+x7+xy"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 10,
+"d": 18,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 160,
+"k": 12,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 12,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2308.07915",
+"description": "BB l,m=30,6 A=x9+y+y2 B=y3+x25+x26"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 14,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=12,6,2 A=x6y4+x5y4+x3+x11y3 B=y5+x8y+x5y5+x9y"
+},
+{
+"family": "two-block",
+"n": 124,
+"k": 12,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "pair-partition",
+"n": 170,
+"k": 8,
+"d": 20,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2607.14091",
+"description": "CPM pair-partition (PP) code, (J,L)=(5,10), P=17 (contribute"
+},
+{
+"family": "two-block",
+"n": 192,
+"k": 14,
+"d": 16,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 128,
+"k": 12,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=8,8,4 A=xy3+1+x6y6+x3y2 B=x6y7+x4y7+x3+x5y"
+},
+{
+"family": "two-block",
+"n": 180,
+"k": 10,
+"d": 18,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "1904.02703",
+"description": "GB l=90 a=1+x28+x80+x89 b=1+x2+x21+x25; wr=8, wc=4"
+},
+{
+"family": "two-block",
+"n": 384,
+"k": 12,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22124y\u22123 g=1+y+x3y\u22121 a=(0, 48) (4, 20)"
+},
+{
+"family": "two-block",
+"n": 248,
+"k": 10,
+"d": 21,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 16,
+"d": 20,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2507.21396",
+"description": "ZSZ semidirect-product two-block codes (self-correcting, neu"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 10,
+"d": 16,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=6,12,6 A=1+x5y4+x3y4+x5y3 B=y5+x2y9+x5y11+x3y"
+},
+{
+"family": "two-block",
+"n": 224,
+"k": 20,
+"d": 14,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=28,4,7 A=x5y3++x26+x7y2 B=x26y+x16y+x19+x9y"
+},
+{
+"family": "lifted-product",
+"n": 416,
+"k": 18,
+"d": 20,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2202.01702",
+"description": "lifted product of (4,4)-LDPC QC protograph A13 (Roffe et al."
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 10,
+"d": 17,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 210,
+"k": 10,
+"d": 19,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 186,
+"k": 22,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 120,
+"k": 14,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 140,
+"k": 16,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 120,
+"k": 10,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=6,10,5 A=y6+x5+x3y2+x5y3 B=y+x2y+x5y9+x3y2"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 24,
+"d": 14,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=12,12,8 A=x9y11+x4y4+x10+x3y10 B=x10y5+x8y5+x"
+},
+{
+"family": "two-block",
+"n": 124,
+"k": 14,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 160,
+"k": 8,
+"d": 18,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 160,
+"k": 10,
+"d": 16,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 392,
+"k": 32,
+"d": 14,
+"w": 12,
+"d_status": "upper_bound",
+"arxiv": "2505.06157",
+"description": "generalized bicycle (Construction PK)"
+},
+{
+"family": "two-block",
+"n": 432,
+"k": 12,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=18,12,6 A=x15+y7+y2 B=y9+x7+x14"
+},
+{
+"family": "two-block",
+"n": 128,
+"k": 14,
+"d": 12,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2407.03973",
+"description": "BB weight 8 (Eberhardt-Steffan)"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 10,
+"d": 15,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 310,
+"k": 10,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x3y2 g=1+y+x\u22124y4 a=(0, 31) (5, 11)"
+},
+{
+"family": "two-block",
+"n": 434,
+"k": 10,
+"d": 26,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=31,7,7 A=1+x6y+x27y4 B=1+x15y6+x24y3"
+},
+{
+"family": "two-block",
+"n": 186,
+"k": 10,
+"d": 17,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 372,
+"k": 10,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y\u22122 g=1+y+x\u22121y\u22123 a=(0, 93) (2, \u221216"
+},
+{
+"family": "two-block",
+"n": 112,
+"k": 12,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 378,
+"k": 12,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2605.14173",
+"description": "univariate bicycle (UB) GB subclass"
+},
+{
+"family": "two-block",
+"n": 128,
+"k": 10,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 340,
+"k": 16,
+"d": 18,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+y\u22124 g=1+y+x4 a=(0, 34) (5, \u22127)"
+},
+{
+"family": "two-block",
+"n": 372,
+"k": 14,
+"d": 20,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=186 f=1+y26+y34 g=1+y+y20"
+},
+{
+"family": "two-block",
+"n": 96,
+"k": 10,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 140,
+"k": 8,
+"d": 16,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=7,10,5 A=x4y6+y5+x5y5+x3y9 B=x5y3+x3y+x4y+y8"
+},
+{
+"family": "lifted-product",
+"n": 350,
+"k": 26,
+"d": 14,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2607.05386",
+"description": "QC lifted product (self-adjoint), seed 3x4, l=14"
+},
+{
+"family": "two-block",
+"n": 336,
+"k": 10,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22124 g=1+y+x\u22121y\u22123 a=(0, 84) (2, 37)"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 8,
+"d": 15,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 16,
+"d": 20,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 254,
+"k": 14,
+"d": 16,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22123 g=1+y+y\u22126 a=(0, 127) (1, 25)"
+},
+{
+"family": "two-block",
+"n": 112,
+"k": 8,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=7,8,4 A=x4y4+y3+x5y7+x3y7 B=x5y7+x3y5+x4y7+1"
+},
+{
+"family": "two-block",
+"n": 330,
+"k": 8,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22126y2 g=1+y+x2y5 a=(0, 55) (3, 23)"
+},
+{
+"family": "two-block",
+"n": 390,
+"k": 8,
+"d": 26,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22122y3 g=1+y+x2y3 a=(0, 15) (13, 1)"
+},
+{
+"family": "two-block",
+"n": 224,
+"k": 12,
+"d": 16,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 84,
+"k": 8,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 124,
+"k": 14,
+"d": 11,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2605.14173",
+"description": "univariate bicycle (UB) GB subclass"
+},
+{
+"family": "two-block",
+"n": 396,
+"k": 8,
+"d": 26,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22123 g=1+y+x3y\u22121 a=(0, 66) (3, 18)"
+},
+{
+"family": "pair-partition",
+"n": 190,
+"k": 8,
+"d": 18,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2607.14091",
+"description": "CPM pair-partition (PP) code, (J,L)=(5,10), P=19"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 10,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 294,
+"k": 10,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y g=1+y+xy\u22123 a=(0, 21) (7, 7)"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 12,
+"d": 18,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2308.07915",
+"description": "BB l,m=12,12 A=x3+y2+y7 B=y3+x+x2"
+},
+{
+"family": "lifted-product",
+"n": 225,
+"k": 21,
+"d": 12,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2111.07029",
+"description": "lifted product LP04 family (Raveendran et al.)"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 10,
+"d": 13,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 12,
+"d": 20,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2507.21396",
+"description": "ZSZ semidirect-product two-block codes (self-correcting, neu"
+},
+{
+"family": "two-block",
+"n": 136,
+"k": 8,
+"d": 15,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "lifted-product",
+"n": 120,
+"k": 8,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2607.28621",
+"description": "lifted clustered-cyclic LP (Hirasaki-Lee)"
+},
+{
+"family": "two-block",
+"n": 248,
+"k": 10,
+"d": 18,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 300,
+"k": 8,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22124 g=1+y+x\u22123y3 a=(0, 75) (2, 26)"
+},
+{
+"family": "two-block",
+"n": 160,
+"k": 8,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 8,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=180 f=1+y5+y25 g=1+y+y27"
+},
+{
+"family": "two-block",
+"n": 306,
+"k": 8,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22123 g=1+y+x3y\u22121 a=(0, 51) (3, 21)"
+},
+{
+"family": "two-block",
+"n": 312,
+"k": 8,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y3 g=1+y+xy3 a=(0, 78) (2, \u221216)"
+},
+{
+"family": "two-block",
+"n": 210,
+"k": 10,
+"d": 16,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y2 g=1+y+x\u22123y\u22121 a=(0, 21) (5, 10)"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 12,
+"d": 16,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y\u22121 g=1+y+x2y\u22122 a=(0, 18) (7, 7)"
+},
+{
+"family": "two-block",
+"n": 264,
+"k": 8,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+xy\u22125 g=1+y+xy4 a=(0, 66) (2, 28)"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 12,
+"d": 12,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2505.06157",
+"description": "generalized bicycle (Construction PK)"
+},
+{
+"family": "two-block",
+"n": 96,
+"k": 8,
+"d": 12,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2306.16400",
+"description": "2BGA SmallGroup(48,10)=(C3:C8):C2 a=1+sr2 b=1+r+s3+s4+s2r5+s"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 24,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (12,12) A=y+y2+x6 B=y3+x2+x4 [XY] decomposable=gross+gros"
+},
+{
+"family": "two-block",
+"n": 392,
+"k": 6,
+"d": 28,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y2 g=1+y+x\u22123y\u22121 a=(0, 28) (7, 7)"
+},
+{
+"family": "two-block",
+"n": 324,
+"k": 8,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22123 g=1+y+x3y\u22121 a=(0, 18) (9, 6)"
+},
+{
+"family": "two-block",
+"n": 270,
+"k": 8,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22123 g=1+y+x3y\u22121 a=(0, 15) (9, 6)"
+},
+{
+"family": "two-block",
+"n": 176,
+"k": 8,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 124,
+"k": 10,
+"d": 12,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 350,
+"k": 6,
+"d": 26,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x2y2 g=1+y+x\u22124y a=(0, 35) (5, 13)"
+},
+{
+"family": "lifted-product",
+"n": 136,
+"k": 8,
+"d": 14,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2603.05398",
+"description": "clustered-cyclic LP (QGPU; Gu et al.)"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 16,
+"d": 18,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 70,
+"k": 8,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2306.16400",
+"description": "2BGA SmallGroup(35,1)=C35 a=1+r15+r16+r18 b=1+r+r24+r27"
+},
+{
+"family": "two-block",
+"n": 180,
+"k": 8,
+"d": 16,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 20,
+"d": 16,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 342,
+"k": 8,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22123 g=1+y+x3y\u22121 a=(0, 57) (3, 15)"
+},
+{
+"family": "two-block",
+"n": 124,
+"k": 14,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.02951",
+"description": "univariate bicycle (UB, b=a^t)"
+},
+{
+"family": "lifted-product",
+"n": 120,
+"k": 8,
+"d": 13,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2607.28621",
+"description": "lifted clustered-cyclic LP (Hirasaki-Lee)"
+},
+{
+"family": "two-block",
+"n": 308,
+"k": 6,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22122 g=1+y+x2y\u22121 a=(0, 77) (2, \u221213)"
+},
+{
+"family": "two-block",
+"n": 364,
+"k": 6,
+"d": 26,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y3 g=1+y+x3 a=(0, 14) (13, 4)"
+},
+{
+"family": "two-block",
+"n": 108,
+"k": 12,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 14,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.02951",
+"description": "univariate bicycle (UB, b=a^t)"
+},
+{
+"family": "two-block",
+"n": 72,
+"k": 8,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2306.16400",
+"description": "2BGA SmallGroup(36,2)=C36 a=1+r9+r28+r31 b=1+r+r21+r34"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 8,
+"d": 20,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (18,8) A=1+xy4+x14y B=1+xy2+x2y7 [MX]"
+},
+{
+"family": "two-block",
+"n": 234,
+"k": 8,
+"d": 18,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22123 g=1+y+x3y\u22121 a=(0, 39) (3, \u22129)"
+},
+{
+"family": "two-block",
+"n": 280,
+"k": 12,
+"d": 16,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 266,
+"k": 6,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22121 g=1+y+x5 a=(0, 7) (19, 2)"
+},
+{
+"family": "two-block",
+"n": 216,
+"k": 12,
+"d": 14,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2607.28621",
+"description": "lifted BB (Hirasaki-Lee)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 20,
+"d": 14,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (30,6) A=1+x+x3y4+x6y2 B=1+y2+x3y2+x6y4 [MX]"
+},
+{
+"family": "lifted-product",
+"n": 175,
+"k": 19,
+"d": 10,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2111.07029",
+"description": "lifted product LP(B,B*) from (3,4)-regular QC-LDPC (LP04 fam"
+},
+{
+"family": "two-block",
+"n": 254,
+"k": 14,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2605.14173",
+"description": "univariate bicycle (UB) GB subclass"
+},
+{
+"family": "two-block",
+"n": 240,
+"k": 8,
+"d": 18,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22122y g=1+y+xy2 a=(0, 10) (12, 3)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 8,
+"d": 22,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (30,6) A=y+y2+x3y3+x9 B=y3+x25+x26 [MX]"
+},
+{
+"family": "two-block",
+"n": 322,
+"k": 6,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y2 g=1+y+x\u22124y\u22121 a=(0, 7) (23, 3)"
+},
+{
+"family": "lifted-product",
+"n": 168,
+"k": 8,
+"d": 15,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2607.28621",
+"description": "lifted clustered-cyclic LP (Hirasaki-Lee)"
+},
+{
+"family": "two-block",
+"n": 224,
+"k": 6,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y2 g=1+y+x\u22123y\u22121 a=(0, 28) (4, \u22126)"
+},
+{
+"family": "two-block",
+"n": 182,
+"k": 6,
+"d": 18,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x2y3 g=1+y+x4y a=(0, 7) (13, 1)"
+},
+{
+"family": "two-block",
+"n": 192,
+"k": 8,
+"d": 16,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 12,
+"d": 16,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2507.21396",
+"description": "ZSZ semidirect-product two-block codes (self-correcting, neu"
+},
+{
+"family": "two-block",
+"n": 186,
+"k": 10,
+"d": 14,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "pair-partition",
+"n": 110,
+"k": 8,
+"d": 12,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2607.14091",
+"description": "CPM pair-partition (PP) code, (J,L)=(5,10), P=11"
+},
+{
+"family": "two-block",
+"n": 280,
+"k": 6,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+xy3 g=1+y+x2y\u22122 a=(0, 28) (5, 12)"
+},
+{
+"family": "lifted-product",
+"n": 595,
+"k": 19,
+"d": 18,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2402.05228",
+"description": "weight-reduced LP: compressed LP(A~c)"
+},
+{
+"family": "two-block",
+"n": 198,
+"k": 8,
+"d": 16,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22124 g=1+y+x\u22123y2 a=(0, 33) (3, 9)"
+},
+{
+"family": "two-block",
+"n": 152,
+"k": 6,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 238,
+"k": 6,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22124 g=1+y+x\u22123y2 a=(0, 7) (17, 1)"
+},
+{
+"family": "two-block",
+"n": 80,
+"k": 8,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 60,
+"k": 6,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2306.16400",
+"description": "2BGA SmallGroup(30,4)=C30 a=1+r10+r6+r13 b=1+r25+r16+r12"
+},
+{
+"family": "two-block",
+"n": 154,
+"k": 6,
+"d": 16,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB"
+},
+{
+"family": "two-block",
+"n": 196,
+"k": 6,
+"d": 18,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y2 g=1+y+x\u22122y\u22121 a=(0, 49) (2, \u221210)"
+},
+{
+"family": "two-block",
+"n": 82,
+"k": 10,
+"d": 9,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2306.16400",
+"description": "2BGA SmallGroup(42,3)=C7xS3 a=1+r7+r8+sr10 b=1+s+r5+s2r13; ("
+},
+{
+"family": "two-block",
+"n": 162,
+"k": 8,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "BB (Wang-Mueller search)"
+},
+{
+"family": "two-block",
+"n": 84,
+"k": 10,
+"d": 9,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 120,
+"k": 8,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 210,
+"k": 14,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 270,
+"k": 8,
+"d": 18,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2407.03973",
+"description": "BB (Eberhardt-Steffan computer search)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 24,
+"d": 12,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=1+xy+x4y4+x9y9 B=1+xy11+x4y8+x9y3 [MX]"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 16,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 12,
+"d": 10,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB"
+},
+{
+"family": "two-block",
+"n": 84,
+"k": 8,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=7,6,3 A=x4y4+y5+x5y3+x3y5 B=x5y+x3y3+x4y3+y2"
+},
+{
+"family": "two-block",
+"n": 170,
+"k": 16,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 6,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 12,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2605.14173",
+"description": "univariate bicycle (UB) GB subclass"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 8,
+"d": 14,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y\u22123 g=1+y+x3y\u22121 a=(0, 42) (2, \u221216)"
+},
+{
+"family": "lifted-product",
+"n": 104,
+"k": 8,
+"d": 11,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2603.05398",
+"description": "clustered-cyclic LP (QGPU; Gu et al.)"
+},
+{
+"family": "two-block",
+"n": 96,
+"k": 11,
+"d": 9,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2306.16400",
+"description": "2BGA SmallGroup(48,5)=C24:C2 a=1+s+r9+sr13 b=1+r9+sr18+r7"
+},
+{
+"family": "two-block",
+"n": 70,
+"k": 8,
+"d": 9,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB weight 8"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 6,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 80,
+"k": 9,
+"d": 9,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2306.16400",
+"description": "2BGA SmallGroup(40,8)=(C10xC2):C2 a=1+sr5+r5+sr6 b=1+s2+r+s2"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 16,
+"d": 16,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "lifted-product",
+"n": 88,
+"k": 8,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2603.05398",
+"description": "clustered-cyclic LP (QGPU; Gu et al.)"
+},
+{
+"family": "lifted-product",
+"n": 198,
+"k": 18,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2603.05398",
+"description": "clustered-cyclic LP (QGPU; Gu et al.)"
+},
+{
+"family": "two-block",
+"n": 396,
+"k": 4,
+"d": 30,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=198 f=1+y14+y22 g=1+y+y32"
+},
+{
+"family": "two-block",
+"n": 72,
+"k": 8,
+"d": 9,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 108,
+"k": 12,
+"d": 9,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 192,
+"k": 12,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 54,
+"k": 6,
+"d": 9,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2306.16400",
+"description": "2BGA SmallGroup(27,1)=C27 a=1+r+r3+r7 b=1+r+r12+r19"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 18,
+"d": 12,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (12,12) A=1+x3+x3y2+x6y4 B=1+y+x3y10+x6y8 [MX]"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 8,
+"d": 18,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (18,8) A=1+xy+x2y5 B=1+x13y2+x17y [MX]"
+},
+{
+"family": "two-block",
+"n": 90,
+"k": 8,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 354,
+"k": 4,
+"d": 28,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22122y2 g=1+y+x\u22121y\u22122 a=(0, 177) (1, \u221253"
+},
+{
+"family": "two-block",
+"n": 98,
+"k": 6,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "BB (Wang-Mueller search)"
+},
+{
+"family": "two-block",
+"n": 392,
+"k": 24,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 132,
+"k": 8,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 20,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 16,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=y2+y4+x3 B=y6+x7+x14 [XY]"
+},
+{
+"family": "two-block",
+"n": 136,
+"k": 6,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 200,
+"k": 12,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 10,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=84 f=1+y11+y19 g=1+y+y17"
+},
+{
+"family": "two-block",
+"n": 366,
+"k": 4,
+"d": 28,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x2y3 g=1+y+x2y\u22122 a=(0, 183) (1, 76)"
+},
+{
+"family": "two-block",
+"n": 318,
+"k": 4,
+"d": 26,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x3y\u22124 g=1+y+x\u22121y\u22123 a=(0, 159) (1, 17)"
+},
+{
+"family": "two-block",
+"n": 140,
+"k": 6,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2603.17703",
+"description": "independent trivariate bicycle (ITB), weight 6"
+},
+{
+"family": "two-block",
+"n": 184,
+"k": 6,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 276,
+"k": 4,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y g=1+y+x3y2 a=(0, 6) (23, 5)"
+},
+{
+"family": "two-block",
+"n": 96,
+"k": 8,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 104,
+"k": 6,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 234,
+"k": 4,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=117 f=1+y13+y29 g=1+y+y20"
+},
+{
+"family": "two-block",
+"n": 310,
+"k": 10,
+"d": 16,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.17052",
+"description": "coprime BB (Postema-Kokkelmans)"
+},
+{
+"family": "two-block",
+"n": 282,
+"k": 4,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y3 g=1+y+x3y\u22121 a=(0, 141) (1, 7)"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 6,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 384,
+"k": 4,
+"d": 28,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=192 f=1+y16+y23 g=1+y+y26"
+},
+{
+"family": "two-block",
+"n": 60,
+"k": 6,
+"d": 9,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB weight 8"
+},
+{
+"family": "two-block",
+"n": 124,
+"k": 10,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22121y2 g=1+y+x\u22122y\u22121 a=(0, 31) (2, \u221212)"
+},
+{
+"family": "lifted-product",
+"n": 288,
+"k": 4,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2607.28621",
+"description": "lifted non-abelian LP (Hirasaki-Lee)"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 16,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 180,
+"k": 10,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 216,
+"k": 12,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=18,6,3 A=x3+y+y2 B=y3+x+x2"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 14,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=6,21,7 A=x3+y19+y8 B=y9+xy6+x2y15"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 10,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 342,
+"k": 4,
+"d": 26,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=171 f=1+y16+y23 g=1+y+y20"
+},
+{
+"family": "two-block",
+"n": 246,
+"k": 4,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x3y g=1+y+x2y\u22122 a=(0, 123) (1, 22)"
+},
+{
+"family": "two-block",
+"n": 204,
+"k": 4,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y g=1+y+x\u22121y\u22122 a=(0, 51) (2, 14)"
+},
+{
+"family": "two-block",
+"n": 150,
+"k": 6,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 348,
+"k": 4,
+"d": 26,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22122y2 g=1+y+x\u22121y\u22122 a=(0, 87) (2, 14)"
+},
+{
+"family": "two-block",
+"n": 112,
+"k": 6,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 78,
+"k": 6,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 130,
+"k": 10,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 156,
+"k": 12,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 182,
+"k": 14,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 100,
+"k": 12,
+"d": 8,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 150,
+"k": 8,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22122y g=1+y+xy2 a=(0, 25) (3, 7)"
+},
+{
+"family": "two-block",
+"n": 312,
+"k": 14,
+"d": 13,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.02951",
+"description": "univariate bicycle (UB, b=a^t)"
+},
+{
+"family": "two-block",
+"n": 306,
+"k": 4,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=153 f=1+y8+y22 g=1+y+y20"
+},
+{
+"family": "two-block",
+"n": 186,
+"k": 14,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 258,
+"k": 4,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22128y\u22121 g=1+y+x5y a=(0, 3) (43, 1)"
+},
+{
+"family": "two-block",
+"n": 174,
+"k": 4,
+"d": 18,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22128y g=1+y+x6y2 a=(0, 3) (29, 1)"
+},
+{
+"family": "two-block",
+"n": 108,
+"k": 8,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 216,
+"k": 4,
+"d": 20,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=108 f=1+y14+y22 g=1+y+y20"
+},
+{
+"family": "two-block",
+"n": 312,
+"k": 4,
+"d": 24,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=156 f=1+y10+y17 g=1+y+y23"
+},
+{
+"family": "two-block",
+"n": 264,
+"k": 4,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=132 f=1+y13+y20 g=1+y+y17"
+},
+{
+"family": "two-block",
+"n": 140,
+"k": 16,
+"d": 8,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 198,
+"k": 10,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 162,
+"k": 6,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 26,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=1+xy+x3y3+x7y7 B=1+xy11+x3y9+x7y5 [MX]"
+},
+{
+"family": "two-block",
+"n": 222,
+"k": 4,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22126y\u22121 g=1+y+x5 a=(0, 3) (37, 2)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 18,
+"d": 12,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=1+xy+x4y4+x6y6 B=1+xy11+x4y8+x6y6 [MX]"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 8,
+"d": 18,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=1+xy+x2y B=1+x2y3+x3y2 [MX]"
+},
+{
+"family": "two-block",
+"n": 84,
+"k": 6,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 196,
+"k": 14,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 56,
+"k": 4,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2306.16400",
+"description": "2BGA C14xC2, Wa=2,Wb=6"
+},
+{
+"family": "two-block",
+"n": 102,
+"k": 6,
+"d": 11,
+"w": 12,
+"d_status": "upper_bound",
+"arxiv": "2606.05044",
+"description": "generalized bicycle, maximal cube root (MCR) family"
+},
+{
+"family": "two-block",
+"n": 72,
+"k": 8,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 4,
+"d": 16,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "lifted-product",
+"n": 162,
+"k": 18,
+"d": 8,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2607.28621",
+"description": "lifted clustered-cyclic LP (Hirasaki-Lee)"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 8,
+"d": 20,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.17052",
+"description": "BB quasi-cyclic (Postema-Kokkelmans)"
+},
+{
+"family": "two-block",
+"n": 162,
+"k": 8,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2407.03973",
+"description": "BB (Eberhardt-Steffan computer search)"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 16,
+"d": 8,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (6,12) A=1+xy+x5y5 B=1+xy11+x5y7 [MX]"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 32,
+"d": 8,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (12,12) A=1+xy3+x5y3 B=1+x3y+x3y5 [MX]"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 8,
+"d": 16,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (18,8) A=1+xy2+x5y B=1+xy5+x2y [MX]"
+},
+{
+"family": "two-block",
+"n": 228,
+"k": 4,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22122y g=1+y+xy\u22122 a=(0, 57) (2, 10)"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 14,
+"d": 12,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (16,9) A=1+xy+x6y6+x7y7 B=1+xy8+x6y3+x7y2 [MX]"
+},
+{
+"family": "two-block",
+"n": 114,
+"k": 4,
+"d": 14,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y g=1+y+x\u22125 a=(0, 3) (19, 1)"
+},
+{
+"family": "two-block",
+"n": 112,
+"k": 12,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset cover of 2BGA (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 56,
+"k": 6,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 150,
+"k": 16,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 174,
+"k": 6,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 192,
+"k": 4,
+"d": 18,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=96 f=1+y11+y16 g=1+y+y14"
+},
+{
+"family": "two-block",
+"n": 210,
+"k": 14,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 24,
+"d": 10,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=1+y2+y10+x+x14 B=1+y2+y10+x2+x13 [XY]"
+},
+{
+"family": "two-block",
+"n": 392,
+"k": 18,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 156,
+"k": 4,
+"d": 16,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22122y g=1+y+xy\u22122 a=(0, 39) (2, \u221211)"
+},
+{
+"family": "two-block",
+"n": 198,
+"k": 4,
+"d": 18,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=99 f=1+y11+y16 g=1+y+y14"
+},
+{
+"family": "two-block",
+"n": 90,
+"k": 4,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB"
+},
+{
+"family": "two-block",
+"n": 40,
+"k": 4,
+"d": 8,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2306.16400",
+"description": "2BGA C10xC2, Wa=2,Wb=6"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 16,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (30,6) A=y+y2+x6 B=y3+x2+x4 [XY]"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 8,
+"d": 10,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "BB (Wang-Mueller search)"
+},
+{
+"family": "two-block",
+"n": 186,
+"k": 6,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 162,
+"k": 4,
+"d": 16,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2407.03973",
+"description": "BB (Eberhardt-Steffan computer search)"
+},
+{
+"family": "two-block",
+"n": 138,
+"k": 6,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 78,
+"k": 6,
+"d": 9,
+"w": 12,
+"d_status": "upper_bound",
+"arxiv": "2606.05044",
+"description": "generalized bicycle, maximal cube root (MCR) family"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 28,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 14,
+"d": 8,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.02951",
+"description": "univariate bicycle (UB, b=a^t)"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 28,
+"d": 8,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (18,8) A=1+xy+x6y6+x7y7 B=1+xy7+x6y2+x7y [MX]"
+},
+{
+"family": "two-block",
+"n": 98,
+"k": 6,
+"d": 10,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.17052",
+"description": "BB quasi-cyclic (Postema-Kokkelmans)"
+},
+{
+"family": "two-block",
+"n": 294,
+"k": 18,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 12,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 66,
+"k": 4,
+"d": 10,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB"
+},
+{
+"family": "two-block",
+"n": 96,
+"k": 4,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 196,
+"k": 6,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.17052",
+"description": "BB quasi-cyclic (Postema-Kokkelmans)"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 12,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2606.02418",
+"description": "BB (12,12) A=1+xy2+x2y B=1+x10y+x11y2 [MX]"
+},
+{
+"family": "two-block",
+"n": 132,
+"k": 4,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB"
+},
+{
+"family": "two-block",
+"n": 102,
+"k": 6,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 170,
+"k": 10,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 196,
+"k": 18,
+"d": 8,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "BB (Wang-Mueller search)"
+},
+{
+"family": "two-block",
+"n": 66,
+"k": 6,
+"d": 8,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 110,
+"k": 10,
+"d": 8,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 154,
+"k": 14,
+"d": 8,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 90,
+"k": 8,
+"d": 8,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB"
+},
+{
+"family": "two-block",
+"n": 138,
+"k": 4,
+"d": 14,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y g=1+y+x3y2 a=(0, 3) (23, 2)"
+},
+{
+"family": "two-block",
+"n": 102,
+"k": 4,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22123y g=1+y+x3y2 a=(0, 3) (17, 2)"
+},
+{
+"family": "lifted-product",
+"n": 533,
+"k": 37,
+"d": 9,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2503.07567",
+"description": "symmetric QC lifted product from (4,5)-regular base, L=13"
+},
+{
+"family": "two-block",
+"n": 72,
+"k": 4,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 16,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (12,12) A=y+y3+x B=y3+x5+x7 [XY]"
+},
+{
+"family": "two-block",
+"n": 70,
+"k": 6,
+"d": 8,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB"
+},
+{
+"family": "two-block",
+"n": 372,
+"k": 14,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2605.14173",
+"description": "univariate bicycle (UB) GB subclass"
+},
+{
+"family": "two-block",
+"n": 48,
+"k": 4,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 12,
+"d": 8,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2507.21396",
+"description": "ZSZ semidirect-product two-block codes (self-correcting, neu"
+},
+{
+"family": "two-block",
+"n": 108,
+"k": 4,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=54 f=1+y8+y10 g=1+y+y8"
+},
+{
+"family": "two-block",
+"n": 114,
+"k": 6,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 190,
+"k": 10,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2510.05211",
+"description": "self-dual BB on twisted torus (Liang-Chen)"
+},
+{
+"family": "two-block",
+"n": 202,
+"k": 2,
+"d": 23,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2203.17216",
+"description": "generalized bicycle k=2 (Wang-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 78,
+"k": 4,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+x\u22122y\u22121 g=1+y+x2y a=(0, 3) (13, 1)"
+},
+{
+"family": "two-block",
+"n": 162,
+"k": 8,
+"d": 10,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2507.21396",
+"description": "ZSZ semidirect-product two-block codes (self-correcting, neu"
+},
+{
+"family": "two-block",
+"n": 270,
+"k": 4,
+"d": 18,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.17052",
+"description": "coprime BB (Postema-Kokkelmans)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 12,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2507.21396",
+"description": "BB (self-correcting, neutral atoms)"
+},
+{
+"family": "two-block",
+"n": 54,
+"k": 4,
+"d": 8,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "BB (Wang-Mueller search)"
+},
+{
+"family": "lifted-product",
+"n": 216,
+"k": 4,
+"d": 16,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2607.28621",
+"description": "lifted non-abelian LP (Hirasaki-Lee)"
+},
+{
+"family": "two-block",
+"n": 162,
+"k": 12,
+"d": 8,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2407.03973",
+"description": "BB (Eberhardt-Steffan computer search)"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 4,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2511.13560",
+"description": "BB Q(x3+y+y2, y2+x3+x19, 21, 3); [[756,16,<=34]] is its 6-co"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 32,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 432,
+"k": 4,
+"d": 22,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2308.07915",
+"description": "BB l,m=18,12 A=x+y11+y3 B=y2+x15+x"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 20,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 16,
+"d": 10,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=y4+y8+x3 B=y6+x+x2 [XY]"
+},
+{
+"family": "two-block",
+"n": 196,
+"k": 6,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2603.17703",
+"description": "independent trivariate bicycle (ITB), weight 6"
+},
+{
+"family": "two-block",
+"n": 202,
+"k": 2,
+"d": 21,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2203.17216",
+"description": "generalized bicycle k=2 (Wang-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 84,
+"k": 10,
+"d": 6,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2503.03827",
+"description": "1D GB l=42 f=1+y11+y13 g=1+y+y5"
+},
+{
+"family": "two-block",
+"n": 210,
+"k": 14,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 540,
+"k": 16,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2507.21396",
+"description": "ZSZ semidirect-product two-block codes (self-correcting, neu"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 30,
+"d": 8,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2506.00130",
+"description": "Romanesco code (torus; self-dual BB-type CSS parent of a Cli"
+},
+{
+"family": "two-block",
+"n": 438,
+"k": 18,
+"d": 10,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.17052",
+"description": "coprime BB (Postema-Kokkelmans)"
+},
+{
+"family": "two-block",
+"n": 48,
+"k": 4,
+"d": 7,
+"w": 5,
+"d_status": "upper_bound",
+"arxiv": "2503.22071",
+"description": "BB5 (weight-5 bivariate bicycle; Ye-Delfosse)"
+},
+{
+"family": "two-block",
+"n": 36,
+"k": 4,
+"d": 6,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2606.17268",
+"description": "coset two-block (Aydin-Tamo-Barg)"
+},
+{
+"family": "two-block",
+"n": 108,
+"k": 12,
+"d": 6,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2408.10001",
+"description": "coprime BB"
+},
+{
+"family": "lifted-product",
+"n": 144,
+"k": 4,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2607.28621",
+"description": "lifted non-abelian LP (Hirasaki-Lee)"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 14,
+"d": 6,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 16,
+"d": 6,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (6,12) A=y6+y8+x B=y2+x3+x4 [XY]"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 32,
+"d": 6,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (12,12) A=y2+y10+x3 B=y6+x+x11 [XY]"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 18,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2506.00130",
+"description": "Romanesco code (torus; self-dual BB-type CSS parent of a Cli"
+},
+{
+"family": "two-block",
+"n": 198,
+"k": 4,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.17052",
+"description": "coprime BB (Postema-Kokkelmans)"
+},
+{
+"family": "two-block",
+"n": 292,
+"k": 18,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2503.03827",
+"description": "GT twisted torus f=1+x+y2 g=1+y+x\u22124y a=(0, 73) (2, 32)"
+},
+{
+"family": "two-block",
+"n": 132,
+"k": 8,
+"d": 8,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.02951",
+"description": "univariate bicycle (UB, b=a^t)"
+},
+{
+"family": "two-block",
+"n": 150,
+"k": 4,
+"d": 12,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.17052",
+"description": "coprime BB (Postema-Kokkelmans)"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 30,
+"d": 6,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2506.00130",
+"description": "Romanesco code (torus; self-dual BB-type CSS parent of a Cli"
+},
+{
+"family": "two-block",
+"n": 40,
+"k": 4,
+"d": 6,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2406.19151",
+"description": "multivariate (trivariate) bicycle"
+},
+{
+"family": "two-block",
+"n": 180,
+"k": 2,
+"d": 18,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2507.21396",
+"description": "ZSZ semidirect-product two-block codes (self-correcting, neu"
+},
+{
+"family": "two-block",
+"n": 72,
+"k": 4,
+"d": 8,
+"w": 5,
+"d_status": "upper_bound",
+"arxiv": "2406.19151",
+"description": "multivariate (trivariate) bicycle"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 16,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (12,12) A=y5+y9+x5 B=y5+x5+x9 [XY]"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 20,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=y7+y9+x5 B=y3+x5+x10 [XY]"
+},
+{
+"family": "two-block",
+"n": 46,
+"k": 2,
+"d": 9,
+"w": 8,
+"d_status": "exact",
+"arxiv": "1904.02703",
+"description": "GB l=23 a=1+x5+x8+x12 b=1+x+x5+x7; wr=8, wc=4"
+},
+{
+"family": "two-block",
+"n": 186,
+"k": 10,
+"d": 8,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.17052",
+"description": "coprime BB (Postema-Kokkelmans)"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 12,
+"d": 6,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 24,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 378,
+"k": 6,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2502.17052",
+"description": "coprime BB (Postema-Kokkelmans)"
+},
+{
+"family": "two-block",
+"n": 48,
+"k": 4,
+"d": 6,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2406.19151",
+"description": "multivariate (trivariate) bicycle"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 22,
+"d": 6,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2506.00130",
+"description": "Romanesco code (torus; self-dual BB-type CSS parent of a Cli"
+},
+{
+"family": "two-block",
+"n": 560,
+"k": 24,
+"d": 8,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2511.02951",
+"description": "univariate bicycle (UB, b=a^t)"
+},
+{
+"family": "two-block",
+"n": 186,
+"k": 14,
+"d": 6,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 96,
+"k": 4,
+"d": 8,
+"w": 5,
+"d_status": "upper_bound",
+"arxiv": "2406.19151",
+"description": "multivariate (trivariate) bicycle"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 12,
+"d": 8,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2507.21396",
+"description": "ZSZ semidirect-product two-block codes (self-correcting, neu"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 20,
+"d": 6,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 16,
+"d": 8,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 162,
+"k": 10,
+"d": 6,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2506.00130",
+"description": "Romanesco code (torus; self-dual BB-type CSS parent of a Cli"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 10,
+"d": 10,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2506.00130",
+"description": "Romanesco code (torus; self-dual BB-type CSS parent of a Cli"
+},
+{
+"family": "lifted-product",
+"n": 72,
+"k": 4,
+"d": 6,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2607.28621",
+"description": "lifted non-abelian LP (Hirasaki-Lee)"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 2,
+"d": 12,
+"w": 4,
+"d_status": "upper_bound",
+"arxiv": "2406.19151",
+"description": "multivariate (trivariate) bicycle"
+},
+{
+"family": "two-block",
+"n": 64,
+"k": 2,
+"d": 8,
+"w": 4,
+"d_status": "upper_bound",
+"arxiv": "2406.19151",
+"description": "multivariate (trivariate) bicycle"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 16,
+"d": 6,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (24,6) A=y+y2+x6 B=y3+x4+x8 [XY]"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 20,
+"d": 6,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (30,6) A=y+y2+x15 B=1+y+x10 [Other/XY]"
+},
+{
+"family": "two-block",
+"n": 146,
+"k": 18,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 98,
+"k": 12,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 112,
+"k": 8,
+"d": 5,
+"w": 4,
+"d_status": "upper_bound",
+"arxiv": "2406.19151",
+"description": "multivariate (trivariate) bicycle"
+},
+{
+"family": "two-block",
+"n": 112,
+"k": 2,
+"d": 10,
+"w": 4,
+"d_status": "upper_bound",
+"arxiv": "2406.19151",
+"description": "multivariate (trivariate) bicycle"
+},
+{
+"family": "two-block",
+"n": 72,
+"k": 2,
+"d": 8,
+"w": 4,
+"d_status": "upper_bound",
+"arxiv": "2406.19151",
+"description": "multivariate (trivariate) bicycle"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 16,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (6,12) A=y5+y10+x3 B=y6+x2+x4 [XY]"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 32,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (24,6) A=y2+y4+x12 B=y3+x10+x20 [XY]"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 40,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (30,6) A=1+y+y2 B=1+x5+x25 [UV]"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 22,
+"d": 6,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2506.00130",
+"description": "Romanesco code (torus; self-dual BB-type CSS parent of a Cli"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 14,
+"d": 6,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2506.00130",
+"description": "Romanesco code (torus; self-dual BB-type CSS parent of a Cli"
+},
+{
+"family": "two-block",
+"n": 202,
+"k": 2,
+"d": 13,
+"w": 4,
+"d_status": "upper_bound",
+"arxiv": "2203.17216",
+"description": "generalized bicycle k=2 (Wang-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 294,
+"k": 30,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 12,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 170,
+"k": 16,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 32,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=1+y2+y4 B=1+x3+x4y2 [Other]"
+},
+{
+"family": "two-block",
+"n": 96,
+"k": 2,
+"d": 8,
+"w": 4,
+"d_status": "upper_bound",
+"arxiv": "2406.19151",
+"description": "multivariate (trivariate) bicycle"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 20,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2511.13560",
+"description": "BB cover l,m,h=6,21,7 A=x3y18+y4+y11 B=y18+xy15+x2y9"
+},
+{
+"family": "two-block",
+"n": 186,
+"k": 14,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 210,
+"k": 14,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 24,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=1+y2+y4 B=y2+x6+x7 [Other/XY]"
+},
+{
+"family": "two-block",
+"n": 450,
+"k": 28,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2502.19406",
+"description": "abelian 2BGA / BB(3,3) single-shot (Lin-Liu-Lim-Pryadko)"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 20,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=y3+y4+x5 B=y6+x5+x10 [XY]"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 16,
+"d": 4,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=1+y2+y4 B=1+x3+x4y11 [Other]"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 32,
+"d": 2,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (24,6) A=1+y4+x4 B=1+y4+x4 [SD]"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 40,
+"d": 2,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (15,12) A=1+y10+y11 B=1+x5+x10 [UV]"
+},
+{
+"family": "two-block",
+"n": 360,
+"k": 32,
+"d": 2,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2606.02418",
+"description": "BB (30,6) A=1+y2+y4 B=1+x16+x19 [UV]"
+},
+{
+"family": "lifted-product",
+"n": 390,
+"k": 32,
+"d": 32,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2608.08996",
+"description": "cyclic GB / free LP over Z195"
+},
+{
+"family": "two-block",
+"n": 390,
+"k": 36,
+"d": 30,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2608.08996",
+"description": "cyclic GB / free LP"
+},
+{
+"family": "lifted-product",
+"n": 336,
+"k": 24,
+"d": 24,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2608.08996",
+"description": "LP over Z4xZ42 (free)"
+},
+{
+"family": "lifted-product",
+"n": 360,
+"k": 20,
+"d": 27,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(270,25)"
+},
+{
+"family": "two-block",
+"n": 292,
+"k": 22,
+"d": 23,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA (GB) over C146"
+},
+{
+"family": "lifted-product",
+"n": 234,
+"k": 28,
+"d": 18,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over Z13xZ9 (free)"
+},
+{
+"family": "lifted-product",
+"n": 372,
+"k": 44,
+"d": 18,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over Z31xZ6 (free)"
+},
+{
+"family": "lifted-product",
+"n": 384,
+"k": 18,
+"d": 28,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2608.08996",
+"description": "LP over SL(2,3):Z16, K normal order(K)=2"
+},
+{
+"family": "two-block",
+"n": 288,
+"k": 32,
+"d": 18,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA over C12xC12 (abelian)"
+},
+{
+"family": "two-block",
+"n": 294,
+"k": 24,
+"d": 21,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA over (C7xC7):C3"
+},
+{
+"family": "two-block",
+"n": 186,
+"k": 20,
+"d": 18,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA (GB) over C93"
+},
+{
+"family": "lifted-product",
+"n": 378,
+"k": 18,
+"d": 27,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2608.08996",
+"description": "LP over M27xZ7 (free)"
+},
+{
+"family": "two-block",
+"n": 294,
+"k": 28,
+"d": 19,
+"w": 9,
+"d_status": "exact",
+"arxiv": null,
+"description": "2BGA over (C7xC7):C3 [147,4]"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 26,
+"d": 18,
+"w": 8,
+"d_status": "exact",
+"arxiv": null,
+"description": "2BGA over C7xD18"
+},
+{
+"family": "lifted-product",
+"n": 336,
+"k": 28,
+"d": 20,
+"w": 8,
+"d_status": "upper_bound",
+"arxiv": "2608.08996",
+"description": "LP over Z2^2xZ42 (free)"
+},
+{
+"family": "two-block",
+"n": 234,
+"k": 24,
+"d": 18,
+"w": 9,
+"d_status": "exact",
+"arxiv": null,
+"description": "2BGA (GB) over C117"
+},
+{
+"family": "lifted-product",
+"n": 360,
+"k": 12,
+"d": 31,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(270,25)"
+},
+{
+"family": "two-block",
+"n": 294,
+"k": 36,
+"d": 16,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA over (C7xC7):C3"
+},
+{
+"family": "lifted-product",
+"n": 378,
+"k": 32,
+"d": 19,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over He(Z3)xZ7 (free)"
+},
+{
+"family": "lifted-product",
+"n": 360,
+"k": 16,
+"d": 26,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(270,25)"
+},
+{
+"family": "lifted-product",
+"n": 360,
+"k": 12,
+"d": 30,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(270,24)"
+},
+{
+"family": "lifted-product",
+"n": 384,
+"k": 14,
+"d": 28,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2608.08996",
+"description": "LP over GL(2,3)xZ4 (free)"
+},
+{
+"family": "lifted-product",
+"n": 360,
+"k": 16,
+"d": 25,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(810,106)"
+},
+{
+"family": "two-block",
+"n": 146,
+"k": 18,
+"d": 15,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA (GB) over C73"
+},
+{
+"family": "lifted-product",
+"n": 372,
+"k": 10,
+"d": 32,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(186,3)"
+},
+{
+"family": "lifted-product",
+"n": 336,
+"k": 16,
+"d": 24,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(168,40)"
+},
+{
+"family": "two-block",
+"n": 170,
+"k": 18,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA (GB) over C85"
+},
+{
+"family": "lifted-product",
+"n": 288,
+"k": 24,
+"d": 18,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over Z12xZ48, K normal order(K)=4"
+},
+{
+"family": "lifted-product",
+"n": 360,
+"k": 24,
+"d": 20,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(810,84), H=C9"
+},
+{
+"family": "lifted-product",
+"n": 544,
+"k": 64,
+"d": 15,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2610.06820",
+"description": "LP over F4, rate 2/17, period 8"
+},
+{
+"family": "two-block",
+"n": 252,
+"k": 16,
+"d": 20,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA over C7xD18"
+},
+{
+"family": "lifted-product",
+"n": 224,
+"k": 22,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over Z84:Z4, K normal order(K)=3"
+},
+{
+"family": "two-block",
+"n": 180,
+"k": 20,
+"d": 15,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA over C15xS3"
+},
+{
+"family": "two-block",
+"n": 294,
+"k": 18,
+"d": 20,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA over (C7xC7):C3"
+},
+{
+"family": "two-block",
+"n": 254,
+"k": 14,
+"d": 21,
+"w": 7,
+"d_status": "exact",
+"arxiv": null,
+"description": "2BGA (GB) over C127"
+},
+{
+"family": "lifted-product",
+"n": 288,
+"k": 12,
+"d": 24,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(144,177)"
+},
+{
+"family": "lifted-product",
+"n": 384,
+"k": 16,
+"d": 24,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2608.08996",
+"description": "LP over Z12xZ48, K normal order(K)=3"
+},
+{
+"family": "lifted-product",
+"n": 224,
+"k": 12,
+"d": 21,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(224,169)"
+},
+{
+"family": "lifted-product",
+"n": 476,
+"k": 56,
+"d": 14,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2610.06820",
+"description": "LP over F4, period 7"
+},
+{
+"family": "lifted-product",
+"n": 544,
+"k": 64,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2610.06820",
+"description": "LP over F4, period 8"
+},
+{
+"family": "lifted-product",
+"n": 288,
+"k": 16,
+"d": 20,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(144,164), H=C2"
+},
+{
+"family": "two-block",
+"n": 576,
+"k": 32,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2610.19451",
+"description": "2BGA over Z24:Z12 (circulant+affine permutation lift, q=6)"
+},
+{
+"family": "lifted-product",
+"n": 288,
+"k": 12,
+"d": 23,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(216,138)"
+},
+{
+"family": "lifted-product",
+"n": 336,
+"k": 18,
+"d": 20,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(168,52)"
+},
+{
+"family": "lifted-product",
+"n": 384,
+"k": 32,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over D6:Z8, K normal order(K)=2"
+},
+{
+"family": "lifted-product",
+"n": 396,
+"k": 8,
+"d": 32,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2608.08996",
+"description": "coset LP over Z31:Z6, K non-normal"
+},
+{
+"family": "lifted-product",
+"n": 252,
+"k": 16,
+"d": 18,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(189,8), H=C3"
+},
+{
+"family": "lifted-product",
+"n": 288,
+"k": 18,
+"d": 18,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over SL(2,3):Z12"
+},
+{
+"family": "lifted-product",
+"n": 476,
+"k": 56,
+"d": 13,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2610.06820",
+"description": "LP over F4, period 7"
+},
+{
+"family": "lifted-product",
+"n": 400,
+"k": 16,
+"d": 22,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over Dic5xDic5"
+},
+{
+"family": "lifted-product",
+"n": 320,
+"k": 24,
+"d": 16,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over Z41:Z8, K=Z41"
+},
+{
+"family": "lifted-product",
+"n": 336,
+"k": 16,
+"d": 20,
+"w": 7,
+"d_status": "upper_bound",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(756,95)"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 16,
+"d": 14,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2610.05307",
+"description": "non-abelian 2BGA over S3xZ14"
+},
+{
+"family": "lifted-product",
+"n": 256,
+"k": 18,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over Z8 wr Z2"
+},
+{
+"family": "lifted-product",
+"n": 288,
+"k": 16,
+"d": 18,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over Z12xZ48"
+},
+{
+"family": "two-block",
+"n": 180,
+"k": 12,
+"d": 16,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA over C30xC3"
+},
+{
+"family": "lifted-product",
+"n": 476,
+"k": 56,
+"d": 12,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2610.06820",
+"description": "LP over F4, period 7"
+},
+{
+"family": "lifted-product",
+"n": 400,
+"k": 26,
+"d": 16,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over Dic4"
+},
+{
+"family": "lifted-product",
+"n": 306,
+"k": 8,
+"d": 25,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2608.08996",
+"description": "coset LP over Z17^2:Z2"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 12,
+"d": 15,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA over C84"
+},
+{
+"family": "lifted-product",
+"n": 425,
+"k": 21,
+"d": 18,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2609.01305",
+"description": "symmetric LP, L=17"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 16,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.36213",
+"description": "non-abelian 2BGA over A4xC6"
+},
+{
+"family": "lifted-product",
+"n": 400,
+"k": 16,
+"d": 20,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2610.06820",
+"description": "LP over F4 (3,4;8)"
+},
+{
+"family": "lifted-product",
+"n": 248,
+"k": 12,
+"d": 18,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "coset LP over PSL(2,13)"
+},
+{
+"family": "lifted-product",
+"n": 336,
+"k": 12,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "LP over Z84:Z4"
+},
+{
+"family": "two-block",
+"n": 228,
+"k": 8,
+"d": 20,
+"w": 6,
+"d_status": "upper_bound",
+"arxiv": "2610.05307",
+"description": "non-abelian 2BGA over S3xZ19"
+},
+{
+"family": "two-block",
+"n": 126,
+"k": 12,
+"d": 12,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA over C63"
+},
+{
+"family": "lifted-product",
+"n": 240,
+"k": 8,
+"d": 20,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(360,99), H=C6"
+},
+{
+"family": "lifted-product",
+"n": 375,
+"k": 19,
+"d": 16,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2609.01305",
+"description": "symmetric LP, L=15"
+},
+{
+"family": "lifted-product",
+"n": 400,
+"k": 16,
+"d": 18,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2610.06820",
+"description": "LP over F4 (3,4;8)"
+},
+{
+"family": "lifted-product",
+"n": 180,
+"k": 16,
+"d": 12,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(135,3)"
+},
+{
+"family": "lifted-product",
+"n": 368,
+"k": 18,
+"d": 16,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2608.08996",
+"description": "coset LP over A6xZ2"
+},
+{
+"family": "lifted-product",
+"n": 168,
+"k": 14,
+"d": 12,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(336,188)"
+},
+{
+"family": "lifted-product",
+"n": 168,
+"k": 20,
+"d": 10,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(336,188)"
+},
+{
+"family": "lifted-product",
+"n": 168,
+"k": 10,
+"d": 14,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(252,21)"
+},
+{
+"family": "lifted-product",
+"n": 240,
+"k": 16,
+"d": 13,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(360,99)"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 16,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.06572",
+"description": "BB, weight-8"
+},
+{
+"family": "lifted-product",
+"n": 416,
+"k": 32,
+"d": 12,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2610.06820",
+"description": "LP over F2 (4,6;8)"
+},
+{
+"family": "lifted-product",
+"n": 112,
+"k": 12,
+"d": 10,
+"w": 7,
+"d_status": "exact",
+"arxiv": "2610.12782",
+"description": "coset LP over SmallGroup(336,188)"
+},
+{
+"family": "two-block",
+"n": 168,
+"k": 12,
+"d": 12,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2610.13880",
+"description": "2BGA over C7xA4"
+},
+{
+"family": "lifted-product",
+"n": 400,
+"k": 24,
+"d": 13,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2609.01305",
+"description": "symmetric LP, L=16"
+},
+{
+"family": "two-block",
+"n": 144,
+"k": 10,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.06572",
+"description": "BB, weight-8"
+},
+{
+"family": "pair-partition",
+"n": 176,
+"k": 48,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 232,
+"k": 62,
+"d": 12,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 360,
+"k": 94,
+"d": 14,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 472,
+"k": 122,
+"d": 16,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 584,
+"k": 150,
+"d": 18,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 470,
+"k": 192,
+"d": 12,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 530,
+"k": 216,
+"d": 12,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 180,
+"k": 42,
+"d": 12,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 200,
+"k": 46,
+"d": 14,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 220,
+"k": 50,
+"d": 16,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 290,
+"k": 64,
+"d": 18,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 320,
+"k": 70,
+"d": 20,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 370,
+"k": 80,
+"d": 22,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 276,
+"k": 98,
+"d": 14,
+"w": 12,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 372,
+"k": 130,
+"d": 16,
+"w": 12,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 444,
+"k": 154,
+"d": 18,
+"w": 12,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 492,
+"k": 170,
+"d": 20,
+"w": 12,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 516,
+"k": 178,
+"d": 20,
+"w": 12,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "lifted-product",
+"n": 150,
+"k": 30,
+"d": 10,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795 Table 1"
+},
+{
+"family": "lifted-product",
+"n": 200,
+"k": 40,
+"d": 12,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795 Table 1"
+},
+{
+"family": "lifted-product",
+"n": 300,
+"k": 60,
+"d": 14,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795 Table 1"
+},
+{
+"family": "lifted-product",
+"n": 500,
+"k": 100,
+"d": 16,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795 Table 1"
+},
+{
+"family": "lifted-product",
+"n": 540,
+"k": 108,
+"d": 18,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795 Table 1 (our dist-m4ri check agrees)"
+},
+{
+"family": "lifted-product",
+"n": 160,
+"k": 32,
+"d": 10,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2607.27644",
+"description": "Hong ZSZ-LP arXiv:2607.27644 (exact, pySATDist)"
+},
+{
+"family": "lifted-product",
+"n": 240,
+"k": 48,
+"d": 12,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2607.27644",
+"description": "Hong ZSZ-LP arXiv:2607.27644 (exact, pySATDist)"
+},
+{
+"family": "lifted-product",
+"n": 320,
+"k": 64,
+"d": 14,
+"w": 9,
+"d_status": "exact",
+"arxiv": "2607.27644",
+"description": "Hong ZSZ-LP arXiv:2607.27644 (exact, pySATDist)"
+},
+{
+"family": "lifted-product",
+"n": 550,
+"k": 110,
+"d": 18,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.27644",
+"description": "Hong ZSZ-LP arXiv:2607.27644 (printed)"
+},
+{
+"family": "two-block",
+"n": 72,
+"k": 12,
+"d": 6,
+"w": 6,
+"d_status": "exact",
+"arxiv": "2308.07915",
+"description": "bivariate bicycle arXiv:2308.07915"
+},
+{
+"family": "two-block",
+"n": 96,
+"k": 12,
+"d": 10,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2306.16400",
+"description": "two-block group algebra arXiv:2306.16400"
+},
+{
+"family": "lifted-product",
+"n": 630,
+"k": 126,
+"d": 20,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795"
+},
+{
+"family": "lifted-product",
+"n": 780,
+"k": 156,
+"d": 22,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795"
+},
+{
+"family": "lifted-product",
+"n": 975,
+"k": 195,
+"d": 24,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795"
+},
+{
+"family": "lifted-product",
+"n": 600,
+"k": 120,
+"d": 14,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795"
+},
+{
+"family": "lifted-product",
+"n": 600,
+"k": 120,
+"d": 16,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795"
+},
+{
+"family": "lifted-product",
+"n": 840,
+"k": 168,
+"d": 18,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.28795",
+"description": "mitten arXiv:2607.28795"
+},
+{
+"family": "lifted-product",
+"n": 775,
+"k": 155,
+"d": 22,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.27644",
+"description": "ZSZ-LP arXiv:2607.27644"
+},
+{
+"family": "lifted-product",
+"n": 625,
+"k": 125,
+"d": 20,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.27644",
+"description": "ZSZ-LP arXiv:2607.27644"
+},
+{
+"family": "lifted-product",
+"n": 700,
+"k": 140,
+"d": 22,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.27644",
+"description": "ZSZ-LP arXiv:2607.27644"
+},
+{
+"family": "lifted-product",
+"n": 840,
+"k": 168,
+"d": 24,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2607.27644",
+"description": "ZSZ-LP arXiv:2607.27644"
+},
+{
+"family": "pair-partition",
+"n": 2304,
+"k": 1156,
+"d": 14,
+"w": 12,
+"d_status": "upper_bound",
+"arxiv": "2607.27644",
+"description": "APM code [ZDG+26], as quoted in arXiv:2607.27644"
+},
+{
+"family": "lifted-product",
+"n": 4350,
+"k": 1224,
+"d": 20,
+"w": 10,
+"d_status": "upper_bound",
+"arxiv": "2607.27644",
+"description": "quasi-cyclic LP lp3,7_20 [CXK+26], as quoted in arXiv:2607.27644"
+},
+{
+"family": "pair-partition",
+"n": 776,
+"k": 198,
+"d": 20,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 1112,
+"k": 282,
+"d": 20,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 1336,
+"k": 338,
+"d": 22,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 1784,
+"k": 450,
+"d": 24,
+"w": 8,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 710,
+"k": 288,
+"d": 14,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 970,
+"k": 392,
+"d": 16,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 1390,
+"k": 560,
+"d": 18,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 1630,
+"k": 656,
+"d": 20,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 2110,
+"k": 848,
+"d": 22,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 2230,
+"k": 896,
+"d": 24,
+"w": 10,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 1356,
+"k": 682,
+"d": 14,
+"w": 12,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 2004,
+"k": 1006,
+"d": 16,
+"w": 12,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 2676,
+"k": 1342,
+"d": 18,
+"w": 12,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 1414,
+"k": 812,
+"d": 12,
+"w": 14,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 3122,
+"k": 1788,
+"d": 16,
+"w": 14,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 708,
+"k": 242,
+"d": 22,
+"w": 12,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 876,
+"k": 298,
+"d": 22,
+"w": 12,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 848,
+"k": 430,
+"d": 18,
+"w": 16,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 944,
+"k": 478,
+"d": 20,
+"w": 16,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 1068,
+"k": 362,
+"d": 26,
+"w": 12,
+"d_status": "lower_bound",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 3684,
+"k": 1234,
+"d": 24,
+"w": 12,
+"d_status": "upper_bound",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069"
+},
+{
+"family": "pair-partition",
+"n": 322,
+"k": 144,
+"d": 12,
+"w": 14,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069 catalogue"
+},
+{
+"family": "pair-partition",
+"n": 406,
+"k": 180,
+"d": 14,
+"w": 14,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069 catalogue"
+},
+{
+"family": "pair-partition",
+"n": 518,
+"k": 228,
+"d": 16,
+"w": 14,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069 catalogue"
+},
+{
+"family": "pair-partition",
+"n": 574,
+"k": 252,
+"d": 18,
+"w": 14,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069 catalogue"
+},
+{
+"family": "pair-partition",
+"n": 560,
+"k": 286,
+"d": 12,
+"w": 16,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069 catalogue"
+},
+{
+"family": "pair-partition",
+"n": 592,
+"k": 302,
+"d": 14,
+"w": 16,
+"d_status": "exact",
+"arxiv": "2609.30069",
+"description": "pair-partition arXiv:2609.30069 catalogue"
+},
+{
+"family": "pair-partition",
+"n": 104,
+"k": 30,
+"d": 8,
+"w": 8,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 110,
+"k": 48,
+"d": 6,
+"w": 10,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 230,
+"k": 96,
+"d": 8,
+"w": 10,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 228,
+"k": 118,
+"d": 6,
+"w": 12,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 444,
+"k": 226,
+"d": 8,
+"w": 12,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 804,
+"k": 406,
+"d": 10,
+"w": 12,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 322,
+"k": 188,
+"d": 6,
+"w": 14,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 518,
+"k": 300,
+"d": 8,
+"w": 14,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 938,
+"k": 540,
+"d": 10,
+"w": 14,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 110,
+"k": 28,
+"d": 10,
+"w": 10,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 132,
+"k": 50,
+"d": 8,
+"w": 12,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 204,
+"k": 74,
+"d": 10,
+"w": 12,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 372,
+"k": 130,
+"d": 18,
+"w": 12,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 182,
+"k": 84,
+"d": 8,
+"w": 14,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 238,
+"k": 108,
+"d": 10,
+"w": 14,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 176,
+"k": 94,
+"d": 6,
+"w": 16,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 208,
+"k": 110,
+"d": 8,
+"w": 16,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 368,
+"k": 190,
+"d": 10,
+"w": 16,
+"d_status": "exact",
+"arxiv": null,
+"description": "pair-partition frontier file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 948,
+"k": 322,
+"d": 22,
+"w": 12,
+"d_status": "lower_bound",
+"arxiv": null,
+"description": "pair-partition bounds file (authors' data repository)"
+},
+{
+"family": "pair-partition",
+"n": 1536,
+"k": 388,
+"d": 26,
+"w": 8,
+"d_status": "lower_bound",
+"arxiv": null,
+"description": "APM-PP, authors' site catalogue (commit 2026-10-19)"
+},
+{
+"family": "pair-partition",
+"n": 2304,
+"k": 580,
+"d": 26,
+"w": 8,
+"d_status": "lower_bound",
+"arxiv": null,
+"description": "APM-PP, authors' site catalogue (commit 2026-10-19)"
+},
+{
+"family": "pair-partition",
+"n": 2048,
+"k": 516,
+"d": 24,
+"w": 8,
+"d_status": "exact",
+"arxiv": null,
+"description": "APM-PP, authors' site catalogue (commit 2026-10-19)"
+},
+{
+"family": "pair-partition",
+"n": 1024,
+"k": 260,
+"d": 18,
+"w": 8,
+"d_status": "exact",
+"arxiv": null,
+"description": "APM-PP, authors' site catalogue (commit 2026-10-19)"
+},
+{
+"family": "lifted-product",
+"n": 480,
+"k": 96,
+"d": 16,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.28538",
+"description": "NeST mitten-shape codes arXiv:2610.28538"
+},
+{
+"family": "lifted-product",
+"n": 600,
+"k": 120,
+"d": 18,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.28538",
+"description": "NeST mitten-shape codes arXiv:2610.28538"
+},
+{
+"family": "lifted-product",
+"n": 700,
+"k": 140,
+"d": 20,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.28538",
+"description": "NeST mitten-shape codes arXiv:2610.28538"
+},
+{
+"family": "lifted-product",
+"n": 1400,
+"k": 280,
+"d": 28,
+"w": 9,
+"d_status": "upper_bound",
+"arxiv": "2610.28538",
+"description": "NeST mitten-shape codes arXiv:2610.28538"
+}
+]

@@ -1,0 +1,37 @@
+{
+ "slug": "board-434-40-32",
+ "name": "[[434,40,<=32]]",
+ "n": 434,
+ "k": 40,
+ "d": 32,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 32,
+ "w": 10,
+ "wX": 10,
+ "wZ": 10,
+ "kd2_over_n": 94.38,
+ "family": "two-block",
+ "construction": "board entry 434-40-32 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+ "source": {
+  "kind": "board",
+  "reference": "Unitary Foundation qLDPC challenge, entry 434-40-32, snapshot eb2aeae (2026-11-01)",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/434-40-32.json"
+ },
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 32; 600 s seed 1: 32; 3600 s seed 0: 32; 3600 s seed 1: 32; the claimed distance held under these searches"
+ },
+ "witness": null,
+ "matrices": null,
+ "claimed": {
+  "d": 32,
+  "confidence": "upper_bound",
+  "family": "generalized-bicycle",
+  "date": "2026-10-14",
+  "model": "Gemini 4 Argon",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/434-40-32.json"
+ },
+ "notes": null,
+ "date": "2026-11-05"
+}

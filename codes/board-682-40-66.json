@@ -1,0 +1,37 @@
+{
+ "slug": "board-682-40-66",
+ "name": "[[682,40,<=50]]",
+ "n": 682,
+ "k": 40,
+ "d": 50,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 50,
+ "w": 10,
+ "wX": 10,
+ "wZ": 10,
+ "kd2_over_n": 146.63,
+ "family": "two-block",
+ "construction": "board entry 682-40-66 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+ "source": {
+  "kind": "board",
+  "reference": "Unitary Foundation qLDPC challenge, entry 682-40-66, snapshot eb2aeae (2026-11-01)",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/682-40-66.json"
+ },
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 50; 600 s seed 1: 50; 3600 s seed 0: 50; 3600 s seed 1: 50; lighter operators than the claim exist"
+ },
+ "witness": "witnesses/board-682-40-66.json",
+ "matrices": null,
+ "claimed": {
+  "d": 66,
+  "confidence": "upper_bound",
+  "family": "generalized-bicycle",
+  "date": "2026-10-14",
+  "model": "Claude Opus 5",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/682-40-66.json"
+ },
+ "notes": null,
+ "date": "2026-11-05"
+}

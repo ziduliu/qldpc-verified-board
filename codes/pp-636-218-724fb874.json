@@ -1,0 +1,54 @@
+{
+ "slug": "pp-636-218-724fb874",
+ "name": "[[636,218,22]]",
+ "n": 636,
+ "k": 218,
+ "d": 22,
+ "d_status": "exact",
+ "d_lower": 22,
+ "d_upper": 22,
+ "w": 12,
+ "wX": 12,
+ "wZ": 12,
+ "kd2_over_n": 165.9,
+ "family": "pair-partition",
+ "construction": "cyclic group Z_53, template (4, 12), check weight 12",
+ "source": {
+  "kind": "ours",
+  "reference": "pair-partition construction inside our evolution framework; gpt-6.1-sol line n700a / v5a (2026-11-01/02), archive 724fb87415f9545d"
+ },
+ "evidence": {
+  "kind": "certificate",
+  "certificate": {
+   "lower": 22,
+   "complete_through": 20,
+   "found": null,
+   "parity_argument": true,
+   "levels": {
+    "X": {
+     "16": "CERTIFIED",
+     "18": "CERTIFIED",
+     "20": "CERTIFIED"
+    },
+    "Z": {
+     "16": "CERTIFIED",
+     "18": "CERTIFIED",
+     "20": "CERTIFIED"
+    }
+   },
+   "note": "certifier dkp_bb v5, levels 16/18/20 on both sides (even levels suffice: all-ones vector in both row spaces)"
+  },
+  "witness_weights": {
+   "x": 22,
+   "z": 22
+  }
+ },
+ "witness": "witnesses/pp-636-218-724fb874.json",
+ "matrices": {
+  "HX": "matrices/pp-636-218-724fb874/HX.mtx",
+  "HZ": "matrices/pp-636-218-724fb874/HZ.mtx"
+ },
+ "claimed": null,
+ "notes": null,
+ "date": "2026-11-05"
+}

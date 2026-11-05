@@ -1,0 +1,56 @@
+{
+ "slug": "pp-520-110-7285ad37",
+ "name": "[[520,110,26]]",
+ "n": 520,
+ "k": 110,
+ "d": 26,
+ "d_status": "exact",
+ "d_lower": 26,
+ "d_upper": 26,
+ "w": 10,
+ "wX": 10,
+ "wZ": 10,
+ "kd2_over_n": 143.0,
+ "family": "pair-partition",
+ "construction": "group Z_2 x Z_2 x Z_13 (not cyclic), template (4, 10), check weight 10",
+ "source": {
+  "kind": "ours",
+  "reference": "pair-partition construction of arXiv:2609.30069 inside our evolution framework; evolution run pp_scratch_opus_20261030 (Claude Opus 5.5 proposer), program f6d864c771909d77, slot 2"
+ },
+ "evidence": {
+  "kind": "certificate",
+  "certificate": {
+   "lower": 26,
+   "complete_through": 24,
+   "found": null,
+   "parity_argument": true,
+   "levels": {
+    "X": {
+     "21": "CERTIFIED",
+     "22": "CERTIFIED",
+     "23": "CERTIFIED",
+     "24": "CERTIFIED"
+    },
+    "Z": {
+     "21": "CERTIFIED",
+     "22": "CERTIFIED",
+     "23": "CERTIFIED",
+     "24": "CERTIFIED"
+    }
+   },
+   "note": "certifier dkp_bb v5 (irreducible-cluster branch and bound), sliced runs with manifests; the all-ones vector lies in both row spaces, so every logical operator has even weight"
+  },
+  "witness_weights": {
+   "x": 26,
+   "z": 26
+  }
+ },
+ "witness": "witnesses/pp-520-110-7285ad37.json",
+ "matrices": {
+  "HX": "matrices/pp-520-110-7285ad37/HX.mtx",
+  "HZ": "matrices/pp-520-110-7285ad37/HZ.mtx"
+ },
+ "claimed": null,
+ "notes": null,
+ "date": "2026-11-05"
+}

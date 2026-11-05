@@ -1,0 +1,37 @@
+{
+ "slug": "board-996-166-32",
+ "name": "[[996,166,<=32]]",
+ "n": 996,
+ "k": 166,
+ "d": 32,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 32,
+ "w": 8,
+ "wX": 8,
+ "wZ": 8,
+ "kd2_over_n": 170.67,
+ "family": "pair-partition",
+ "construction": "board entry 996-166-32 (pair-partition-cpm); matrices rebuilt from the entry's check lists",
+ "source": {
+  "kind": "board",
+  "reference": "Unitary Foundation qLDPC challenge, entry 996-166-32, snapshot eb2aeae (2026-11-01)",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-32.json"
+ },
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 32; 600 s seed 1: 32; 3600 s seed 0: 32; 3600 s seed 1: 32; the claimed distance held under these searches"
+ },
+ "witness": null,
+ "matrices": null,
+ "claimed": {
+  "d": 32,
+  "confidence": "upper_bound",
+  "family": "pair-partition-cpm",
+  "date": "2026-10-23",
+  "model": "Claude Opus 5.5 (Claude Code)",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-32.json"
+ },
+ "notes": null,
+ "date": "2026-11-05"
+}

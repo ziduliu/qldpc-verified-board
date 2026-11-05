@@ -1,0 +1,54 @@
+{
+ "slug": "pp-1392-352-b9b12ca6",
+ "name": "[[1392,352,24]]",
+ "n": 1392,
+ "k": 352,
+ "d": 24,
+ "d_status": "exact",
+ "d_lower": 24,
+ "d_upper": 24,
+ "w": 8,
+ "wX": 8,
+ "wZ": 8,
+ "kd2_over_n": 145.66,
+ "family": "pair-partition",
+ "construction": "H = apm3:2:2, acting on Z_p with p = 58 (affine action), template (3, 8), check weight 8",
+ "source": {
+  "kind": "ours",
+  "reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c247"
+ },
+ "evidence": {
+  "kind": "certificate",
+  "certificate": {
+   "lower": 24,
+   "complete_through": 23,
+   "found": 24,
+   "parity_argument": true,
+   "levels": {
+    "X": {
+     "20": "CERTIFIED",
+     "21": "CERTIFIED",
+     "22": "CERTIFIED",
+     "23": "CERTIFIED",
+     "24": "FOUND"
+    },
+    "Z": {
+     "20": "CERTIFIED",
+     "21": "CERTIFIED",
+     "22": "CERTIFIED",
+     "23": "CERTIFIED",
+     "24": "FOUND"
+    }
+   },
+   "note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+  }
+ },
+ "witness": null,
+ "matrices": {
+  "HX": "matrices/pp-1392-352-b9b12ca6/HX.mtx",
+  "HZ": "matrices/pp-1392-352-b9b12ca6/HZ.mtx"
+ },
+ "claimed": null,
+ "notes": null,
+ "date": "2026-11-05"
+}

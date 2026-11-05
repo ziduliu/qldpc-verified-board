@@ -1,0 +1,37 @@
+{
+ "slug": "board-514-34-59",
+ "name": "[[514,34,<=47]]",
+ "n": 514,
+ "k": 34,
+ "d": 47,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 47,
+ "w": 12,
+ "wX": 12,
+ "wZ": 12,
+ "kd2_over_n": 146.12,
+ "family": "two-block",
+ "construction": "board entry 514-34-59 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+ "source": {
+  "kind": "board",
+  "reference": "Unitary Foundation qLDPC challenge, entry 514-34-59, snapshot eb2aeae (2026-11-01)",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/514-34-59.json"
+ },
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 54; 600 s seed 1: 54; 3600 s seed 0: 47; 3600 s seed 1: 51; lighter operators than the claim exist"
+ },
+ "witness": null,
+ "matrices": null,
+ "claimed": {
+  "d": 59,
+  "confidence": "upper_bound",
+  "family": "generalized-bicycle",
+  "date": "2026-10-15",
+  "model": "Claude Opus 5",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/514-34-59.json"
+ },
+ "notes": null,
+ "date": "2026-11-05"
+}

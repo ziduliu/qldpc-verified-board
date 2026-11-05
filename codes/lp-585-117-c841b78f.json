@@ -1,0 +1,38 @@
+{
+ "slug": "lp-585-117-c841b78f",
+ "name": "[[585,117,20]]",
+ "n": 585,
+ "k": 117,
+ "d": 20,
+ "d_status": "exact",
+ "d_lower": 20,
+ "d_upper": 20,
+ "w": 9,
+ "wX": 9,
+ "wZ": 9,
+ "kd2_over_n": 80.0,
+ "family": "lifted-product",
+ "construction": "group C_13 : C_9, protograph shapes (1,2) x (1,2), lift size 117",
+ "source": {
+  "kind": "ours",
+  "reference": "arXiv:2606.24808 (v2), level-1 refinement of the 258th child of the weight-9 run, replicate 1, child 5",
+  "repository": "https://github.com/ziduliu/sce-qldpc",
+  "files": {
+   "HX": "fom_w9/cell2_refinement_n585_k117_c841b78f0a93b1ff_HX.mtx",
+   "HZ": "fom_w9/cell2_refinement_n585_k117_c841b78f0a93b1ff_HZ.mtx"
+  }
+ },
+ "evidence": {
+  "kind": "certificate",
+  "method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+  "records": "sce-qldpc: records/exact_v5_20261022_refinement"
+ },
+ "witness": null,
+ "matrices": {
+  "HX": "matrices/lp-585-117-c841b78f/HX.mtx",
+  "HZ": "matrices/lp-585-117-c841b78f/HZ.mtx"
+ },
+ "claimed": null,
+ "notes": null,
+ "date": "2026-11-05"
+}

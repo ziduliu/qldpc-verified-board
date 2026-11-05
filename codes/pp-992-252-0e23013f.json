@@ -1,0 +1,50 @@
+{
+ "slug": "pp-992-252-0e23013f",
+ "name": "[[992,252,24]]",
+ "n": 992,
+ "k": 252,
+ "d": 24,
+ "d_status": "exact",
+ "d_lower": 24,
+ "d_upper": 24,
+ "w": 8,
+ "wX": 8,
+ "wZ": 8,
+ "kd2_over_n": 146.32,
+ "family": "pair-partition",
+ "construction": "D4 acting on Z_4 (x -> +-x + c) times Z_31: affine permutations on Z_124, template (3, 8), check weight 8",
+ "source": {
+  "kind": "ours",
+  "reference": "non-abelian pair-partition codes from our evolution framework; gpt-6.1-sol line l8a (2026-11-01), step 15; construction file construction_992_252_24.json of the run"
+ },
+ "evidence": {
+  "kind": "certificate",
+  "certificate": {
+   "lower": 24,
+   "complete_through": 22,
+   "found": 24,
+   "parity_argument": true,
+   "levels": {
+    "X": {
+     "20": "CERTIFIED",
+     "22": "CERTIFIED",
+     "24": "FOUND"
+    },
+    "Z": {
+     "20": "CERTIFIED",
+     "22": "CERTIFIED",
+     "24": "FOUND"
+    }
+   },
+   "note": "certifier dkp_bb v5 at even levels (column weight 3: the all-ones vector lies in both row spaces, so logical weights are even); FOUND = a verified operator of that weight"
+  }
+ },
+ "witness": null,
+ "matrices": {
+  "HX": "matrices/pp-992-252-0e23013f/HX.mtx",
+  "HZ": "matrices/pp-992-252-0e23013f/HZ.mtx"
+ },
+ "claimed": null,
+ "notes": null,
+ "date": "2026-11-05"
+}

@@ -1,0 +1,5228 @@
+[
+{
+"slug": "board-1000-200-29",
+"name": "[[1000,200,<=29]]",
+"n": 1000,
+"k": 200,
+"d": 29,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 29,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 168.2,
+"family": "pair-partition",
+"construction": "board entry 1000-200-29 (pair-partition-cpm); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 1000-200-29, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/1000-200-29.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 29; 600 s seed 1: 29; 3600 s seed 0: 29; 3600 s seed 1: 29; the claimed distance held under these searches"
+},
+"witness": null,
+"matrices": null,
+"claimed": {
+"d": 29,
+"confidence": "upper_bound",
+"family": "pair-partition-cpm",
+"date": "2026-10-23",
+"model": "Claude Opus 5.5 (Claude Code)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/1000-200-29.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-410-48-30",
+"name": "[[410,48,<=30]]",
+"n": 410,
+"k": 48,
+"d": 30,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 30,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 105.37,
+"family": "two-block",
+"construction": "board entry 410-48-30 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 410-48-30, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/410-48-30.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 30; 600 s seed 1: 30; 3600 s seed 0: 30; 3600 s seed 1: 30; the claimed distance held under these searches"
+},
+"witness": null,
+"matrices": null,
+"claimed": {
+"d": 30,
+"confidence": "upper_bound",
+"family": "generalized-bicycle",
+"date": "2026-10-14",
+"model": "Gemini 4 Argon",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/410-48-30.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-434-40-32",
+"name": "[[434,40,<=32]]",
+"n": 434,
+"k": 40,
+"d": 32,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 32,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 94.38,
+"family": "two-block",
+"construction": "board entry 434-40-32 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 434-40-32, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/434-40-32.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 32; 600 s seed 1: 32; 3600 s seed 0: 32; 3600 s seed 1: 32; the claimed distance held under these searches"
+},
+"witness": null,
+"matrices": null,
+"claimed": {
+"d": 32,
+"confidence": "upper_bound",
+"family": "generalized-bicycle",
+"date": "2026-10-14",
+"model": "Gemini 4 Argon",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/434-40-32.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-514-32-46",
+"name": "[[514,32,<=38]]",
+"n": 514,
+"k": 32,
+"d": 38,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 38,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 89.9,
+"family": "two-block",
+"construction": "board entry 514-32-46 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 514-32-46, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/514-32-46.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 38; 600 s seed 1: 38; 3600 s seed 0: 38; 3600 s seed 1: 38; lighter operators than the claim exist"
+},
+"witness": null,
+"matrices": null,
+"claimed": {
+"d": 46,
+"confidence": "upper_bound",
+"family": "generalized-bicycle",
+"date": "2026-10-13",
+"model": "Claude Opus 5",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/514-32-46.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-514-32-62",
+"name": "[[514,32,<=48]]",
+"n": 514,
+"k": 32,
+"d": 48,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 48,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 143.44,
+"family": "two-block",
+"construction": "board entry 514-32-62 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 514-32-62, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/514-32-62.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 48; 600 s seed 1: 48; 3600 s seed 0: 48; 3600 s seed 1: 48; lighter operators than the claim exist"
+},
+"witness": "witnesses/board-514-32-62.json",
+"matrices": null,
+"claimed": {
+"d": 62,
+"confidence": "upper_bound",
+"family": "generalized-bicycle",
+"date": "2026-10-13",
+"model": "Claude Opus 5",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/514-32-62.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-514-34-59",
+"name": "[[514,34,<=47]]",
+"n": 514,
+"k": 34,
+"d": 47,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 47,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 146.12,
+"family": "two-block",
+"construction": "board entry 514-34-59 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 514-34-59, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/514-34-59.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 54; 600 s seed 1: 54; 3600 s seed 0: 47; 3600 s seed 1: 51; lighter operators than the claim exist"
+},
+"witness": null,
+"matrices": null,
+"claimed": {
+"d": 59,
+"confidence": "upper_bound",
+"family": "generalized-bicycle",
+"date": "2026-10-15",
+"model": "Claude Opus 5",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/514-34-59.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-674-44-89",
+"name": "[[674,44,<=64]]",
+"n": 674,
+"k": 44,
+"d": 64,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 64,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 267.39,
+"family": "two-block",
+"construction": "board entry 674-44-89 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 674-44-89, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/674-44-89.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 68; 600 s seed 1: 71; 3600 s seed 0: 67; 3600 s seed 1: 64; lighter operators than the claim exist"
+},
+"witness": "witnesses/board-674-44-89.json",
+"matrices": null,
+"claimed": {
+"d": 89,
+"confidence": "upper_bound",
+"family": "generalized-bicycle",
+"date": "2026-09-22",
+"model": "GLM 5.3 Flash (Zed agent)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/674-44-89.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-674-44-91",
+"name": "[[674,44,<=53]]",
+"n": 674,
+"k": 44,
+"d": 53,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 53,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 183.38,
+"family": "two-block",
+"construction": "board entry 674-44-91 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 674-44-91, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/674-44-91.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 53; 600 s seed 1: 53; 3600 s seed 0: 53; 3600 s seed 1: 53; lighter operators than the claim exist"
+},
+"witness": "witnesses/board-674-44-91.json",
+"matrices": null,
+"claimed": {
+"d": 91,
+"confidence": "upper_bound",
+"family": "generalized-bicycle",
+"date": "2026-10-26",
+"model": "Claude Fable 5.1 (Claude Code)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/674-44-91.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-682-40-66",
+"name": "[[682,40,<=50]]",
+"n": 682,
+"k": 40,
+"d": 50,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 50,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 146.63,
+"family": "two-block",
+"construction": "board entry 682-40-66 (generalized-bicycle); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 682-40-66, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/682-40-66.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 50; 600 s seed 1: 50; 3600 s seed 0: 50; 3600 s seed 1: 50; lighter operators than the claim exist"
+},
+"witness": "witnesses/board-682-40-66.json",
+"matrices": null,
+"claimed": {
+"d": 66,
+"confidence": "upper_bound",
+"family": "generalized-bicycle",
+"date": "2026-10-14",
+"model": "Claude Opus 5",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/682-40-66.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-972-166-34",
+"name": "[[972,166,<=34]]",
+"n": 972,
+"k": 166,
+"d": 34,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 34,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 197.42,
+"family": "pair-partition",
+"construction": "board entry 972-166-34 (pair-partition-cpm); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 972-166-34, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/972-166-34.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 34; 600 s seed 1: 34; 3600 s seed 0: 34; 3600 s seed 1: 34; the claimed distance held under these searches"
+},
+"witness": null,
+"matrices": null,
+"claimed": {
+"d": 34,
+"confidence": "upper_bound",
+"family": "pair-partition-cpm",
+"date": "2026-10-24",
+"model": "Claude Opus 5.5 (Claude Code)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/972-166-34.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-994-142-40",
+"name": "[[994,142,<=38]]",
+"n": 994,
+"k": 142,
+"d": 38,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 38,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 206.29,
+"family": "pair-partition",
+"construction": "board entry 994-142-40 (pair-partition-cpm); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 994-142-40, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/994-142-40.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 38; 600 s seed 1: 38; 3600 s seed 0: 38; 3600 s seed 1: 38; lighter operators than the claim exist"
+},
+"witness": null,
+"matrices": null,
+"claimed": {
+"d": 40,
+"confidence": "upper_bound",
+"family": "pair-partition-cpm",
+"date": "2026-10-29",
+"model": "Claude Opus 5.5 (Claude Code)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/994-142-40.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-996-166-32",
+"name": "[[996,166,<=32]]",
+"n": 996,
+"k": 166,
+"d": 32,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 32,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 170.67,
+"family": "pair-partition",
+"construction": "board entry 996-166-32 (pair-partition-cpm); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 996-166-32, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-32.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 32; 600 s seed 1: 32; 3600 s seed 0: 32; 3600 s seed 1: 32; the claimed distance held under these searches"
+},
+"witness": null,
+"matrices": null,
+"claimed": {
+"d": 32,
+"confidence": "upper_bound",
+"family": "pair-partition-cpm",
+"date": "2026-10-23",
+"model": "Claude Opus 5.5 (Claude Code)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-32.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-996-166-34",
+"name": "[[996,166,<=34]]",
+"n": 996,
+"k": 166,
+"d": 34,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 34,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 192.67,
+"family": "pair-partition",
+"construction": "board entry 996-166-34 (pair-partition-cpm); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 996-166-34, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-34.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 34; 600 s seed 1: 34; 3600 s seed 0: 34; 3600 s seed 1: 34; the claimed distance held under these searches"
+},
+"witness": null,
+"matrices": null,
+"claimed": {
+"d": 34,
+"confidence": "upper_bound",
+"family": "pair-partition-cpm",
+"date": "2026-10-23",
+"model": "Claude Opus 5.5 (Claude Code)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-34.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "board-996-166-36",
+"name": "[[996,166,<=36]]",
+"n": 996,
+"k": 166,
+"d": 36,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 36,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 216.0,
+"family": "pair-partition",
+"construction": "board entry 996-166-36 (pair-partition-cpm); matrices rebuilt from the entry's check lists",
+"source": {
+"kind": "board",
+"reference": "Unitary Foundation qLDPC challenge, entry 996-166-36, snapshot eb2aeae (2026-11-01)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-36.json"
+},
+"evidence": {
+"kind": "search",
+"method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 36; 600 s seed 1: 36; 3600 s seed 0: 36; 3600 s seed 1: 36; the claimed distance held under these searches"
+},
+"witness": null,
+"matrices": null,
+"claimed": {
+"d": 36,
+"confidence": "upper_bound",
+"family": "pair-partition-cpm",
+"date": "2026-10-23",
+"model": "Claude Opus 5.5 (Claude Code)",
+"entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/996-166-36.json"
+},
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-476-252-945df1a1",
+"name": "[[476,252,3]]",
+"n": 476,
+"k": 252,
+"d": 3,
+"d_status": "exact",
+"d_lower": 3,
+"d_upper": 3,
+"w": 9,
+"wX": 9,
+"wZ": 9,
+"kd2_over_n": 4.76,
+"family": "lifted-product",
+"construction": "group Dic_7, protograph shapes (1,4) x (1,4), lift size 28",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 9 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell9_n476_k252_945df1a1385c800d_HX.mtx",
+"HZ": "fom_w9/cell9_n476_k252_945df1a1385c800d_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-476-252-945df1a1/HX.mtx",
+"HZ": "matrices/lp-476-252-945df1a1/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-483-220-b7bb3363",
+"name": "[[483,220,6]]",
+"n": 483,
+"k": 220,
+"d": 6,
+"d_status": "exact",
+"d_lower": 6,
+"d_upper": 6,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 16.4,
+"family": "lifted-product",
+"construction": "group C_7 : C_3, protograph shapes (1,3) x (2,7), lift size 21",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 7 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell7_n483_k220_b7bb3363de23fb63_HX.mtx",
+"HZ": "fom/cell7_n483_k220_b7bb3363de23fb63_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-483-220-b7bb3363/HX.mtx",
+"HZ": "matrices/lp-483-220-b7bb3363/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-496-72-e23c4a10",
+"name": "[[496,72,14]]",
+"n": 496,
+"k": 72,
+"d": 14,
+"d_status": "exact",
+"d_lower": 14,
+"d_upper": 14,
+"w": 9,
+"wX": 8,
+"wZ": 9,
+"kd2_over_n": 28.45,
+"family": "lifted-product",
+"construction": "group C_31, protograph shapes (2,3) x (2,4), lift size 31",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 1 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell1_n496_k72_e23c4a10e9715f05_HX.mtx",
+"HZ": "fom_w9/cell1_n496_k72_e23c4a10e9715f05_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-496-72-e23c4a10/HX.mtx",
+"HZ": "matrices/lp-496-72-e23c4a10/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-504-297-cf5015a2",
+"name": "[[504,297,4]]",
+"n": 504,
+"k": 297,
+"d": 4,
+"d_status": "exact",
+"d_lower": 4,
+"d_upper": 4,
+"w": 12,
+"wX": 10,
+"wZ": 12,
+"kd2_over_n": 9.43,
+"family": "lifted-product",
+"construction": "group S_3 x C_4, protograph shapes (1,4) x (1,5), lift size 24",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 9 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell9_n504_k297_cf5015a213992503_HX.mtx",
+"HZ": "fom/cell9_n504_k297_cf5015a213992503_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-504-297-cf5015a2/HX.mtx",
+"HZ": "matrices/lp-504-297-cf5015a2/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-510-40-fd925ff2",
+"name": "[[510,40,<=42]]",
+"n": 510,
+"k": 40,
+"d": 42,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 42,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 138.35,
+"family": "two-block",
+"construction": "group C_255, protograph shapes (1,1) x (1,1), lift size 255",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 0 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell0_n510_k40_fd925ff20fe235cc_HX.mtx",
+"HZ": "fom/cell0_n510_k40_fd925ff20fe235cc_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5), 600 s x 2 and 3600 s x 2, plus two-hour runs of the earlier estimator and QDistRnd 1e9 information sets; lightest weight found 42"
+},
+"witness": "witnesses/lp-510-40-fd925ff2.json",
+"matrices": {
+"HX": "matrices/lp-510-40-fd925ff2/HX.mtx",
+"HZ": "matrices/lp-510-40-fd925ff2/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-520-252-612dfb68",
+"name": "[[520,252,5]]",
+"n": 520,
+"k": 252,
+"d": 5,
+"d_status": "exact",
+"d_lower": 5,
+"d_upper": 5,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 12.12,
+"family": "lifted-product",
+"construction": "group C_5 : C_8, protograph shapes (1,3) x (1,4), lift size 40",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 8 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell8_n520_k252_612dfb68fc96d396_HX.mtx",
+"HZ": "fom/cell8_n520_k252_612dfb68fc96d396_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-520-252-612dfb68/HX.mtx",
+"HZ": "matrices/lp-520-252-612dfb68/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-544-200-15d39679",
+"name": "[[544,200,8]]",
+"n": 544,
+"k": 200,
+"d": 8,
+"d_status": "exact",
+"d_lower": 8,
+"d_upper": 8,
+"w": 12,
+"wX": 11,
+"wZ": 12,
+"kd2_over_n": 23.53,
+"family": "lifted-product",
+"construction": "group Q_16, protograph shapes (2,5) x (2,6), lift size 16",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 5 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell5_n544_k200_15d39679803f52d4_HX.mtx",
+"HZ": "fom/cell5_n544_k200_15d39679803f52d4_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-544-200-15d39679/HX.mtx",
+"HZ": "matrices/lp-544-200-15d39679/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-544-288-217b1dab",
+"name": "[[544,288,4]]",
+"n": 544,
+"k": 288,
+"d": 4,
+"d_status": "exact",
+"d_lower": 4,
+"d_upper": 4,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 8.47,
+"family": "lifted-product",
+"construction": "group SD_32, protograph shapes (1,4) x (1,4), lift size 32",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 9 (CLER objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "cler/cell9_n544_k288_217b1dab11f6cb77_HX.mtx",
+"HZ": "cler/cell9_n544_k288_217b1dab11f6cb77_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-544-288-217b1dab/HX.mtx",
+"HZ": "matrices/lp-544-288-217b1dab/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-550-110-f018ef54",
+"name": "[[550,110,18]]",
+"n": 550,
+"k": 110,
+"d": 18,
+"d_status": "exact",
+"d_lower": 18,
+"d_upper": 18,
+"w": 9,
+"wX": 9,
+"wZ": 9,
+"kd2_over_n": 64.8,
+"family": "lifted-product",
+"construction": "group C_11 : C_10, protograph shapes (1,2) x (1,2), lift size 110",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 2 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell2_n550_k110_f018ef54dd6585b9_HX.mtx",
+"HZ": "fom_w9/cell2_n550_k110_f018ef54dd6585b9_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-550-110-f018ef54/HX.mtx",
+"HZ": "matrices/lp-550-110-f018ef54/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-550-220-d8d92f24",
+"name": "[[550,220,7]]",
+"n": 550,
+"k": 220,
+"d": 7,
+"d_status": "exact",
+"d_lower": 7,
+"d_upper": 7,
+"w": 11,
+"wX": 11,
+"wZ": 11,
+"kd2_over_n": 19.6,
+"family": "lifted-product",
+"construction": "group C_11 : C_5, protograph shapes (1,3) x (1,3), lift size 55",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 6 (CLER objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "cler/cell6_n550_k220_d8d92f24197070fc_HX.mtx",
+"HZ": "cler/cell6_n550_k220_d8d92f24197070fc_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-550-220-d8d92f24/HX.mtx",
+"HZ": "matrices/lp-550-220-d8d92f24/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-550-226-aa1b8eb1",
+"name": "[[550,226,5]]",
+"n": 550,
+"k": 226,
+"d": 5,
+"d_status": "exact",
+"d_lower": 5,
+"d_upper": 5,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 10.27,
+"family": "lifted-product",
+"construction": "group C_11 : C_5, protograph shapes (1,3) x (1,3), lift size 55",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 6 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell6_n550_k226_aa1b8eb1e01f4732_HX.mtx",
+"HZ": "fom_w9/cell6_n550_k226_aa1b8eb1e01f4732_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-550-226-aa1b8eb1/HX.mtx",
+"HZ": "matrices/lp-550-226-aa1b8eb1/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-552-240-ccf067d3",
+"name": "[[552,240,5]]",
+"n": 552,
+"k": 240,
+"d": 5,
+"d_status": "exact",
+"d_lower": 5,
+"d_upper": 5,
+"w": 12,
+"wX": 11,
+"wZ": 12,
+"kd2_over_n": 10.87,
+"family": "lifted-product",
+"construction": "group C_3 : C_8, protograph shapes (1,3) x (2,7), lift size 24",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 7 (CLER objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "cler/cell7_n552_k240_ccf067d3f16c1b1e_HX.mtx",
+"HZ": "cler/cell7_n552_k240_ccf067d3f16c1b1e_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-552-240-ccf067d3/HX.mtx",
+"HZ": "matrices/lp-552-240-ccf067d3/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-552-258-8f79c779",
+"name": "[[552,258,4]]",
+"n": 552,
+"k": 258,
+"d": 4,
+"d_status": "exact",
+"d_lower": 4,
+"d_upper": 4,
+"w": 9,
+"wX": 8,
+"wZ": 9,
+"kd2_over_n": 7.48,
+"family": "lifted-product",
+"construction": "group C_12 : C_2, protograph shapes (1,3) x (2,7), lift size 24",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 7 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell7_n552_k258_8f79c7797b31db20_HX.mtx",
+"HZ": "fom_w9/cell7_n552_k258_8f79c7797b31db20_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-552-258-8f79c779/HX.mtx",
+"HZ": "matrices/lp-552-258-8f79c779/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-560-130-d233cc72",
+"name": "[[560,130,14]]",
+"n": 560,
+"k": 130,
+"d": 14,
+"d_status": "exact",
+"d_lower": 14,
+"d_upper": 14,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 45.5,
+"family": "lifted-product",
+"construction": "group Dic_7, protograph shapes (2,4) x (2,4), lift size 28",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 3 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell3_n560_k130_d233cc7273de92c2_HX.mtx",
+"HZ": "fom/cell3_n560_k130_d233cc7273de92c2_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-560-130-d233cc72/HX.mtx",
+"HZ": "matrices/lp-560-130-d233cc72/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-560-224-db18259e",
+"name": "[[560,224,10]]",
+"n": 560,
+"k": 224,
+"d": 10,
+"d_status": "exact",
+"d_lower": 10,
+"d_upper": 10,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 40.0,
+"family": "lifted-product",
+"construction": "group AGL(1,8), protograph shapes (1,3) x (1,3), lift size 56",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 6 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell6_n560_k224_db18259eb1856d92_HX.mtx",
+"HZ": "fom/cell6_n560_k224_db18259eb1856d92_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-560-224-db18259e/HX.mtx",
+"HZ": "matrices/lp-560-224-db18259e/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-570-288-f4eda3e5",
+"name": "[[570,288,4]]",
+"n": 570,
+"k": 288,
+"d": 4,
+"d_status": "exact",
+"d_lower": 4,
+"d_upper": 4,
+"w": 12,
+"wX": 12,
+"wZ": 10,
+"kd2_over_n": 8.08,
+"family": "lifted-product",
+"construction": "group C_19, protograph shapes (1,4) x (2,7), lift size 19",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 8 (CLER objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "cler/cell8_n570_k288_f4eda3e53eb8fdb2_HX.mtx",
+"HZ": "cler/cell8_n570_k288_f4eda3e53eb8fdb2_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-570-288-f4eda3e5/HX.mtx",
+"HZ": "matrices/lp-570-288-f4eda3e5/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-572-48-d3f04a3a",
+"name": "[[572,48,24]]",
+"n": 572,
+"k": 48,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 9,
+"wX": 9,
+"wZ": 9,
+"kd2_over_n": 48.34,
+"family": "lifted-product",
+"construction": "group Dic_11, protograph shapes (2,3) x (2,3), lift size 44",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 0 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell0_n572_k48_d3f04a3a0601b1a1_HX.mtx",
+"HZ": "fom_w9/cell0_n572_k48_d3f04a3a0601b1a1_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-572-48-d3f04a3a/HX.mtx",
+"HZ": "matrices/lp-572-48-d3f04a3a/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-572-67-82b2bf20",
+"name": "[[572,67,22]]",
+"n": 572,
+"k": 67,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 56.69,
+"family": "lifted-product",
+"construction": "group Dic_11, protograph shapes (2,3) x (2,3), lift size 44",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 0 (CLER objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "cler/cell0_n572_k67_82b2bf20fa54f6db_HX.mtx",
+"HZ": "cler/cell0_n572_k67_82b2bf20fa54f6db_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-572-67-82b2bf20/HX.mtx",
+"HZ": "matrices/lp-572-67-82b2bf20/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-576-150-38483df5",
+"name": "[[576,150,9]]",
+"n": 576,
+"k": 150,
+"d": 9,
+"d_status": "exact",
+"d_lower": 9,
+"d_upper": 9,
+"w": 9,
+"wX": 9,
+"wZ": 9,
+"kd2_over_n": 21.09,
+"family": "lifted-product",
+"construction": "group C_3 : C_16, protograph shapes (1,2) x (2,5), lift size 48",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 3 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell3_n576_k150_38483df5b56e140e_HX.mtx",
+"HZ": "fom_w9/cell3_n576_k150_38483df5b56e140e_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-576-150-38483df5/HX.mtx",
+"HZ": "matrices/lp-576-150-38483df5/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-576-82-30b645d7",
+"name": "[[576,82,15]]",
+"n": 576,
+"k": 82,
+"d": 15,
+"d_status": "exact",
+"d_lower": 15,
+"d_upper": 15,
+"w": 11,
+"wX": 10,
+"wZ": 11,
+"kd2_over_n": 32.03,
+"family": "lifted-product",
+"construction": "group Dic_9, protograph shapes (2,3) x (2,4), lift size 36",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 1 (CLER objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "cler/cell1_n576_k82_30b645d7a9a46846_HX.mtx",
+"HZ": "cler/cell1_n576_k82_30b645d7a9a46846_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-576-82-30b645d7/HX.mtx",
+"HZ": "matrices/lp-576-82-30b645d7/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-578-32-6612ba96",
+"name": "[[578,32,<=46]]",
+"n": 578,
+"k": 32,
+"d": 46,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 46,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 117.15,
+"family": "two-block",
+"construction": "group C_17 x C_17, protograph shapes (1,1) x (1,1), lift size 289",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 0 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell0_n578_k32_6612ba96961ef2c1_HX.mtx",
+"HZ": "fom/cell0_n578_k32_6612ba96961ef2c1_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5), 600 s x 2 and 3600 s x 2, plus two-hour runs of the earlier estimator and QDistRnd 1e9 information sets; lightest weight found 46"
+},
+"witness": "witnesses/lp-578-32-6612ba96.json",
+"matrices": {
+"HX": "matrices/lp-578-32-6612ba96/HX.mtx",
+"HZ": "matrices/lp-578-32-6612ba96/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-580-116-ba427de1",
+"name": "[[580,116,12]]",
+"n": 580,
+"k": 116,
+"d": 12,
+"d_status": "exact",
+"d_lower": 12,
+"d_upper": 12,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 28.8,
+"family": "lifted-product",
+"construction": "group C_29, protograph shapes (2,4) x (2,4), lift size 29",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 2 (CLER objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "cler/cell2_n580_k116_ba427de15c84301e_HX.mtx",
+"HZ": "cler/cell2_n580_k116_ba427de15c84301e_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-580-116-ba427de1/HX.mtx",
+"HZ": "matrices/lp-580-116-ba427de1/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-580-132-239bca5f",
+"name": "[[580,132,14]]",
+"n": 580,
+"k": 132,
+"d": 14,
+"d_status": "exact",
+"d_lower": 14,
+"d_upper": 14,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 44.61,
+"family": "lifted-product",
+"construction": "group C_29, protograph shapes (2,4) x (2,4), lift size 29",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 3 (CLER objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "cler/cell3_n580_k132_239bca5f913aa8b1_HX.mtx",
+"HZ": "cler/cell3_n580_k132_239bca5f913aa8b1_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-580-132-239bca5f/HX.mtx",
+"HZ": "matrices/lp-580-132-239bca5f/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-580-180-67395015",
+"name": "[[580,180,7]]",
+"n": 580,
+"k": 180,
+"d": 7,
+"d_status": "exact",
+"d_lower": 7,
+"d_upper": 7,
+"w": 9,
+"wX": 9,
+"wZ": 9,
+"kd2_over_n": 15.21,
+"family": "lifted-product",
+"construction": "group C_5 : C_4, protograph shapes (2,5) x (2,5), lift size 20",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 4 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell4_n580_k180_67395015cd1a62db_HX.mtx",
+"HZ": "fom_w9/cell4_n580_k180_67395015cd1a62db_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-580-180-67395015/HX.mtx",
+"HZ": "matrices/lp-580-180-67395015/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-583-287-ac08dff0",
+"name": "[[583,287,4]]",
+"n": 583,
+"k": 287,
+"d": 4,
+"d_status": "exact",
+"d_lower": 4,
+"d_upper": 4,
+"w": 9,
+"wX": 9,
+"wZ": 9,
+"kd2_over_n": 7.88,
+"family": "lifted-product",
+"construction": "group C_11, protograph shapes (2,7) x (2,7), lift size 11",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 8 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell8_n583_k287_ac08dff07e7b0a0b_HX.mtx",
+"HZ": "fom_w9/cell8_n583_k287_ac08dff07e7b0a0b_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-583-287-ac08dff0/HX.mtx",
+"HZ": "matrices/lp-583-287-ac08dff0/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-584-200-4c556c11",
+"name": "[[584,200,6]]",
+"n": 584,
+"k": 200,
+"d": 6,
+"d_status": "exact",
+"d_lower": 6,
+"d_upper": 6,
+"w": 9,
+"wX": 9,
+"wZ": 9,
+"kd2_over_n": 12.33,
+"family": "lifted-product",
+"construction": "group C_8, protograph shapes (3,8) x (3,8), lift size 8",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 5 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell5_n584_k200_4c556c11e482646a_HX.mtx",
+"HZ": "fom_w9/cell5_n584_k200_4c556c11e482646a_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-584-200-4c556c11/HX.mtx",
+"HZ": "matrices/lp-584-200-4c556c11/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-585-117-c841b78f",
+"name": "[[585,117,20]]",
+"n": 585,
+"k": 117,
+"d": 20,
+"d_status": "exact",
+"d_lower": 20,
+"d_upper": 20,
+"w": 9,
+"wX": 9,
+"wZ": 9,
+"kd2_over_n": 80.0,
+"family": "lifted-product",
+"construction": "group C_13 : C_9, protograph shapes (1,2) x (1,2), lift size 117",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), level-1 refinement of the 258th child of the weight-9 run, replicate 1, child 5",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell2_refinement_n585_k117_c841b78f0a93b1ff_HX.mtx",
+"HZ": "fom_w9/cell2_refinement_n585_k117_c841b78f0a93b1ff_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_v5_20261022_refinement"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-585-117-c841b78f/HX.mtx",
+"HZ": "matrices/lp-585-117-c841b78f/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-585-119-8bd2c5b8",
+"name": "[[585,119,18]]",
+"n": 585,
+"k": 119,
+"d": 18,
+"d_status": "exact",
+"d_lower": 18,
+"d_upper": 18,
+"w": 9,
+"wX": 9,
+"wZ": 9,
+"kd2_over_n": 65.91,
+"family": "lifted-product",
+"construction": "group C_13 : C_9, protograph shapes (1,2) x (1,2), lift size 117",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w9_10c_out, rate cell 2 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom_w9/cell2_best_n585_k119_8bd2c5b8b300903d_HX.mtx",
+"HZ": "fom_w9/cell2_best_n585_k119_8bd2c5b8b300903d_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/w9cert_20261013 and records/exact_v5_20261017_w9cell0"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-585-119-8bd2c5b8/HX.mtx",
+"HZ": "matrices/lp-585-119-8bd2c5b8/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-585-121-dc333332",
+"name": "[[585,121,24]]",
+"n": 585,
+"k": 121,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 119.14,
+"family": "lifted-product",
+"construction": "group C_13 : C_9, protograph shapes (1,2) x (1,2), lift size 117",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 2 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell2_n585_k121_dc33333253c79e16_HX.mtx",
+"HZ": "fom/cell2_n585_k121_dc33333253c79e16_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-585-121-dc333332/HX.mtx",
+"HZ": "matrices/lp-585-121-dc333332/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-588-176-7084834c",
+"name": "[[588,176,10]]",
+"n": 588,
+"k": 176,
+"d": 10,
+"d_status": "exact",
+"d_lower": 10,
+"d_upper": 10,
+"w": 12,
+"wX": 9,
+"wZ": 12,
+"kd2_over_n": 29.93,
+"family": "lifted-product",
+"construction": "group C_2 x (C_7 : C_3), protograph shapes (1,2) x (2,6), lift size 42",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 4 (CLER objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "cler/cell4_n588_k176_7084834cc57bd76f_HX.mtx",
+"HZ": "cler/cell4_n588_k176_7084834cc57bd76f_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-588-176-7084834c/HX.mtx",
+"HZ": "matrices/lp-588-176-7084834c/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-588-176-b51b14af",
+"name": "[[588,176,12]]",
+"n": 588,
+"k": 176,
+"d": 12,
+"d_status": "exact",
+"d_lower": 12,
+"d_upper": 12,
+"w": 12,
+"wX": 9,
+"wZ": 12,
+"kd2_over_n": 43.1,
+"family": "lifted-product",
+"construction": "group Dic_21, protograph shapes (1,2) x (1,3), lift size 84",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 4 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell4_n588_k176_b51b14afe214768f_HX.mtx",
+"HZ": "fom/cell4_n588_k176_b51b14afe214768f_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-588-176-b51b14af/HX.mtx",
+"HZ": "matrices/lp-588-176-b51b14af/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-592-83-3c772243",
+"name": "[[592,83,18]]",
+"n": 592,
+"k": 83,
+"d": 18,
+"d_status": "exact",
+"d_lower": 18,
+"d_upper": 18,
+"w": 12,
+"wX": 10,
+"wZ": 12,
+"kd2_over_n": 45.43,
+"family": "lifted-product",
+"construction": "group C_37, protograph shapes (2,3) x (2,4), lift size 37",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run cc_v7_gpt61sol500_w12_10c_out, rate cell 1 (FOM objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "fom/cell1_n592_k83_3c7722431bc2662e_HX.mtx",
+"HZ": "fom/cell1_n592_k83_3c7722431bc2662e_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-592-83-3c772243/HX.mtx",
+"HZ": "matrices/lp-592-83-3c772243/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "lp-598-195-8031fd1f",
+"name": "[[598,195,7]]",
+"n": 598,
+"k": 195,
+"d": 7,
+"d_status": "exact",
+"d_lower": 7,
+"d_upper": 7,
+"w": 12,
+"wX": 11,
+"wZ": 12,
+"kd2_over_n": 15.98,
+"family": "lifted-product",
+"construction": "group C_13, protograph shapes (2,5) x (3,8), lift size 13",
+"source": {
+"kind": "ours",
+"reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 5 (CLER objective)",
+"repository": "https://github.com/ziduliu/sce-qldpc",
+"files": {
+"HX": "cler/cell5_n598_k195_8031fd1f7b90d19b_HX.mtx",
+"HZ": "cler/cell5_n598_k195_8031fd1f7b90d19b_HZ.mtx"
+}
+},
+"evidence": {
+"kind": "certificate",
+"method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+"records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/lp-598-195-8031fd1f/HX.mtx",
+"HZ": "matrices/lp-598-195-8031fd1f/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1152-292-3f69b1df",
+"name": "[[1152,292,24]]",
+"n": 1152,
+"k": 292,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 146.0,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 48 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c189"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1152-292-3f69b1df/HX.mtx",
+"HZ": "matrices/pp-1152-292-3f69b1df/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1176-298-9ece9b67",
+"name": "[[1176,298,24]]",
+"n": 1176,
+"k": 298,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.96,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 49 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c194"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1176-298-9ece9b67/HX.mtx",
+"HZ": "matrices/pp-1176-298-9ece9b67/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1184-300-e596b2da",
+"name": "[[1184,300,22]]",
+"n": 1184,
+"k": 300,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.64,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 37 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c068"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 21,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1184-300-e596b2da/HX.mtx",
+"HZ": "matrices/pp-1184-300-e596b2da/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1184-300-f06aefb7",
+"name": "[[1184,300,24]]",
+"n": 1184,
+"k": 300,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.95,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 37 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm_b60s0_c017"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1184-300-f06aefb7/HX.mtx",
+"HZ": "matrices/pp-1184-300-f06aefb7/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1200-304-3a7a94b5",
+"name": "[[1200,304,22]]",
+"n": 1200,
+"k": 304,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.61,
+"family": "pair-partition",
+"construction": "H = apm6:2:5, acting on Z_p with p = 25 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c037"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 21,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1200-304-3a7a94b5/HX.mtx",
+"HZ": "matrices/pp-1200-304-3a7a94b5/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1200-304-a540e206",
+"name": "[[1200,304,22]]",
+"n": 1200,
+"k": 304,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.61,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 50 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c119"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 21,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1200-304-a540e206/HX.mtx",
+"HZ": "matrices/pp-1200-304-a540e206/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1216-310-310ee097",
+"name": "[[1216,310,24]]",
+"n": 1216,
+"k": 310,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 146.84,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 38 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c077"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1216-310-310ee097/HX.mtx",
+"HZ": "matrices/pp-1216-310-310ee097/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1224-310-2dcbac34",
+"name": "[[1224,310,22]]",
+"n": 1224,
+"k": 310,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.58,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 51 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c204"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 21,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1224-310-2dcbac34/HX.mtx",
+"HZ": "matrices/pp-1224-310-2dcbac34/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1248-316-023a0a89",
+"name": "[[1248,316,24]]",
+"n": 1248,
+"k": 316,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.85,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 39 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c090"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1248-316-023a0a89/HX.mtx",
+"HZ": "matrices/pp-1248-316-023a0a89/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1248-316-8c3085e3",
+"name": "[[1248,316,24]]",
+"n": 1248,
+"k": 316,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.85,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 39 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm_b60s0_c022"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1248-316-8c3085e3/HX.mtx",
+"HZ": "matrices/pp-1248-316-8c3085e3/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1248-316-9e13c89f",
+"name": "[[1248,316,24]]",
+"n": 1248,
+"k": 316,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.85,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 52 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c214"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1248-316-9e13c89f/HX.mtx",
+"HZ": "matrices/pp-1248-316-9e13c89f/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1248-316-b376b35e",
+"name": "[[1248,316,24]]",
+"n": 1248,
+"k": 316,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.85,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 52 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c212"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1248-316-b376b35e/HX.mtx",
+"HZ": "matrices/pp-1248-316-b376b35e/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1248-316-e698ab96",
+"name": "[[1248,316,24]]",
+"n": 1248,
+"k": 316,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.85,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 52 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c127"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1248-316-e698ab96/HX.mtx",
+"HZ": "matrices/pp-1248-316-e698ab96/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1272-322-2c4657bf",
+"name": "[[1272,322,24]]",
+"n": 1272,
+"k": 322,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.81,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 53 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c217"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1272-322-2c4657bf/HX.mtx",
+"HZ": "matrices/pp-1272-322-2c4657bf/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1272-322-4f35fa53",
+"name": "[[1272,322,24]]",
+"n": 1272,
+"k": 322,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.81,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 53 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c216"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1272-322-4f35fa53/HX.mtx",
+"HZ": "matrices/pp-1272-322-4f35fa53/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1272-322-e4cdca5b",
+"name": "[[1272,322,24]]",
+"n": 1272,
+"k": 322,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.81,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 53 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c213"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1272-322-e4cdca5b/HX.mtx",
+"HZ": "matrices/pp-1272-322-e4cdca5b/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1272-322-e8a30dfa",
+"name": "[[1272,322,24]]",
+"n": 1272,
+"k": 322,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.81,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 53 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm_b60s0_c073"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1272-322-e8a30dfa/HX.mtx",
+"HZ": "matrices/pp-1272-322-e8a30dfa/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1312-332-15ac51dc",
+"name": "[[1312,332,24]]",
+"n": 1312,
+"k": 332,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.76,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 41 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c056"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1312-332-15ac51dc/HX.mtx",
+"HZ": "matrices/pp-1312-332-15ac51dc/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1312-332-182e038c",
+"name": "[[1312,332,24]]",
+"n": 1312,
+"k": 332,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.76,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 41 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c108"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1312-332-182e038c/HX.mtx",
+"HZ": "matrices/pp-1312-332-182e038c/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1312-332-c6c3b58c",
+"name": "[[1312,332,24]]",
+"n": 1312,
+"k": 332,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.76,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 41 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c109"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1312-332-c6c3b58c/HX.mtx",
+"HZ": "matrices/pp-1312-332-c6c3b58c/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1312-332-d0598976",
+"name": "[[1312,332,24]]",
+"n": 1312,
+"k": 332,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.76,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 41 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm_b60s0_c029"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1312-332-d0598976/HX.mtx",
+"HZ": "matrices/pp-1312-332-d0598976/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1320-334-0f6abe5c",
+"name": "[[1320,334,24]]",
+"n": 1320,
+"k": 334,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.75,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 55 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c230"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1320-334-0f6abe5c/HX.mtx",
+"HZ": "matrices/pp-1320-334-0f6abe5c/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1344-340-f4c90d81",
+"name": "[[1344,340,22]]",
+"n": 1344,
+"k": 340,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.44,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 56 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c136"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 21,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1344-340-f4c90d81/HX.mtx",
+"HZ": "matrices/pp-1344-340-f4c90d81/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1344-342-6386237e",
+"name": "[[1344,342,24]]",
+"n": 1344,
+"k": 342,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 146.57,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 42 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c121"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1344-342-6386237e/HX.mtx",
+"HZ": "matrices/pp-1344-342-6386237e/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1360-344-5ed458cb",
+"name": "[[1360,344,24]]",
+"n": 1360,
+"k": 344,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.69,
+"family": "pair-partition",
+"construction": "H = 5:2:4, acting on Z_p with p = 17 (regular action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_small_b60s0_c067"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1360-344-5ed458cb/HX.mtx",
+"HZ": "matrices/pp-1360-344-5ed458cb/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1368-346-cacd5212",
+"name": "[[1368,346,24]]",
+"n": 1368,
+"k": 346,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.68,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 57 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c242"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1368-346-cacd5212/HX.mtx",
+"HZ": "matrices/pp-1368-346-cacd5212/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1376-348-08d82039",
+"name": "[[1376,348,24]]",
+"n": 1376,
+"k": 348,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.67,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 43 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c072"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1376-348-08d82039/HX.mtx",
+"HZ": "matrices/pp-1376-348-08d82039/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1376-348-4927d54e",
+"name": "[[1376,348,26]]",
+"n": 1376,
+"k": 348,
+"d": 26,
+"d_status": "exact",
+"d_lower": 26,
+"d_upper": 26,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 170.97,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 43 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c069"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 26,
+"complete_through": 25,
+"found": 26,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED",
+"25": "CERTIFIED",
+"26": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED",
+"25": "CERTIFIED",
+"26": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1376-348-4927d54e/HX.mtx",
+"HZ": "matrices/pp-1376-348-4927d54e/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1376-348-61fd220c",
+"name": "[[1376,348,22]]",
+"n": 1376,
+"k": 348,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.41,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 43 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c132"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 21,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1376-348-61fd220c/HX.mtx",
+"HZ": "matrices/pp-1376-348-61fd220c/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1376-348-62008935",
+"name": "[[1376,348,22]]",
+"n": 1376,
+"k": 348,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.41,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 43 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm_b60s0_c044"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 21,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1376-348-62008935/HX.mtx",
+"HZ": "matrices/pp-1376-348-62008935/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1376-348-84d950f7",
+"name": "[[1376,348,>=26]]",
+"n": 1376,
+"k": 348,
+"d": 26,
+"d_status": "lower_bound",
+"d_lower": 26,
+"d_upper": null,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 170.97,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 43 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c128"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 26,
+"complete_through": 24,
+"found": null,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1376-348-84d950f7/HX.mtx",
+"HZ": "matrices/pp-1376-348-84d950f7/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1392-352-2954d4f1",
+"name": "[[1392,352,24]]",
+"n": 1392,
+"k": 352,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.66,
+"family": "pair-partition",
+"construction": "H = apm6:2:5, acting on Z_p with p = 29 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c071"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1392-352-2954d4f1/HX.mtx",
+"HZ": "matrices/pp-1392-352-2954d4f1/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1392-352-b9b12ca6",
+"name": "[[1392,352,24]]",
+"n": 1392,
+"k": 352,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.66,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 58 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c247"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1392-352-b9b12ca6/HX.mtx",
+"HZ": "matrices/pp-1392-352-b9b12ca6/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1416-358-359eb68c",
+"name": "[[1416,358,24]]",
+"n": 1416,
+"k": 358,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.63,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 59 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c141"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1416-358-359eb68c/HX.mtx",
+"HZ": "matrices/pp-1416-358-359eb68c/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1416-358-63df7be6",
+"name": "[[1416,358,22]]",
+"n": 1416,
+"k": 358,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.37,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 59 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c252"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 21,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1416-358-63df7be6/HX.mtx",
+"HZ": "matrices/pp-1416-358-63df7be6/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1416-358-d02c5f2f",
+"name": "[[1416,358,24]]",
+"n": 1416,
+"k": 358,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.63,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 59 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c142"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1416-358-d02c5f2f/HX.mtx",
+"HZ": "matrices/pp-1416-358-d02c5f2f/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1416-358-eccb1f51",
+"name": "[[1416,358,22]]",
+"n": 1416,
+"k": 358,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.37,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 59 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm_b60s0_c086"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 21,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1416-358-eccb1f51/HX.mtx",
+"HZ": "matrices/pp-1416-358-eccb1f51/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1440-364-2597de94",
+"name": "[[1440,364,24]]",
+"n": 1440,
+"k": 364,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.6,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 60 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c144"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1440-364-2597de94/HX.mtx",
+"HZ": "matrices/pp-1440-364-2597de94/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1440-364-2ab0856b",
+"name": "[[1440,364,>=26]]",
+"n": 1440,
+"k": 364,
+"d": 26,
+"d_status": "lower_bound",
+"d_lower": 26,
+"d_upper": null,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 170.88,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 45 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c155"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 26,
+"complete_through": 25,
+"found": null,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED",
+"25": "CERTIFIED"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED",
+"25": "CERTIFIED"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1440-364-2ab0856b/HX.mtx",
+"HZ": "matrices/pp-1440-364-2ab0856b/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1440-364-a01af66a",
+"name": "[[1440,364,24]]",
+"n": 1440,
+"k": 364,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.6,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 45 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm_b60s0_c046"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1440-364-a01af66a/HX.mtx",
+"HZ": "matrices/pp-1440-364-a01af66a/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1440-366-a049390b",
+"name": "[[1440,366,22]]",
+"n": 1440,
+"k": 366,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 123.02,
+"family": "pair-partition",
+"construction": "H = apm6:2:5, acting on Z_p with p = 30 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm2_b60s0_c081"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 21,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1440-366-a049390b/HX.mtx",
+"HZ": "matrices/pp-1440-366-a049390b/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1464-370-0c245981",
+"name": "[[1464,370,24]]",
+"n": 1464,
+"k": 370,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.57,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 61 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm_b60s0_c090"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1464-370-0c245981/HX.mtx",
+"HZ": "matrices/pp-1464-370-0c245981/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1464-370-24eec180",
+"name": "[[1464,370,24]]",
+"n": 1464,
+"k": 370,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.57,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 61 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c267"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1464-370-24eec180/HX.mtx",
+"HZ": "matrices/pp-1464-370-24eec180/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1464-370-ad8570df",
+"name": "[[1464,370,>=26]]",
+"n": 1464,
+"k": 370,
+"d": 26,
+"d_status": "lower_bound",
+"d_lower": 26,
+"d_upper": null,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 170.85,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 61 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c261"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 26,
+"complete_through": 24,
+"found": null,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1464-370-ad8570df/HX.mtx",
+"HZ": "matrices/pp-1464-370-ad8570df/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1464-370-b47558d9",
+"name": "[[1464,370,24]]",
+"n": 1464,
+"k": 370,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.57,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 61 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c266"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1464-370-b47558d9/HX.mtx",
+"HZ": "matrices/pp-1464-370-b47558d9/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1472-372-0f9d0cb5",
+"name": "[[1472,372,24]]",
+"n": 1472,
+"k": 372,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.57,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 46 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c160"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1472-372-0f9d0cb5/HX.mtx",
+"HZ": "matrices/pp-1472-372-0f9d0cb5/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1472-372-7d36bb3b",
+"name": "[[1472,372,24]]",
+"n": 1472,
+"k": 372,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.57,
+"family": "pair-partition",
+"construction": "H = apm4:2:3, acting on Z_p with p = 46 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm3_b60s0_c157"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1472-372-7d36bb3b/HX.mtx",
+"HZ": "matrices/pp-1472-372-7d36bb3b/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1488-376-4fc23a3f",
+"name": "[[1488,376,24]]",
+"n": 1488,
+"k": 376,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 145.55,
+"family": "pair-partition",
+"construction": "H = 3:2:2, acting on Z_p with p = 31 (regular action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_small_b60s0_c080"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 23,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1488-376-4fc23a3f/HX.mtx",
+"HZ": "matrices/pp-1488-376-4fc23a3f/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-1488-376-682de643",
+"name": "[[1488,376,26]]",
+"n": 1488,
+"k": 376,
+"d": 26,
+"d_status": "exact",
+"d_lower": 26,
+"d_upper": 26,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 170.82,
+"family": "pair-partition",
+"construction": "H = apm3:2:2, acting on Z_p with p = 62 (affine action), template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "hand-designed non-abelian pair-partition codes (2026-10-31, not from the evolution runs); record out_apm_b60s0_c093"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 26,
+"complete_through": 25,
+"found": 26,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED",
+"25": "CERTIFIED",
+"26": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED",
+"25": "CERTIFIED",
+"26": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 with the bitset width as a compile-time option; even logical weights (all-ones vector in both row spaces)"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-1488-376-682de643/HX.mtx",
+"HZ": "matrices/pp-1488-376-682de643/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-520-110-7285ad37",
+"name": "[[520,110,26]]",
+"n": 520,
+"k": 110,
+"d": 26,
+"d_status": "exact",
+"d_lower": 26,
+"d_upper": 26,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 143.0,
+"family": "pair-partition",
+"construction": "group Z_2 x Z_2 x Z_13 (not cyclic), template (4, 10), check weight 10",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction of arXiv:2609.30069 inside our evolution framework; evolution run pp_scratch_opus_20261030 (Claude Opus 5.5 proposer), program f6d864c771909d77, slot 2"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 26,
+"complete_through": 24,
+"found": null,
+"parity_argument": true,
+"levels": {
+"X": {
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED"
+},
+"Z": {
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED"
+}
+},
+"note": "certifier dkp_bb v5 (irreducible-cluster branch and bound), sliced runs with manifests; the all-ones vector lies in both row spaces, so every logical operator has even weight"
+},
+"witness_weights": {
+"x": 26,
+"z": 26
+}
+},
+"witness": "witnesses/pp-520-110-7285ad37.json",
+"matrices": {
+"HX": "matrices/pp-520-110-7285ad37/HX.mtx",
+"HZ": "matrices/pp-520-110-7285ad37/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-564-194-60f2ec0b",
+"name": "[[564,194,22]]",
+"n": 564,
+"k": 194,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 166.48,
+"family": "pair-partition",
+"construction": "cyclic group Z_47, template (J, L) = (4, 12), check weight 12",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction of arXiv:2609.30069 inside our evolution framework; evolution run pp_scratch_opus_20261030 (Claude Opus 5.5 proposer), program 9c3917928976397d, slot 3"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 20,
+"found": null,
+"parity_argument": true,
+"levels": {
+"X": {
+"19": "CERTIFIED",
+"20": "CERTIFIED"
+},
+"Z": {
+"19": "CERTIFIED",
+"20": "CERTIFIED"
+}
+},
+"note": "certifier dkp_bb v5 (irreducible-cluster branch and bound), sliced runs with manifests; the all-ones vector lies in both row spaces, so every logical operator has even weight"
+},
+"witness_weights": {
+"x": 22,
+"z": 22
+}
+},
+"witness": "witnesses/pp-564-194-60f2ec0b.json",
+"matrices": {
+"HX": "matrices/pp-564-194-60f2ec0b/HX.mtx",
+"HZ": "matrices/pp-564-194-60f2ec0b/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-590-124-64d91a4a",
+"name": "[[590,124,26]]",
+"n": 590,
+"k": 124,
+"d": 26,
+"d_status": "exact",
+"d_lower": 26,
+"d_upper": 26,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 142.07,
+"family": "pair-partition",
+"construction": "cyclic group Z_59, template (4, 10), check weight 10",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction of arXiv:2609.30069 inside our evolution framework; evolution run pp_catalog_opus_20261030 (Claude Opus 5.5 proposer), program cee8b24e42a16764, slot 3"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 26,
+"complete_through": 24,
+"found": null,
+"parity_argument": true,
+"levels": {
+"X": {
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED"
+},
+"Z": {
+"21": "CERTIFIED",
+"22": "CERTIFIED",
+"23": "CERTIFIED",
+"24": "CERTIFIED"
+}
+},
+"note": "certifier dkp_bb v5 (irreducible-cluster branch and bound), sliced runs with manifests; the all-ones vector lies in both row spaces, so every logical operator has even weight"
+},
+"witness_weights": {
+"x": 28,
+"z": 26
+}
+},
+"witness": "witnesses/pp-590-124-64d91a4a.json",
+"matrices": {
+"HX": "matrices/pp-590-124-64d91a4a/HX.mtx",
+"HZ": "matrices/pp-590-124-64d91a4a/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-636-218-724fb874",
+"name": "[[636,218,22]]",
+"n": 636,
+"k": 218,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 165.9,
+"family": "pair-partition",
+"construction": "cyclic group Z_53, template (4, 12), check weight 12",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; gpt-6.1-sol line n700a / v5a (2026-11-01/02), archive 724fb87415f9545d"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 20,
+"found": null,
+"parity_argument": true,
+"levels": {
+"X": {
+"16": "CERTIFIED",
+"18": "CERTIFIED",
+"20": "CERTIFIED"
+},
+"Z": {
+"16": "CERTIFIED",
+"18": "CERTIFIED",
+"20": "CERTIFIED"
+}
+},
+"note": "certifier dkp_bb v5, levels 16/18/20 on both sides (even levels suffice: all-ones vector in both row spaces)"
+},
+"witness_weights": {
+"x": 22,
+"z": 22
+}
+},
+"witness": "witnesses/pp-636-218-724fb874.json",
+"matrices": {
+"HX": "matrices/pp-636-218-724fb874/HX.mtx",
+"HZ": "matrices/pp-636-218-724fb874/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-636-218-e247724a",
+"name": "[[636,218,22]]",
+"n": 636,
+"k": 218,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 165.9,
+"family": "pair-partition",
+"construction": "cyclic group Z_53, template (4, 12), check weight 12",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; gpt-6.1-sol line n700a / v5a (2026-11-01/02), archive e247724ac99dd3ca"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 20,
+"found": null,
+"parity_argument": true,
+"levels": {
+"X": {
+"16": "CERTIFIED",
+"18": "CERTIFIED",
+"20": "CERTIFIED"
+},
+"Z": {
+"16": "CERTIFIED",
+"18": "CERTIFIED",
+"20": "CERTIFIED"
+}
+},
+"note": "certifier dkp_bb v5, levels 16/18/20 on both sides (even levels suffice: all-ones vector in both row spaces)"
+},
+"witness_weights": {
+"x": 22,
+"z": 22
+}
+},
+"witness": "witnesses/pp-636-218-e247724a.json",
+"matrices": {
+"HX": "matrices/pp-636-218-e247724a/HX.mtx",
+"HZ": "matrices/pp-636-218-e247724a/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-640-134-b9df990a",
+"name": "[[640,134,<=30]]",
+"n": 640,
+"k": 134,
+"d": 30,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 30,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 188.44,
+"family": "pair-partition",
+"construction": "Z32 x Z2, template (4, 10), check weight 10",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; line n700a (2026-11-01), program family pp_j4l10_z32xz2_controlledcollision_bank, archive b9df990a83cdd824"
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s x 3 and 3600 s x 2 (v5): 30; operator supports not yet saved, a witness run is queued"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-640-134-b9df990a/HX.mtx",
+"HZ": "matrices/pp-640-134-b9df990a/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-670-140-15e94ea5",
+"name": "[[670,140,<=28]]",
+"n": 670,
+"k": 140,
+"d": 28,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 28,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 163.82,
+"family": "pair-partition",
+"construction": "cyclic group Z_67, template (4, 10) with one row removed, check weight 10",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; line v5a (2026-11-02), program family pp_j4l10_zprime_missingrow_cyclefibres, archive 15e94ea54fe5bc15"
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s x 2 and 3600 s x 2 (v5): 28; operator supports not yet saved, a witness run is queued"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-670-140-15e94ea5/HX.mtx",
+"HZ": "matrices/pp-670-140-15e94ea5/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-680-142-54579668",
+"name": "[[680,142,<=34]]",
+"n": 680,
+"k": 142,
+"d": 34,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 34,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 241.4,
+"family": "pair-partition",
+"construction": "C2 x C34, template (4, 10), check weight 10",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; line n700smoke (2026-11-01), program a5b691014ad745eb, program family pp_j4l10_c2xc34_catalogue_intersection4, archive 545796683e8e28d8"
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s x 3 and 3600 s x 2 (v5): 34/36/36/34/34"
+},
+"witness": "witnesses/pp-680-142-54579668.json",
+"matrices": {
+"HX": "matrices/pp-680-142-54579668/HX.mtx",
+"HZ": "matrices/pp-680-142-54579668/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-680-144-c6873368",
+"name": "[[680,144,<=32]]",
+"n": 680,
+"k": 144,
+"d": 32,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 32,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 216.85,
+"family": "pair-partition",
+"construction": "C2 x C34, template (4, 10), check weight 10",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; line n700smoke (2026-11-01), program family pp_j4l10_c2xc34_catalogue_intersection4, archive c6873368c56df888"
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s x 3 and 3600 s x 2 (v5): 32; operator supports not yet saved, a witness run is queued"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-680-144-c6873368/HX.mtx",
+"HZ": "matrices/pp-680-144-c6873368/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-680-146-41bbe895",
+"name": "[[680,146,<=28]]",
+"n": 680,
+"k": 146,
+"d": 28,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 28,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 168.33,
+"family": "pair-partition",
+"construction": "C2 x C34, template (4, 10), check weight 10",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; line n700smoke (2026-11-01), program family pp_j4l10_c2xc34_catalogue_intersection4, archive 41bbe89574bb496e"
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s x 3 and 3600 s x 2 (v5): 28; operator supports not yet saved, a witness run is queued"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-680-146-41bbe895/HX.mtx",
+"HZ": "matrices/pp-680-146-41bbe895/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-684-234-72b747aa",
+"name": "[[684,234,<=22]]",
+"n": 684,
+"k": 234,
+"d": 22,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 22,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 165.58,
+"family": "pair-partition",
+"construction": "group Z_3 x Z_19, template (4, 12), shortened, check weight 12",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; line v5a (2026-11-02), program family pp_j4l12_c3xc19_overlapfibres_shortened, archive 72b747aad9d63446"
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s x 2 and 3600 s x 2 (v5): 22/24 -> 22; operator supports not yet saved, a witness run is queued"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-684-234-72b747aa/HX.mtx",
+"HZ": "matrices/pp-684-234-72b747aa/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-684-234-aa0979d7",
+"name": "[[684,234,<=24]]",
+"n": 684,
+"k": 234,
+"d": 24,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 24,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 197.05,
+"family": "pair-partition",
+"construction": "group Z_3 x Z_19, template (4, 12), shortened, check weight 12",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; line v5a (2026-11-02), program family pp_j4l12_c3xc19_overlapfibres_shortened, archive aa0979d7bc395762"
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s x 2 and 3600 s x 2 (v5): 24; operator supports not yet saved, a witness run is queued"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-684-234-aa0979d7/HX.mtx",
+"HZ": "matrices/pp-684-234-aa0979d7/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-684-238-34b56e79",
+"name": "[[684,238,<=24]]",
+"n": 684,
+"k": 238,
+"d": 24,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 24,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 200.42,
+"family": "pair-partition",
+"construction": "group Z_3 x Z_19, template (4, 12), check weight 12",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; line v5a (2026-11-02), program family pp_j4l12_c3xc19_rankfibres, archive 34b56e790ae27e72"
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s x 2 and 3600 s x 2 (v5): 24; operator supports not yet saved, a witness run is queued"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-684-238-34b56e79/HX.mtx",
+"HZ": "matrices/pp-684-238-34b56e79/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-684-238-e403972b",
+"name": "[[684,238,<=24]]",
+"n": 684,
+"k": 238,
+"d": 24,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 24,
+"w": 12,
+"wX": 12,
+"wZ": 12,
+"kd2_over_n": 200.42,
+"family": "pair-partition",
+"construction": "group Z_3 x Z_19, template (4, 12), check weight 12",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; line v5a (2026-11-02), program family pp_j4l12_c3xc19_joint_latin_novel, archive e403972be941771c"
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s x 2 and 3600 s x 2 (v5): 24; operator supports not yet saved, a witness run is queued"
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-684-238-e403972b/HX.mtx",
+"HZ": "matrices/pp-684-238-e403972b/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-690-144-ea020f49",
+"name": "[[690,144,<=34]]",
+"n": 690,
+"k": 144,
+"d": 34,
+"d_status": "upper_bound",
+"d_lower": null,
+"d_upper": 34,
+"w": 10,
+"wX": 10,
+"wZ": 10,
+"kd2_over_n": 241.25,
+"family": "pair-partition",
+"construction": "C3 x C23, template (4, 10), check weight 10",
+"source": {
+"kind": "ours",
+"reference": "pair-partition construction inside our evolution framework; line v5a (2026-11-02), program d1c1209dbbece20a, program family pp_j4l10_c3xc23_rank_cyclefibres_novel, archive ea020f49826f14a4"
+},
+"evidence": {
+"kind": "search",
+"method": "GPU directed BP+OSD search (v5): 600 s x 3 and 3600 s x 2 (v5): 34 in all five"
+},
+"witness": "witnesses/pp-690-144-ea020f49.json",
+"matrices": {
+"HX": "matrices/pp-690-144-ea020f49/HX.mtx",
+"HZ": "matrices/pp-690-144-ea020f49/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-960-244-64e66db7",
+"name": "[[960,244,22]]",
+"n": 960,
+"k": 244,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 123.02,
+"family": "pair-partition",
+"construction": "S3 x Z_p, regular action, template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "non-abelian pair-partition codes from our evolution framework; line l8smoke1 (2026-11-01), seed program, slot 43"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 20,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"18": "CERTIFIED",
+"20": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"18": "CERTIFIED",
+"20": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 at even levels (column weight 3: the all-ones vector lies in both row spaces, so logical weights are even); FOUND = a verified operator of that weight"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-960-244-64e66db7/HX.mtx",
+"HZ": "matrices/pp-960-244-64e66db7/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-984-250-e2c11b3b",
+"name": "[[984,250,22]]",
+"n": 984,
+"k": 250,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.97,
+"family": "pair-partition",
+"construction": "S3 affine x Z_p, template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "non-abelian pair-partition codes from our evolution framework; line l8smoke1 (2026-11-01), seed program, slot 50"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 20,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 at even levels (column weight 3: the all-ones vector lies in both row spaces, so logical weights are even); FOUND = a verified operator of that weight"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-984-250-e2c11b3b/HX.mtx",
+"HZ": "matrices/pp-984-250-e2c11b3b/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-992-252-0e23013f",
+"name": "[[992,252,24]]",
+"n": 992,
+"k": 252,
+"d": 24,
+"d_status": "exact",
+"d_lower": 24,
+"d_upper": 24,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 146.32,
+"family": "pair-partition",
+"construction": "D4 acting on Z_4 (x -> +-x + c) times Z_31: affine permutations on Z_124, template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "non-abelian pair-partition codes from our evolution framework; gpt-6.1-sol line l8a (2026-11-01), step 15; construction file construction_992_252_24.json of the run"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 24,
+"complete_through": 22,
+"found": 24,
+"parity_argument": true,
+"levels": {
+"X": {
+"20": "CERTIFIED",
+"22": "CERTIFIED",
+"24": "FOUND"
+},
+"Z": {
+"20": "CERTIFIED",
+"22": "CERTIFIED",
+"24": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 at even levels (column weight 3: the all-ones vector lies in both row spaces, so logical weights are even); FOUND = a verified operator of that weight"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-992-252-0e23013f/HX.mtx",
+"HZ": "matrices/pp-992-252-0e23013f/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-992-252-62d254e9",
+"name": "[[992,252,22]]",
+"n": 992,
+"k": 252,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.95,
+"family": "pair-partition",
+"construction": "D4 affine x Z_p, template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "non-abelian pair-partition codes from our evolution framework; line l8smoke1 (2026-11-01), seed program, slot 53"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 20,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"18": "CERTIFIED",
+"20": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"18": "CERTIFIED",
+"20": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 at even levels (column weight 3: the all-ones vector lies in both row spaces, so logical weights are even); FOUND = a verified operator of that weight"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-992-252-62d254e9/HX.mtx",
+"HZ": "matrices/pp-992-252-62d254e9/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+},
+{
+"slug": "pp-992-252-c6248311",
+"name": "[[992,252,22]]",
+"n": 992,
+"k": 252,
+"d": 22,
+"d_status": "exact",
+"d_lower": 22,
+"d_upper": 22,
+"w": 8,
+"wX": 8,
+"wZ": 8,
+"kd2_over_n": 122.95,
+"family": "pair-partition",
+"construction": "D4 affine x Z_p, template (3, 8), check weight 8",
+"source": {
+"kind": "ours",
+"reference": "non-abelian pair-partition codes from our evolution framework; line l8smoke1 (2026-11-01), seed program, slot 46"
+},
+"evidence": {
+"kind": "certificate",
+"certificate": {
+"lower": 22,
+"complete_through": 20,
+"found": 22,
+"parity_argument": true,
+"levels": {
+"X": {
+"18": "CERTIFIED",
+"20": "CERTIFIED",
+"22": "FOUND"
+},
+"Z": {
+"18": "CERTIFIED",
+"20": "CERTIFIED",
+"22": "FOUND"
+}
+},
+"note": "certifier dkp_bb v5 at even levels (column weight 3: the all-ones vector lies in both row spaces, so logical weights are even); FOUND = a verified operator of that weight"
+}
+},
+"witness": null,
+"matrices": {
+"HX": "matrices/pp-992-252-c6248311/HX.mtx",
+"HZ": "matrices/pp-992-252-c6248311/HZ.mtx"
+},
+"claimed": null,
+"notes": null,
+"date": "2026-11-05"
+}
+]

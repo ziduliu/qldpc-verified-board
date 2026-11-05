@@ -1,0 +1,37 @@
+{
+ "slug": "board-994-142-40",
+ "name": "[[994,142,<=38]]",
+ "n": 994,
+ "k": 142,
+ "d": 38,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 38,
+ "w": 8,
+ "wX": 8,
+ "wZ": 8,
+ "kd2_over_n": 206.29,
+ "family": "pair-partition",
+ "construction": "board entry 994-142-40 (pair-partition-cpm); matrices rebuilt from the entry's check lists",
+ "source": {
+  "kind": "board",
+  "reference": "Unitary Foundation qLDPC challenge, entry 994-142-40, snapshot eb2aeae (2026-11-01)",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/994-142-40.json"
+ },
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 38; 600 s seed 1: 38; 3600 s seed 0: 38; 3600 s seed 1: 38; lighter operators than the claim exist"
+ },
+ "witness": null,
+ "matrices": null,
+ "claimed": {
+  "d": 40,
+  "confidence": "upper_bound",
+  "family": "pair-partition-cpm",
+  "date": "2026-10-29",
+  "model": "Claude Opus 5.5 (Claude Code)",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/994-142-40.json"
+ },
+ "notes": null,
+ "date": "2026-11-05"
+}

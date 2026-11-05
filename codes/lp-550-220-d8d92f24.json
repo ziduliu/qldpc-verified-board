@@ -1,0 +1,38 @@
+{
+ "slug": "lp-550-220-d8d92f24",
+ "name": "[[550,220,7]]",
+ "n": 550,
+ "k": 220,
+ "d": 7,
+ "d_status": "exact",
+ "d_lower": 7,
+ "d_upper": 7,
+ "w": 11,
+ "wX": 11,
+ "wZ": 11,
+ "kd2_over_n": 19.6,
+ "family": "lifted-product",
+ "construction": "group C_11 : C_5, protograph shapes (1,3) x (1,3), lift size 55",
+ "source": {
+  "kind": "ours",
+  "reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 6 (CLER objective)",
+  "repository": "https://github.com/ziduliu/sce-qldpc",
+  "files": {
+   "HX": "cler/cell6_n550_k220_d8d92f24197070fc_HX.mtx",
+   "HZ": "cler/cell6_n550_k220_d8d92f24197070fc_HZ.mtx"
+  }
+ },
+ "evidence": {
+  "kind": "certificate",
+  "method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
+  "records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+ },
+ "witness": null,
+ "matrices": {
+  "HX": "matrices/lp-550-220-d8d92f24/HX.mtx",
+  "HZ": "matrices/lp-550-220-d8d92f24/HZ.mtx"
+ },
+ "claimed": null,
+ "notes": null,
+ "date": "2026-11-05"
+}
