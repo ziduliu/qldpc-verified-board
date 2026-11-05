@@ -184,5 +184,56 @@ const idx=[...th.parentNode.children].indexOf(th);const get=r=>{const t=r.childr
 rows.sort((a,b)=>{const x=get(a),y=get(b);return (x>y?1:x<y?-1:0)*(dir[k]?1:-1);});rows.forEach(r=>tb.appendChild(r));}));
 </script></body></html>"""
 open(os.path.join(ROOT, "docs", "index.html"), "w").write(head + "\n".join(body) + tail)
+
+# ------------------------------------------------------------------ README tables (between the markers)
+def md_name(e):
+    return e["name"].replace("<=", "≤").replace(">=", "≥")
+
+
+def md_links(e):
+    out = []
+    if e.get("matrices"):
+        out.append("[H_X](%s) [H_Z](%s)" % (e["matrices"]["HX"], e["matrices"]["HZ"]))
+    if e.get("witness"):
+        out.append("[operators](%s)" % e["witness"])
+    if e["source"]["kind"] == "board":
+        out.append("[entry](%s)" % e["claimed"]["entry"])
+    return " ".join(out)
+
+
+def md_evidence(e):
+    ev = e.get("evidence") or {}
+    if ev.get("kind") == "certificate":
+        c = ev.get("certificate") or {}
+        t = "certificate through weight %s" % c.get("complete_through")
+        if e.get("witness"):
+            t += ", operators of weight %d" % e["d_upper"]
+        elif c.get("found"):
+            t += ", operator of weight %d" % c["found"]
+        return t
+    m = ev.get("method", "")
+    return m.split(": ", 1)[-1][:70]
+
+
+ours_exact = sorted([e for e in entries if e["source"]["kind"] == "ours" and e["d_status"] in ("exact", "lower_bound")], key=lambda e: -e["kd2_over_n"])
+ours_search = sorted([e for e in entries if e["source"]["kind"] == "ours" and e["d_status"] == "upper_bound"], key=lambda e: -e["kd2_over_n"])
+board = sorted([e for e in entries if e["source"]["kind"] == "board"], key=lambda e: -e["kd2_over_n"])
+md = ["### Codes of this board with a certificate (%d)\n" % len(ours_exact), "| code | w | k d²/n | family | construction | evidence | files |", "|---|---|---|---|---|---|---|"]
+for e in ours_exact:
+    md.append("| %s | %d | %.1f | %s | %s | %s | %s |" % (md_name(e), e["w"], e["kd2_over_n"], e["family"], e["construction"].replace("|", "/"), md_evidence(e), md_links(e)))
+md += ["", "### Codes of this board with a search bound only (%d)\n" % len(ours_search), "| code | w | k d²/n | family | construction | search | files |", "|---|---|---|---|---|---|---|"]
+for e in ours_search:
+    md.append("| %s | %d | %.1f | %s | %s | %s | %s |" % (md_name(e), e["w"], e["kd2_over_n"], e["family"], e["construction"].replace("|", "/"), md_evidence(e), md_links(e)))
+md += ["", "### Leaderboard entries re-measured (%d)\n" % len(board), "| entry | claimed | lightest operator found | k d²/n after | our search | files |", "|---|---|---|---|---|---|"]
+for e in board:
+    held = e["d"] >= e["claimed"]["d"]
+    md.append("| %s | ≤%d | %s%d | %.1f | %s | %s |" % (e["claimed"]["entry"].split("/")[-1][:-5], e["claimed"]["d"], "" if not held else "held at ", e["d"], e["kd2_over_n"], md_evidence(e), md_links(e)))
+readme = os.path.join(ROOT, "README.md")
+r = open(readme).read()
+a, b = "<!-- codes:start -->", "<!-- codes:end -->"
+if a in r and b in r:
+    r = r[:r.index(a) + len(a)] + "\n" + "\n".join(md) + "\n" + r[r.index(b):]
+    open(readme, "w").write(r)
+    print("README tables:", len(ours_exact), len(ours_search), len(board))
 open(os.path.join(ROOT, "docs", ".nojekyll"), "w").write("")
 print("entries", len(entries), "published refs", len(published))
