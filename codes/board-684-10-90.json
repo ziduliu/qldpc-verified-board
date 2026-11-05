@@ -1,0 +1,36 @@
+{
+ "slug": "board-684-10-90",
+ "name": "[[684,10,<=77]]",
+ "n": 684,
+ "k": 10,
+ "d": 77,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 77,
+ "w": 12,
+ "wX": 12,
+ "wZ": 12,
+ "kd2_over_n": 86.68,
+ "family": "two-block",
+ "construction": "leaderboard entry 684-10-90 (2bga-coset), matrices rebuilt from the entry's check lists",
+ "origin": "board",
+ "provenance": "Unitary Foundation qLDPC challenge, snapshot eb2aeae (2026-11-01), entry 684-10-90",
+ "citation": "github.com/unitaryfoundation/qldpc-challenge",
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 82; 600 s seed 1: 80; 3600 s seed 0: 79; 3600 s seed 1: 77; lighter operators than the claim exist, see the operator file"
+ },
+ "witness": "witnesses/board-684-10-90.json",
+ "matrices": null,
+ "claimed": {
+  "d": 90,
+  "confidence": "upper_bound",
+  "family": "2bga-coset",
+  "date": "2026-08-09",
+  "model": "Claude Opus 5",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/684-10-90.json"
+ },
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-05"
+}

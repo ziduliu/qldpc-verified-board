@@ -1,0 +1,36 @@
+{
+ "slug": "board-700-140-22",
+ "name": "[[700,140,<=22]]",
+ "n": 700,
+ "k": 140,
+ "d": 22,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 22,
+ "w": 9,
+ "wX": 9,
+ "wZ": 9,
+ "kd2_over_n": 96.8,
+ "family": "lifted-product",
+ "construction": "leaderboard entry 700-140-22 (balanced-product), matrices rebuilt from the entry's check lists",
+ "origin": "board",
+ "provenance": "Unitary Foundation qLDPC challenge, snapshot eb2aeae (2026-11-01), entry 700-140-22",
+ "citation": "github.com/unitaryfoundation/qldpc-challenge",
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 22; 600 s seed 1: 22; 3600 s seed 0: 22; 3600 s seed 1: 22; the claimed distance held"
+ },
+ "witness": "witnesses/board-700-140-22.json",
+ "matrices": null,
+ "claimed": {
+  "d": 22,
+  "confidence": "upper_bound",
+  "family": "balanced-product",
+  "date": "2026-08-02",
+  "model": "GPT 5.6 Sol",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/700-140-22.json"
+ },
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-05"
+}

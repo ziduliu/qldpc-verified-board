@@ -12,15 +12,13 @@
  "wZ": 8,
  "kd2_over_n": 168.2,
  "family": "pair-partition",
- "construction": "board entry 1000-200-29 (pair-partition-cpm); matrices rebuilt from the entry's check lists",
- "source": {
-  "kind": "board",
-  "reference": "Unitary Foundation qLDPC challenge, entry 1000-200-29, snapshot eb2aeae (2026-11-01)",
-  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/1000-200-29.json"
- },
+ "construction": "leaderboard entry 1000-200-29 (pair-partition-cpm), matrices rebuilt from the entry's check lists",
+ "origin": "board",
+ "provenance": "Unitary Foundation qLDPC challenge, snapshot eb2aeae (2026-11-01), entry 1000-200-29",
+ "citation": "github.com/unitaryfoundation/qldpc-challenge",
  "evidence": {
   "kind": "search",
-  "method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 29; 600 s seed 1: 29; 3600 s seed 0: 29; 3600 s seed 1: 29; the claimed distance held under these searches"
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 29; 600 s seed 1: 29; 3600 s seed 0: 29; 3600 s seed 1: 29"
  },
  "witness": null,
  "matrices": null,
@@ -32,6 +30,7 @@
   "model": "Claude Opus 5.5 (Claude Code)",
   "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/1000-200-29.json"
  },
- "notes": null,
+ "pending": "operator file",
+ "instance_group": null,
  "date": "2026-11-05"
 }

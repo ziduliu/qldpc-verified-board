@@ -12,21 +12,21 @@
  "wZ": 10,
  "kd2_over_n": 188.44,
  "family": "pair-partition",
- "construction": "Z32 x Z2, template (4, 10), check weight 10",
- "source": {
-  "kind": "ours",
-  "reference": "pair-partition construction inside our evolution framework; line n700a (2026-11-01), program family pp_j4l10_z32xz2_controlledcollision_bank, archive b9df990a83cdd824"
- },
+ "construction": "group C_2 \u00d7 C_32 (order 64), template (4, 10)",
+ "origin": "sce",
+ "provenance": "evolution line n700a (gpt-6.1-sol, 2026-11-01), archive b9df990a83cdd824",
+ "citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
  "evidence": {
   "kind": "search",
-  "method": "GPU directed BP+OSD search (v5): 600 s x 3 and 3600 s x 2 (v5): 30; operator supports not yet saved, a witness run is queued"
+  "method": "GPU directed BP+OSD search (v5): 600 s \u00d7 4 and 3600 s \u00d7 2 (v5): 30"
  },
- "witness": null,
+ "witness": "witnesses/pp-640-134-b9df990a.json",
  "matrices": {
   "HX": "matrices/pp-640-134-b9df990a/HX.mtx",
   "HZ": "matrices/pp-640-134-b9df990a/HZ.mtx"
  },
  "claimed": null,
- "notes": null,
+ "pending": null,
+ "instance_group": null,
  "date": "2026-11-05"
 }

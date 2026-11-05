@@ -12,11 +12,10 @@
  "wZ": 12,
  "kd2_over_n": 165.9,
  "family": "pair-partition",
- "construction": "cyclic group Z_53, template (4, 12), check weight 12",
- "source": {
-  "kind": "ours",
-  "reference": "pair-partition construction inside our evolution framework; gpt-6.1-sol line n700a / v5a (2026-11-01/02), archive e247724ac99dd3ca"
- },
+ "construction": "cyclic group C_53, template (4, 12)",
+ "origin": "sce",
+ "provenance": "evolution line n700a (gpt-6.1-sol, 2026-11-01), archive e247724ac99dd3ca; one of two inequivalent codes with these parameters (distinct spectra)",
+ "citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
  "evidence": {
   "kind": "certificate",
   "certificate": {
@@ -24,6 +23,7 @@
    "complete_through": 20,
    "found": null,
    "parity_argument": true,
+   "note": "certifier dkp_bb v5 at the even levels 16, 18, 20 on both sides; parity: the all-ones vector lies in both row spaces, so logical weights are even (checked by tools/check_all.py)",
    "levels": {
     "X": {
      "16": "CERTIFIED",
@@ -35,8 +35,7 @@
      "18": "CERTIFIED",
      "20": "CERTIFIED"
     }
-   },
-   "note": "certifier dkp_bb v5, levels 16/18/20 on both sides (even levels suffice: all-ones vector in both row spaces)"
+   }
   },
   "witness_weights": {
    "x": 22,
@@ -49,6 +48,7 @@
   "HZ": "matrices/pp-636-218-e247724a/HZ.mtx"
  },
  "claimed": null,
- "notes": null,
+ "pending": null,
+ "instance_group": "pp-636-218",
  "date": "2026-11-05"
 }

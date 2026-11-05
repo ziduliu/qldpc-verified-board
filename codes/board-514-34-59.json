@@ -1,28 +1,26 @@
 {
  "slug": "board-514-34-59",
- "name": "[[514,34,<=47]]",
+ "name": "[[514,34,<=51]]",
  "n": 514,
  "k": 34,
- "d": 47,
+ "d": 51,
  "d_status": "upper_bound",
  "d_lower": null,
- "d_upper": 47,
+ "d_upper": 51,
  "w": 12,
  "wX": 12,
  "wZ": 12,
- "kd2_over_n": 146.12,
+ "kd2_over_n": 172.05,
  "family": "two-block",
- "construction": "board entry 514-34-59 (generalized-bicycle); matrices rebuilt from the entry's check lists",
- "source": {
-  "kind": "board",
-  "reference": "Unitary Foundation qLDPC challenge, entry 514-34-59, snapshot eb2aeae (2026-11-01)",
-  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/514-34-59.json"
- },
+ "construction": "leaderboard entry 514-34-59 (generalized-bicycle), matrices rebuilt from the entry's check lists",
+ "origin": "board",
+ "provenance": "Unitary Foundation qLDPC challenge, snapshot eb2aeae (2026-11-01), entry 514-34-59",
+ "citation": "github.com/unitaryfoundation/qldpc-challenge",
  "evidence": {
   "kind": "search",
-  "method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 54; 600 s seed 1: 54; 3600 s seed 0: 47; 3600 s seed 1: 51; lighter operators than the claim exist"
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 54; 600 s seed 1: 54; 3600 s seed 0: 47; 3600 s seed 1: 51; 3600 s seed 2: 51; 3600 s seed 3: 52; the lightest value 47 came from a run that did not store its operator, the stored operators have weight 51; lighter operators than the claim exist, see the operator file"
  },
- "witness": null,
+ "witness": "witnesses/board-514-34-59.json",
  "matrices": null,
  "claimed": {
   "d": 59,
@@ -32,6 +30,7 @@
   "model": "Claude Opus 5",
   "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/514-34-59.json"
  },
- "notes": null,
+ "pending": null,
+ "instance_group": null,
  "date": "2026-11-05"
 }

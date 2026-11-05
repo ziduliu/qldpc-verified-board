@@ -1,0 +1,36 @@
+{
+ "slug": "board-448-112-18",
+ "name": "[[448,112,<=18]]",
+ "n": 448,
+ "k": 112,
+ "d": 18,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 18,
+ "w": 10,
+ "wX": 10,
+ "wZ": 10,
+ "kd2_over_n": 81.0,
+ "family": "pair-partition",
+ "construction": "leaderboard entry 448-112-18 (pair-partition-cpm), matrices rebuilt from the entry's check lists",
+ "origin": "board",
+ "provenance": "Unitary Foundation qLDPC challenge, snapshot eb2aeae (2026-11-01), entry 448-112-18",
+ "citation": "github.com/unitaryfoundation/qldpc-challenge",
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 18; 600 s seed 1: 18; 3600 s seed 0: 18; 3600 s seed 1: 18; the claimed distance held"
+ },
+ "witness": "witnesses/board-448-112-18.json",
+ "matrices": null,
+ "claimed": {
+  "d": 18,
+  "confidence": "upper_bound",
+  "family": "pair-partition-cpm",
+  "date": "2026-09-29",
+  "model": "MiMo-V2.6-Flash",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/448-112-18.json"
+ },
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-05"
+}

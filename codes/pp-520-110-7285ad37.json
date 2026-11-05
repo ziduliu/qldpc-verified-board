@@ -12,11 +12,10 @@
  "wZ": 10,
  "kd2_over_n": 143.0,
  "family": "pair-partition",
- "construction": "group Z_2 x Z_2 x Z_13 (not cyclic), template (4, 10), check weight 10",
- "source": {
-  "kind": "ours",
-  "reference": "pair-partition construction of arXiv:2609.30069 inside our evolution framework; evolution run pp_scratch_opus_20261030 (Claude Opus 5.5 proposer), program f6d864c771909d77, slot 2"
- },
+ "construction": "group C_2 \u00d7 C_2 \u00d7 C_13 (order 52, not cyclic), template (4, 10)",
+ "origin": "sce",
+ "provenance": "evolution run pp_scratch_opus_20261030 (Claude Opus 5.5 proposer), program f6d864c771909d77, candidate 2",
+ "citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
  "evidence": {
   "kind": "certificate",
   "certificate": {
@@ -24,6 +23,7 @@
    "complete_through": 24,
    "found": null,
    "parity_argument": true,
+   "note": "certifier dkp_bb v5 (irreducible-cluster branch and bound), sliced runs with manifests; parity: the all-ones vector lies in the row spaces of H_X and of H_Z, so every logical operator has even weight (checked by tools/check_all.py)",
    "levels": {
     "X": {
      "21": "CERTIFIED",
@@ -37,8 +37,7 @@
      "23": "CERTIFIED",
      "24": "CERTIFIED"
     }
-   },
-   "note": "certifier dkp_bb v5 (irreducible-cluster branch and bound), sliced runs with manifests; the all-ones vector lies in both row spaces, so every logical operator has even weight"
+   }
   },
   "witness_weights": {
    "x": 26,
@@ -51,6 +50,7 @@
   "HZ": "matrices/pp-520-110-7285ad37/HZ.mtx"
  },
  "claimed": null,
- "notes": null,
+ "pending": null,
+ "instance_group": null,
  "date": "2026-11-05"
 }

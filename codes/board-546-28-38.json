@@ -1,0 +1,36 @@
+{
+ "slug": "board-546-28-38",
+ "name": "[[546,28,<=38]]",
+ "n": 546,
+ "k": 28,
+ "d": 38,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 38,
+ "w": 9,
+ "wX": 9,
+ "wZ": 9,
+ "kd2_over_n": 74.05,
+ "family": "two-block",
+ "construction": "leaderboard entry 546-28-38 (generalized-bicycle), matrices rebuilt from the entry's check lists",
+ "origin": "board",
+ "provenance": "Unitary Foundation qLDPC challenge, snapshot eb2aeae (2026-11-01), entry 546-28-38",
+ "citation": "github.com/unitaryfoundation/qldpc-challenge",
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 38; 600 s seed 1: 38; 3600 s seed 0: 38; 3600 s seed 1: 38; the claimed distance held"
+ },
+ "witness": "witnesses/board-546-28-38.json",
+ "matrices": null,
+ "claimed": {
+  "d": 38,
+  "confidence": "upper_bound",
+  "family": "generalized-bicycle",
+  "date": "2026-10-14",
+  "model": "Gemini 4 Argon",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/546-28-38.json"
+ },
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-05"
+}

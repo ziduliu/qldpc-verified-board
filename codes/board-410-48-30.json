@@ -12,15 +12,13 @@
  "wZ": 12,
  "kd2_over_n": 105.37,
  "family": "two-block",
- "construction": "board entry 410-48-30 (generalized-bicycle); matrices rebuilt from the entry's check lists",
- "source": {
-  "kind": "board",
-  "reference": "Unitary Foundation qLDPC challenge, entry 410-48-30, snapshot eb2aeae (2026-11-01)",
-  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/410-48-30.json"
- },
+ "construction": "leaderboard entry 410-48-30 (generalized-bicycle), matrices rebuilt from the entry's check lists",
+ "origin": "board",
+ "provenance": "Unitary Foundation qLDPC challenge, snapshot eb2aeae (2026-11-01), entry 410-48-30",
+ "citation": "github.com/unitaryfoundation/qldpc-challenge",
  "evidence": {
   "kind": "search",
-  "method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 30; 600 s seed 1: 30; 3600 s seed 0: 30; 3600 s seed 1: 30; the claimed distance held under these searches"
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 30; 600 s seed 1: 30; 3600 s seed 0: 30; 3600 s seed 1: 30"
  },
  "witness": null,
  "matrices": null,
@@ -32,6 +30,7 @@
   "model": "Gemini 4 Argon",
   "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/410-48-30.json"
  },
- "notes": null,
+ "pending": "operator file",
+ "instance_group": null,
  "date": "2026-11-05"
 }

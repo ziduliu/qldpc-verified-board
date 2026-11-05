@@ -12,14 +12,13 @@
  "wZ": 10,
  "kd2_over_n": 241.4,
  "family": "pair-partition",
- "construction": "C2 x C34, template (4, 10), check weight 10",
- "source": {
-  "kind": "ours",
-  "reference": "pair-partition construction inside our evolution framework; line n700smoke (2026-11-01), program a5b691014ad745eb, program family pp_j4l10_c2xc34_catalogue_intersection4, archive 545796683e8e28d8"
- },
+ "construction": "group C_2 \u00d7 C_34 (order 68), template (4, 10)",
+ "origin": "sce",
+ "provenance": "evolution line n700smoke (gpt-6.1-sol, 2026-11-01), first-generation child a5b691014ad745eb, archive 545796683e8e28d8",
+ "citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
  "evidence": {
   "kind": "search",
-  "method": "GPU directed BP+OSD search (v5): 600 s x 3 and 3600 s x 2 (v5): 34/36/36/34/34"
+  "method": "GPU directed BP+OSD search (v5): 600 s \u00d7 3 and 3600 s \u00d7 3 (v5): 34, 36, 36, 34, 34, 34"
  },
  "witness": "witnesses/pp-680-142-54579668.json",
  "matrices": {
@@ -27,6 +26,7 @@
   "HZ": "matrices/pp-680-142-54579668/HZ.mtx"
  },
  "claimed": null,
- "notes": null,
+ "pending": null,
+ "instance_group": null,
  "date": "2026-11-05"
 }

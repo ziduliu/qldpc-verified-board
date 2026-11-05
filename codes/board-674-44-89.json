@@ -1,26 +1,24 @@
 {
  "slug": "board-674-44-89",
- "name": "[[674,44,<=64]]",
+ "name": "[[674,44,<=61]]",
  "n": 674,
  "k": 44,
- "d": 64,
+ "d": 61,
  "d_status": "upper_bound",
  "d_lower": null,
- "d_upper": 64,
+ "d_upper": 61,
  "w": 12,
  "wX": 12,
  "wZ": 12,
- "kd2_over_n": 267.39,
+ "kd2_over_n": 242.91,
  "family": "two-block",
- "construction": "board entry 674-44-89 (generalized-bicycle); matrices rebuilt from the entry's check lists",
- "source": {
-  "kind": "board",
-  "reference": "Unitary Foundation qLDPC challenge, entry 674-44-89, snapshot eb2aeae (2026-11-01)",
-  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/674-44-89.json"
- },
+ "construction": "leaderboard entry 674-44-89 (generalized-bicycle), matrices rebuilt from the entry's check lists",
+ "origin": "board",
+ "provenance": "Unitary Foundation qLDPC challenge, snapshot eb2aeae (2026-11-01), entry 674-44-89",
+ "citation": "github.com/unitaryfoundation/qldpc-challenge",
  "evidence": {
   "kind": "search",
-  "method": "our GPU directed BP+OSD search (v5), runs: 600 s seed 0: 68; 600 s seed 1: 71; 3600 s seed 0: 67; 3600 s seed 1: 64; lighter operators than the claim exist"
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 68; 600 s seed 1: 71; 3600 s seed 0: 67; 3600 s seed 1: 64; 7200 s seed 2: 61; lighter operators than the claim exist, see the operator file"
  },
  "witness": "witnesses/board-674-44-89.json",
  "matrices": null,
@@ -32,6 +30,7 @@
   "model": "GLM 5.3 Flash (Zed agent)",
   "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/674-44-89.json"
  },
- "notes": null,
+ "pending": null,
+ "instance_group": null,
  "date": "2026-11-05"
 }

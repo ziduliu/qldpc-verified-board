@@ -1,0 +1,36 @@
+{
+ "slug": "board-512-128-20",
+ "name": "[[512,128,<=20]]",
+ "n": 512,
+ "k": 128,
+ "d": 20,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 20,
+ "w": 10,
+ "wX": 10,
+ "wZ": 10,
+ "kd2_over_n": 100.0,
+ "family": "pair-partition",
+ "construction": "leaderboard entry 512-128-20 (pair-partition-cpm), matrices rebuilt from the entry's check lists",
+ "origin": "board",
+ "provenance": "Unitary Foundation qLDPC challenge, snapshot eb2aeae (2026-11-01), entry 512-128-20",
+ "citation": "github.com/unitaryfoundation/qldpc-challenge",
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 20; 600 s seed 1: 20; 3600 s seed 0: 20; 3600 s seed 1: 20; the claimed distance held"
+ },
+ "witness": "witnesses/board-512-128-20.json",
+ "matrices": null,
+ "claimed": {
+  "d": 20,
+  "confidence": "upper_bound",
+  "family": "pair-partition-cpm",
+  "date": "2026-10-12",
+  "model": "Space Bunny Alpha 1.0",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/512-128-20.json"
+ },
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-05"
+}

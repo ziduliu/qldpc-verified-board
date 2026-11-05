@@ -12,21 +12,21 @@
  "wZ": 10,
  "kd2_over_n": 163.82,
  "family": "pair-partition",
- "construction": "cyclic group Z_67, template (4, 10) with one row removed, check weight 10",
- "source": {
-  "kind": "ours",
-  "reference": "pair-partition construction inside our evolution framework; line v5a (2026-11-02), program family pp_j4l10_zprime_missingrow_cyclefibres, archive 15e94ea54fe5bc15"
- },
+ "construction": "cyclic group C_67, template (4, 10) with one row removed",
+ "origin": "sce",
+ "provenance": "evolution line v5a (gpt-6.1-sol, 2026-11-02), archive 15e94ea54fe5bc15",
+ "citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
  "evidence": {
   "kind": "search",
-  "method": "GPU directed BP+OSD search (v5): 600 s x 2 and 3600 s x 2 (v5): 28; operator supports not yet saved, a witness run is queued"
+  "method": "GPU directed BP+OSD search (v5): 600 s \u00d7 3 and 3600 s \u00d7 2 (v5): 28"
  },
- "witness": null,
+ "witness": "witnesses/pp-670-140-15e94ea5.json",
  "matrices": {
   "HX": "matrices/pp-670-140-15e94ea5/HX.mtx",
   "HZ": "matrices/pp-670-140-15e94ea5/HZ.mtx"
  },
  "claimed": null,
- "notes": null,
+ "pending": null,
+ "instance_group": null,
  "date": "2026-11-05"
 }

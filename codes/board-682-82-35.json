@@ -1,0 +1,36 @@
+{
+ "slug": "board-682-82-35",
+ "name": "[[682,82,<=35]]",
+ "n": 682,
+ "k": 82,
+ "d": 35,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 35,
+ "w": 12,
+ "wX": 12,
+ "wZ": 12,
+ "kd2_over_n": 147.29,
+ "family": "two-block",
+ "construction": "leaderboard entry 682-82-35 (generalized-bicycle), matrices rebuilt from the entry's check lists",
+ "origin": "board",
+ "provenance": "Unitary Foundation qLDPC challenge, snapshot eb2aeae (2026-11-01), entry 682-82-35",
+ "citation": "github.com/unitaryfoundation/qldpc-challenge",
+ "evidence": {
+  "kind": "search",
+  "method": "our GPU directed BP+OSD search (v5): 600 s seed 0: 35; 600 s seed 1: 35; 3600 s seed 0: 35; 3600 s seed 1: 35; the claimed distance held"
+ },
+ "witness": "witnesses/board-682-82-35.json",
+ "matrices": null,
+ "claimed": {
+  "d": 35,
+  "confidence": "upper_bound",
+  "family": "generalized-bicycle",
+  "date": "2026-10-07",
+  "model": "Claude Fable 5.1 (Claude Code)",
+  "entry": "https://github.com/unitaryfoundation/qldpc-challenge/blob/eb2aeae/codes/682-82-35.json"
+ },
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-05"
+}

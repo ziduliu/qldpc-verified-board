@@ -12,20 +12,19 @@
  "wZ": 10,
  "kd2_over_n": 28.8,
  "family": "lifted-product",
- "construction": "group C_29, protograph shapes (2,4) x (2,4), lift size 29",
- "source": {
-  "kind": "ours",
-  "reference": "arXiv:2606.24808 (v2), run pl10_gpt61sol_out, rate cell 2 (CLER objective)",
-  "repository": "https://github.com/ziduliu/sce-qldpc",
-  "files": {
-   "HX": "cler/cell2_n580_k116_ba427de15c84301e_HX.mtx",
-   "HZ": "cler/cell2_n580_k116_ba427de15c84301e_HZ.mtx"
-  }
- },
+ "construction": "group C_29 (order 29), protograph shapes (2,4) \u00d7 (2,4)",
+ "origin": "sce",
+ "provenance": "run pl10_gpt61sol_out (gpt-6.1-sol, CLER objective), rate cell 2; arXiv:2606.24808 codes/cler/cell2_n580_k116_ba427de15c84301e_HX.mtx",
+ "citation": "arXiv:2606.24808",
  "evidence": {
   "kind": "certificate",
-  "method": "irreducible-cluster enumeration (Dumer-Kovalev-Pryadko) with Tanner-graph automorphism orbits; complete exclusion through weight d-1 on both sides plus an explicit operator of weight d",
-  "records": "sce-qldpc: records/exact_bb_20261006_61 and records/recert_v5_20261014"
+  "certificate": {
+   "lower": 12,
+   "complete_through": 11,
+   "found": 12,
+   "parity_argument": false,
+   "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits: no logical operator of weight below 12 on either side, and an operator of weight 12; sliced runs with manifests in the paper repository, records/exact_bb_20261006_61 and records/recert_v5_20261014"
+  }
  },
  "witness": null,
  "matrices": {
@@ -33,6 +32,7 @@
   "HZ": "matrices/lp-580-116-ba427de1/HZ.mtx"
  },
  "claimed": null,
- "notes": null,
+ "pending": "operator file",
+ "instance_group": null,
  "date": "2026-11-05"
 }

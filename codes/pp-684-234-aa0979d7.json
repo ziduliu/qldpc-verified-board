@@ -12,21 +12,21 @@
  "wZ": 12,
  "kd2_over_n": 197.05,
  "family": "pair-partition",
- "construction": "group Z_3 x Z_19, template (4, 12), shortened, check weight 12",
- "source": {
-  "kind": "ours",
-  "reference": "pair-partition construction inside our evolution framework; line v5a (2026-11-02), program family pp_j4l12_c3xc19_overlapfibres_shortened, archive aa0979d7bc395762"
- },
+ "construction": "cyclic group C_57 (written C_3 \u00d7 C_19 by the program), template (4, 12), shortened",
+ "origin": "sce",
+ "provenance": "evolution line v5a (gpt-6.1-sol, 2026-11-02), archive aa0979d7bc395762; inequivalent to the other code with these parameters (distinct spectra)",
+ "citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
  "evidence": {
   "kind": "search",
-  "method": "GPU directed BP+OSD search (v5): 600 s x 2 and 3600 s x 2 (v5): 24; operator supports not yet saved, a witness run is queued"
+  "method": "GPU directed BP+OSD search (v5): 600 s \u00d7 3 and 3600 s \u00d7 2 (v5): 24"
  },
- "witness": null,
+ "witness": "witnesses/pp-684-234-aa0979d7.json",
  "matrices": {
   "HX": "matrices/pp-684-234-aa0979d7/HX.mtx",
   "HZ": "matrices/pp-684-234-aa0979d7/HZ.mtx"
  },
  "claimed": null,
- "notes": null,
+ "pending": null,
+ "instance_group": "pp-684-234",
  "date": "2026-11-05"
 }

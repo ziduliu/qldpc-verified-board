@@ -12,14 +12,13 @@
  "wZ": 10,
  "kd2_over_n": 241.25,
  "family": "pair-partition",
- "construction": "C3 x C23, template (4, 10), check weight 10",
- "source": {
-  "kind": "ours",
-  "reference": "pair-partition construction inside our evolution framework; line v5a (2026-11-02), program d1c1209dbbece20a, program family pp_j4l10_c3xc23_rank_cyclefibres_novel, archive ea020f49826f14a4"
- },
+ "construction": "cyclic group C_69 (written C_3 \u00d7 C_23 by the program), template (4, 10)",
+ "origin": "sce",
+ "provenance": "evolution line v5a (gpt-6.1-sol, 2026-11-02), program d1c1209dbbece20a, archive ea020f49826f14a4",
+ "citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
  "evidence": {
   "kind": "search",
-  "method": "GPU directed BP+OSD search (v5): 600 s x 3 and 3600 s x 2 (v5): 34 in all five"
+  "method": "GPU directed BP+OSD search (v5): 600 s \u00d7 3 and 3600 s \u00d7 3 (v5): 34 in all six"
  },
  "witness": "witnesses/pp-690-144-ea020f49.json",
  "matrices": {
@@ -27,6 +26,7 @@
   "HZ": "matrices/pp-690-144-ea020f49/HZ.mtx"
  },
  "claimed": null,
- "notes": null,
+ "pending": null,
+ "instance_group": null,
  "date": "2026-11-05"
 }
