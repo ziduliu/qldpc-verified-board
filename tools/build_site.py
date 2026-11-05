@@ -16,8 +16,10 @@ from matplotlib.lines import Line2D
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO = "https://github.com/ziduliu/qldpc-verified-board/blob/main/"
+RATE_MIN = 0.1   # the site and the README list codes with k/n above this rate; lower-rate entries stay in codes/ unlisted
 entries = [json.load(open(f)) for f in sorted(glob.glob(os.path.join(ROOT, "codes", "*.json")))]
-published = json.load(open(os.path.join(ROOT, "data", "published_codes.json")))
+entries = [e for e in entries if e["k"] / e["n"] > RATE_MIN]
+published = [r for r in json.load(open(os.path.join(ROOT, "data", "published_codes.json"))) if r["k"] / r["n"] > RATE_MIN]
 os.makedirs(os.path.join(ROOT, "docs"), exist_ok=True)
 json.dump(entries, open(os.path.join(ROOT, "docs", "codes.json"), "w"), indent=0)
 
@@ -140,7 +142,7 @@ tr.exact td.st{color:#0b6e2f;font-weight:600}tr.search td.st{color:#8a5a00}tr.lo
 .tag{display:inline-block;padding:0 6px;border-radius:9px;background:#eef1f5;font-size:.85em;margin-left:4px}
 </style></head><body>
 <h1>Verified quantum LDPC codes</h1>
-<p>Every row states what is actually proven about the distance. <b>exact</b>: a certificate excludes all lighter logical operators
+<p>Codes with encoding rate k/n above 0.1. Every row states what is actually proven about the distance. <b>exact</b>: a certificate excludes all lighter logical operators
 and an explicit operator of that weight is given. <b>search bound</b>: the lightest logical operator found by a long GPU search
 (directed BP+OSD, 600 s to 3600 s per run, several runs), with the operator published so that anyone can check it; the true
 distance may be smaller. <b>lower bound</b>: a certificate without a matching operator. Leaderboard rows are entries of the
