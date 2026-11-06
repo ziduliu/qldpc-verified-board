@@ -1,0 +1,38 @@
+{
+ "slug": "lp-630-126-51eb4a07",
+ "name": "[[630,126,20]]",
+ "n": 630,
+ "k": 126,
+ "d": 20,
+ "d_status": "exact",
+ "d_lower": 20,
+ "d_upper": 20,
+ "w": 9,
+ "wX": 9,
+ "wZ": 9,
+ "kd2_over_n": 80.0,
+ "family": "lifted-product",
+ "construction": "group C_7 \u22ca C_18 (order 126), protograph shapes (1,2) \u00d7 (1,2)",
+ "origin": "sce",
+ "provenance": "agentic SCE line (gpt-6.1-sol with tools, stateful), weight 9, rate 0.2, shapes (1,2) \u00d7 (1,2) frozen, size cap 650, replicate 1 (2026-10-27/28), child 4, slot 1; archive 51eb4a07203cf953; program family r020_c7sdc18_12x12_deep_bank_css_v4",
+ "citation": "arXiv:2606.24808",
+ "evidence": {
+  "kind": "certificate",
+  "certificate": {
+   "lower": 20,
+   "complete_through": 19,
+   "found": 20,
+   "parity_argument": false,
+   "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits, sliced runs with manifests (dkp_bb v5): X type complete through weight 19, Z type through 19, no logical operator found below 20 on either side; weight-20 operators found at the next level"
+  }
+ },
+ "witness": "witnesses/lp-630-126-51eb4a07.json",
+ "matrices": {
+  "HX": "matrices/lp-630-126-51eb4a07/HX.mtx",
+  "HZ": "matrices/lp-630-126-51eb4a07/HZ.mtx"
+ },
+ "claimed": null,
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-05"
+}

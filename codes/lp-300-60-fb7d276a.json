@@ -1,0 +1,38 @@
+{
+ "slug": "lp-300-60-fb7d276a",
+ "name": "[[300,60,14]]",
+ "n": 300,
+ "k": 60,
+ "d": 14,
+ "d_status": "exact",
+ "d_lower": 14,
+ "d_upper": 14,
+ "w": 9,
+ "wX": 9,
+ "wZ": 9,
+ "kd2_over_n": 39.2,
+ "family": "lifted-product",
+ "construction": "group C_10 \u00d7 S_3 (order 60), protograph shapes (1,2) \u00d7 (1,2)",
+ "origin": "sce",
+ "provenance": "agentic SCE line (gpt-6.1-sol with tools, stateful), weight 9, rate 0.2, shapes (1,2) \u00d7 (1,2) frozen, size cap 300, replicate 1 (2026-10-27/28), child 3, slot 1; archive fb7d276a984acb48; program family r020_c10xs3_12x12_exhaustive_rankaware_css",
+ "citation": "arXiv:2606.24808",
+ "evidence": {
+  "kind": "certificate",
+  "certificate": {
+   "lower": 14,
+   "complete_through": 13,
+   "found": 14,
+   "parity_argument": false,
+   "note": "irreducible-cluster enumeration (Dumer, Kovalev and Pryadko 2017) with Tanner-graph automorphism orbits, sliced runs with manifests (dkp_bb v5): X type complete through weight 13, Z type through 13, no logical operator found below 14 on either side; weight-14 operators found at the next level"
+  }
+ },
+ "witness": "witnesses/lp-300-60-fb7d276a.json",
+ "matrices": {
+  "HX": "matrices/lp-300-60-fb7d276a/HX.mtx",
+  "HZ": "matrices/lp-300-60-fb7d276a/HZ.mtx"
+ },
+ "claimed": null,
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-05"
+}
