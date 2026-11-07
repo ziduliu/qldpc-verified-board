@@ -1,0 +1,32 @@
+{
+ "slug": "lp-1104-495-901d06d6",
+ "name": "[[1104,495,<=8]]",
+ "n": 1104,
+ "k": 495,
+ "d": 8,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 8,
+ "w": 12,
+ "wX": 12,
+ "wZ": 12,
+ "kd2_over_n": 28.7,
+ "family": "lifted-product",
+ "construction": "group (Q_8 \u22ca C_3) \u00d7 C_2 = SL(2,3) \u00d7 C_2 (order 48), protograph shapes (1,3) \u00d7 (2,7)",
+ "origin": "sce",
+ "provenance": "evolution line n1k (gpt-6.1-sol, 2026-10-08), archive 901d06d6686ab23f",
+ "citation": "arXiv:2606.24808",
+ "evidence": {
+  "kind": "search",
+  "method": "GPU directed BP+OSD search (v5): 600 s seed 0: 8; 600 s seed 1: 8; 3600 s seed 0: 8; 3600 s seed 1: 8"
+ },
+ "witness": "witnesses/lp-1104-495-901d06d6.json",
+ "matrices": {
+  "HX": "matrices/lp-1104-495-901d06d6/HX.mtx",
+  "HZ": "matrices/lp-1104-495-901d06d6/HZ.mtx"
+ },
+ "claimed": null,
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-07"
+}

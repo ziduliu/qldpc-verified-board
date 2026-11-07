@@ -1,0 +1,32 @@
+{
+ "slug": "lp-663-240-61871d9b",
+ "name": "[[663,240,<=8]]",
+ "n": 663,
+ "k": 240,
+ "d": 8,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 8,
+ "w": 12,
+ "wX": 12,
+ "wZ": 11,
+ "kd2_over_n": 23.17,
+ "family": "lifted-product",
+ "construction": "group C_13 \u22ca C_3 (affine maps of F_13 with slopes 1, 3, 9; order 39), protograph shapes (1,3) \u00d7 (2,5)",
+ "origin": "sce",
+ "provenance": "evolution line n700a (gpt-6.1-sol, 2026-11-05), archive 61871d9b814e15cc",
+ "citation": "arXiv:2606.24808",
+ "evidence": {
+  "kind": "search",
+  "method": "GPU directed BP+OSD search (v5): 600 s seed 0: 8; 600 s seed 1: 8; 3600 s seed 0: 8; 3600 s seed 1: 8"
+ },
+ "witness": "witnesses/lp-663-240-61871d9b.json",
+ "matrices": {
+  "HX": "matrices/lp-663-240-61871d9b/HX.mtx",
+  "HZ": "matrices/lp-663-240-61871d9b/HZ.mtx"
+ },
+ "claimed": null,
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-07"
+}

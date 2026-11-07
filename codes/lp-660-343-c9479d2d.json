@@ -1,0 +1,32 @@
+{
+ "slug": "lp-660-343-c9479d2d",
+ "name": "[[660,343,<=4]]",
+ "n": 660,
+ "k": 343,
+ "d": 4,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 4,
+ "w": 10,
+ "wX": 9,
+ "wZ": 10,
+ "kd2_over_n": 8.32,
+ "family": "lifted-product",
+ "construction": "cyclic group C_11, protograph shapes (2,7) \u00d7 (2,8)",
+ "origin": "sce",
+ "provenance": "evolution line n700a (gpt-6.1-sol, 2026-11-05), archive c9479d2d49cded3d",
+ "citation": "arXiv:2606.24808",
+ "evidence": {
+  "kind": "search",
+  "method": "GPU directed BP+OSD search (v5): 600 s seed 0: 4; 600 s seed 1: 4; 3600 s seed 0: 4; 3600 s seed 1: 4"
+ },
+ "witness": "witnesses/lp-660-343-c9479d2d.json",
+ "matrices": {
+  "HX": "matrices/lp-660-343-c9479d2d/HX.mtx",
+  "HZ": "matrices/lp-660-343-c9479d2d/HZ.mtx"
+ },
+ "claimed": null,
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-07"
+}

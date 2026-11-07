@@ -1,0 +1,32 @@
+{
+ "slug": "lp-1400-578-1b9e932c",
+ "name": "[[1400,578,<=12]]",
+ "n": 1400,
+ "k": 578,
+ "d": 12,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 12,
+ "w": 12,
+ "wX": 12,
+ "wZ": 12,
+ "kd2_over_n": 59.45,
+ "family": "lifted-product",
+ "construction": "group AGL(1,5) \u00d7 C_7 (order 140), protograph shapes (1,3) \u00d7 (1,3)",
+ "origin": "sce",
+ "provenance": "evolution line n1k (gpt-6.1-sol, 2026-10-08), archive 1b9e932ceead30c7",
+ "citation": "arXiv:2606.24808",
+ "evidence": {
+  "kind": "search",
+  "method": "GPU directed BP+OSD search (v5): 600 s seed 0: 12; 600 s seed 1: 12; 3600 s seed 0: 12; 3600 s seed 1: 12"
+ },
+ "witness": "witnesses/lp-1400-578-1b9e932c.json",
+ "matrices": {
+  "HX": "matrices/lp-1400-578-1b9e932c/HX.mtx",
+  "HZ": "matrices/lp-1400-578-1b9e932c/HZ.mtx"
+ },
+ "claimed": null,
+ "pending": null,
+ "instance_group": null,
+ "date": "2026-11-07"
+}

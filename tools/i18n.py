@@ -137,6 +137,9 @@ def _apply(s, rules):
 _CONS = {
     "zh": [
         (r" ?\(written (.+?) by the program\)", r"（程序中写作 \1）"),
+        (r" ?\((y x y⁻¹ = x\S+), order (\d+)\)", r"（\1，阶 \2）"),
+        (r" ?\(additive group of F_25, multiplication by an element of order 8; order 200\)", "（F_25 的加法群，乘以一个 8 阶元素；阶 200）"),
+        (r" ?\(affine maps of F_13 with slopes 1, 3, 9; order 39\)", "（F_13 上斜率为 1、3、9 的仿射映射；阶 39）"),
         (r" ?\(order (\d+), not cyclic\)", r"（阶 \1，非循环）"),
         (r" ?\(order (\d+)\)", r"（阶 \1）"),
         (r"^leaderboard entry (\S+) \((\S+)\), matrices rebuilt from the entry's check lists$", r"排行榜条目 \1（\2），矩阵由该条目的校验列表重建"),
@@ -150,6 +153,9 @@ _CONS = {
     ],
     "de": [
         (r"\(written (.+?) by the program\)", r"(im Programm als \1 geschrieben)"),
+        (r"\((y x y⁻¹ = x\S+), order (\d+)\)", r"(\1, Ordnung \2)"),
+        (r"\(additive group of F_25, multiplication by an element of order 8; order 200\)", "(additive Gruppe von F_25, Multiplikation mit einem Element der Ordnung 8; Ordnung 200)"),
+        (r"\(affine maps of F_13 with slopes 1, 3, 9; order 39\)", "(affine Abbildungen von F_13 mit den Steigungen 1, 3, 9; Ordnung 39)"),
         (r"\(order (\d+), not cyclic\)", r"(Ordnung \1, nicht zyklisch)"),
         (r"\(order (\d+)\)", r"(Ordnung \1)"),
         (r"^leaderboard entry (\S+) \((\S+)\), matrices rebuilt from the entry's check lists$", r"Eintrag \1 der Bestenliste (\2), Matrizen aus den Prüflisten des Eintrags neu aufgebaut"),
