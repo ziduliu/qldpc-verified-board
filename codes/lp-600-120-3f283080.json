@@ -12,9 +12,9 @@
  "wZ": 9,
  "kd2_over_n": 80.0,
  "family": "lifted-product",
- "construction": "group SL(2,3) \u00d7 C_5 (order 120), protograph shapes (1,2) \u00d7 (1,2)",
+ "construction": "group SL(2,3) × C_5 (order 120), protograph shapes (1,2) × (1,2)",
  "origin": "sce",
- "provenance": "agentic SCE line (gpt-6.1-sol with tools, stateful), weight 9, rate 0.2, shapes (1,2) \u00d7 (1,2) frozen, size cap 650, replicate 1 (2026-10-27/28), child 15, slot 0; archive 3f283080ae7c63ce; program family r020_sl23xc5_12x12_phase_units_fullcss_v15",
+ "provenance": "agentic SCE line (gpt-6.1-sol with tools, stateful), weight 9, rate 0.2, shapes (1,2) × (1,2) frozen, size cap 650, replicate 1 (2026-10-27/28), child 15, slot 0; archive 3f283080ae7c63ce; program family r020_sl23xc5_12x12_phase_units_fullcss_v15",
  "citation": "arXiv:2606.24808",
  "evidence": {
   "kind": "certificate",
@@ -34,5 +34,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-10-28",
+ "found_at": "2026-10-28 01:35",
+ "found_source": "archive record of the run agent_w9cap650_20261027 (cluster, archive/codes/3f283080ae7c63ce.json)"
 }

@@ -52,5 +52,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-10-30",
+ "found_at": "2026-10-30 22:42",
+ "found_source": "archive record of the run (laptop copy): pp_line catalog archive 64d91a4a49e700e7"
 }

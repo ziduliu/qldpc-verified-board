@@ -12,7 +12,7 @@
  "wZ": 12,
  "kd2_over_n": 42.03,
  "family": "lifted-product",
- "construction": "group C_31 \u22ca C_3 (y x y\u207b\u00b9 = x\u2075, order 93), protograph shapes (1,2) \u00d7 (1,3)",
+ "construction": "group C_31 ⋊ C_3 (y x y⁻¹ = x⁵, order 93), protograph shapes (1,2) × (1,3)",
  "origin": "sce",
  "provenance": "evolution line n700a (gpt-6.1-sol, 2026-11-05), archive 41d17c46fcccf940",
  "citation": "arXiv:2606.24808",
@@ -28,5 +28,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-07"
+ "date": "2026-11-07",
+ "found": "2026-11-05",
+ "found_at": "2026-11-05 20:34",
+ "found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/41d17c46fcccf940.json)"
 }

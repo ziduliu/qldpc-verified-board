@@ -12,13 +12,13 @@
  "wZ": 10,
  "kd2_over_n": 216.85,
  "family": "pair-partition",
- "construction": "group C_2 \u00d7 C_34, template (4, 10)",
+ "construction": "group C_2 × C_34, template (4, 10)",
  "origin": "sce",
  "provenance": "evolution line n700smoke (gpt-6.1-sol, 2026-11-01), archive c6873368c56df888",
  "citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
  "evidence": {
   "kind": "search",
-  "method": "GPU directed BP+OSD search (v5): 600 s \u00d7 4 and 3600 s \u00d7 2 (v5): 32"
+  "method": "GPU directed BP+OSD search (v5): 600 s × 4 and 3600 s × 2 (v5): 32"
  },
  "witness": "witnesses/pp-680-144-c6873368.json",
  "matrices": {
@@ -28,5 +28,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-11-01",
+ "found_at": "2026-11-01 23:38",
+ "found_source": "archive record of the run pp_n700smoke_20261101 (cluster, archive/codes/c6873368c56df888.json)"
 }

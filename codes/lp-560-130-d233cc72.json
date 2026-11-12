@@ -12,7 +12,7 @@
  "wZ": 12,
  "kd2_over_n": 45.5,
  "family": "lifted-product",
- "construction": "group Dic_7 (order 28), protograph shapes (2,4) \u00d7 (2,4)",
+ "construction": "group Dic_7 (order 28), protograph shapes (2,4) × (2,4)",
  "origin": "sce",
  "provenance": "run cc_v7_gpt61sol500_w12_10c_out (gpt-6.1-sol, FOM objective), rate cell 3; arXiv:2606.24808 codes/fom/cell3_n560_k130_d233cc7273de92c2_HX.mtx",
  "citation": "arXiv:2606.24808",
@@ -34,5 +34,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-10-04",
+ "found_at": "2026-10-04 04:31",
+ "found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive d233cc7273de92c2"
 }

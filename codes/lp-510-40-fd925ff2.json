@@ -12,13 +12,13 @@
  "wZ": 10,
  "kd2_over_n": 138.35,
  "family": "two-block",
- "construction": "group C_255 (order 255), protograph shapes (1,1) \u00d7 (1,1)",
+ "construction": "group C_255 (order 255), protograph shapes (1,1) × (1,1)",
  "origin": "sce",
  "provenance": "run cc_v7_gpt61sol500_w12_10c_out (gpt-6.1-sol, FOM objective), rate cell 0; arXiv:2606.24808 codes/fom/cell0_n510_k40_fd925ff20fe235cc_HX.mtx",
  "citation": "arXiv:2606.24808",
  "evidence": {
   "kind": "search",
-  "method": "GPU directed BP+OSD search (v5): 600 s \u00d7 2 and 3600 s \u00d7 2, all 42; earlier estimator 7200 s \u00d7 2 and QDistRnd with 1e9 information sets per type gave no lighter operator"
+  "method": "GPU directed BP+OSD search (v5): 600 s × 2 and 3600 s × 2, all 42; earlier estimator 7200 s × 2 and QDistRnd with 1e9 information sets per type gave no lighter operator"
  },
  "witness": "witnesses/lp-510-40-fd925ff2.json",
  "matrices": {
@@ -28,5 +28,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-10-04",
+ "found_at": "2026-10-04 03:46",
+ "found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive fd925ff20fe235cc"
 }

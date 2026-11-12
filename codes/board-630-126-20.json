@@ -32,5 +32,7 @@
  },
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026",
+ "found_source": "date of the leaderboard entry"
 }

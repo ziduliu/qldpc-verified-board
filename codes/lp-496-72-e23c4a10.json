@@ -12,7 +12,7 @@
  "wZ": 9,
  "kd2_over_n": 28.45,
  "family": "lifted-product",
- "construction": "group C_31 (order 31), protograph shapes (2,3) \u00d7 (2,4)",
+ "construction": "group C_31 (order 31), protograph shapes (2,3) × (2,4)",
  "origin": "sce",
  "provenance": "run cc_v7_gpt61sol500_w9_10c_out (gpt-6.1-sol, FOM objective), rate cell 1; arXiv:2606.24808 codes/fom_w9/cell1_n496_k72_e23c4a10e9715f05_HX.mtx",
  "citation": "arXiv:2606.24808",
@@ -34,5 +34,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-10-12",
+ "found_at": "2026-10-12 03:12",
+ "found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/e23c4a10e9715f05.json)"
 }

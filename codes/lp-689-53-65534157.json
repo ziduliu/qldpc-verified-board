@@ -12,7 +12,7 @@
  "wZ": 12,
  "kd2_over_n": 78.77,
  "family": "lifted-product",
- "construction": "cyclic group C_53, protograph shapes (2,3) \u00d7 (2,3)",
+ "construction": "cyclic group C_53, protograph shapes (2,3) × (2,3)",
  "origin": "sce",
  "provenance": "evolution line n700a (gpt-6.1-sol, 2026-11-05), archive 65534157abfb700e",
  "citation": "arXiv:2606.24808",
@@ -28,5 +28,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-07"
+ "date": "2026-11-07",
+ "found": "2026-11-05",
+ "found_at": "2026-11-05 17:09",
+ "found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/65534157abfb700e.json)"
 }

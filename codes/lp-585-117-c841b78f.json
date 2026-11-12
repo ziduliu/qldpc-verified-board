@@ -12,7 +12,7 @@
  "wZ": 9,
  "kd2_over_n": 80.0,
  "family": "lifted-product",
- "construction": "group C_13 \u22ca C_9 (order 117), protograph shapes (1,2) \u00d7 (1,2)",
+ "construction": "group C_13 ⋊ C_9 (order 117), protograph shapes (1,2) × (1,2)",
  "origin": "sce",
  "provenance": "level-1 refinement run of the 258th child of the weight-9 run (gpt-6.1-sol), replicate 1, child 5; arXiv:2606.24808 codes/fom_w9/cell2_refinement_n585_k117_c841b78f0a93b1ff_HX.mtx",
  "citation": "arXiv:2606.24808",
@@ -34,5 +34,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-10-25",
+ "found_at": "2026-10-25 13:17",
+ "found_source": "archive record of the run codesign_w9_20261025_rw (cluster, archive/codes/c841b78f0a93b1ff.json)"
 }

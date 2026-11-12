@@ -33,7 +33,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-23",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-410-48-30",
@@ -69,7 +71,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-14",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-448-112-18",
@@ -105,7 +109,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-09-29",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-512-128-20",
@@ -141,7 +147,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-12",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-630-126-20",
@@ -177,7 +185,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-682-82-35",
@@ -213,7 +223,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-07",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-700-140-22",
@@ -249,7 +261,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-08-02",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-972-166-34",
@@ -285,7 +299,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-24",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-994-142-40",
@@ -321,7 +337,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-29",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-996-166-32",
@@ -357,7 +375,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-23",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-996-166-34",
@@ -393,7 +413,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-23",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "board-996-166-36",
@@ -429,7 +451,9 @@
 },
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-23",
+"found_source": "date of the leaderboard entry"
 },
 {
 "slug": "lp-1104-495-901d06d6",
@@ -461,7 +485,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-10-10",
+"found_at": "2026-10-10 05:19",
+"found_source": "archive record of the run cc_v7_gpt61sol_n1k_w12_10c_out (cluster, archive/codes/901d06d6686ab23f.json)"
 },
 {
 "slug": "lp-1400-416-5c6dcca3",
@@ -493,7 +520,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-10-09",
+"found_at": "2026-10-09 09:41",
+"found_source": "archive record of the run cc_v7_gpt61sol_n1k_w12_10c_out (cluster, archive/codes/5c6dcca334726829.json)"
 },
 {
 "slug": "lp-1400-578-1b9e932c",
@@ -525,7 +555,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-10-10",
+"found_at": "2026-10-10 01:00",
+"found_source": "archive record of the run cc_v7_gpt61sol_n1k_w12_10c_out (cluster, archive/codes/1b9e932ceead30c7.json)"
 },
 {
 "slug": "lp-1428-504-fd511001",
@@ -557,7 +590,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-10-09",
+"found_at": "2026-10-09 09:19",
+"found_source": "archive record of the run cc_v7_gpt61sol_n1k_w12_10c_out (cluster, archive/codes/fd511001cf3dd6cd.json)"
 },
 {
 "slug": "lp-1428-756-5ea2ae57",
@@ -589,7 +625,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-10-08",
+"found_at": "2026-10-08 18:34",
+"found_source": "archive record of the run cc_v7_gpt61sol_n1k_w12_10c_out (cluster, archive/codes/5ea2ae570586fe1b.json)"
 },
 {
 "slug": "lp-1440-363-568dc4af",
@@ -621,7 +660,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-10-09",
+"found_at": "2026-10-09 20:05",
+"found_source": "archive record of the run cc_v7_gpt61sol_n1k_w12_10c_out (cluster, archive/codes/568dc4af580929bf.json)"
 },
 {
 "slug": "lp-1456-714-4d7beafd",
@@ -653,7 +695,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-10-10",
+"found_at": "2026-10-10 01:29",
+"found_source": "archive record of the run cc_v7_gpt61sol_n1k_w12_10c_out (cluster, archive/codes/4d7beafd8ec49c21.json)"
 },
 {
 "slug": "lp-300-60-fb7d276a",
@@ -691,7 +736,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-28",
+"found_at": "2026-10-28 00:07",
+"found_source": "archive record of the run agent_w9cap300_20261027 (cluster, archive/codes/fb7d276a984acb48.json)"
 },
 {
 "slug": "lp-476-252-945df1a1",
@@ -729,7 +777,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-04",
+"found_at": "2026-10-04 23:43",
+"found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/945df1a1385c800d.json)"
 },
 {
 "slug": "lp-483-220-b7bb3363",
@@ -767,7 +818,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-03",
+"found_at": "2026-10-03 16:03",
+"found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive b7bb3363de23fb63"
 },
 {
 "slug": "lp-496-72-e23c4a10",
@@ -805,7 +859,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-12",
+"found_at": "2026-10-12 03:12",
+"found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/e23c4a10e9715f05.json)"
 },
 {
 "slug": "lp-500-100-6b0120af",
@@ -843,7 +900,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-27",
+"found_at": "2026-10-27 22:33",
+"found_source": "archive record of the run agent_w9cap500_20261027 (cluster, archive/codes/6b0120afb54b47bb.json)"
 },
 {
 "slug": "lp-504-297-cf5015a2",
@@ -881,7 +941,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-03",
+"found_at": "2026-10-03 09:58",
+"found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive cf5015a213992503"
 },
 {
 "slug": "lp-520-252-612dfb68",
@@ -919,7 +982,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-03",
+"found_at": "2026-10-03 12:24",
+"found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive 612dfb68fc96d396"
 },
 {
 "slug": "lp-544-200-15d39679",
@@ -957,7 +1023,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-03",
+"found_at": "2026-10-03 16:06",
+"found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive 15d39679803f52d4"
 },
 {
 "slug": "lp-544-288-217b1dab",
@@ -995,7 +1064,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 21:33",
+"found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive 217b1dab11f6cb77"
 },
 {
 "slug": "lp-550-110-f018ef54",
@@ -1033,7 +1105,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-11",
+"found_at": "2026-10-11 19:38",
+"found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/f018ef54dd6585b9.json)"
 },
 {
 "slug": "lp-550-220-d8d92f24",
@@ -1071,7 +1146,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-06",
+"found_at": "2026-10-06 07:56",
+"found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive d8d92f24197070fc"
 },
 {
 "slug": "lp-550-226-aa1b8eb1",
@@ -1109,7 +1187,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 00:46",
+"found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/aa1b8eb1e01f4732.json)"
 },
 {
 "slug": "lp-552-240-ccf067d3",
@@ -1147,7 +1228,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-06",
+"found_at": "2026-10-06 13:35",
+"found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive ccf067d3f16c1b1e"
 },
 {
 "slug": "lp-552-258-8f79c779",
@@ -1185,7 +1269,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 01:11",
+"found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/8f79c7797b31db20.json)"
 },
 {
 "slug": "lp-560-130-d233cc72",
@@ -1223,7 +1310,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-04",
+"found_at": "2026-10-04 04:31",
+"found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive d233cc7273de92c2"
 },
 {
 "slug": "lp-560-224-db18259e",
@@ -1261,7 +1351,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-03",
+"found_at": "2026-10-03 21:28",
+"found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive db18259eb1856d92"
 },
 {
 "slug": "lp-570-288-f4eda3e5",
@@ -1299,7 +1392,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-06",
+"found_at": "2026-10-06 12:31",
+"found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive f4eda3e53eb8fdb2"
 },
 {
 "slug": "lp-572-67-82b2bf20",
@@ -1337,7 +1433,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 05:21",
+"found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive 82b2bf20fa54f6db"
 },
 {
 "slug": "lp-576-150-38483df5",
@@ -1375,7 +1474,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 06:12",
+"found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/38483df5b56e140e.json)"
 },
 {
 "slug": "lp-576-82-30b645d7",
@@ -1413,7 +1515,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 11:19",
+"found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive 30b645d7a9a46846"
 },
 {
 "slug": "lp-580-116-ba427de1",
@@ -1451,7 +1556,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-06",
+"found_at": "2026-10-06 10:41",
+"found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive ba427de15c84301e"
 },
 {
 "slug": "lp-580-132-239bca5f",
@@ -1489,7 +1597,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 23:32",
+"found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive 239bca5f913aa8b1"
 },
 {
 "slug": "lp-580-180-67395015",
@@ -1527,7 +1638,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 06:25",
+"found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/67395015cd1a62db.json)"
 },
 {
 "slug": "lp-583-287-ac08dff0",
@@ -1565,7 +1679,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 00:36",
+"found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/ac08dff07e7b0a0b.json)"
 },
 {
 "slug": "lp-584-200-4c556c11",
@@ -1603,7 +1720,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 01:04",
+"found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/4c556c11e482646a.json)"
 },
 {
 "slug": "lp-585-117-c841b78f",
@@ -1641,7 +1761,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-25",
+"found_at": "2026-10-25 13:17",
+"found_source": "archive record of the run codesign_w9_20261025_rw (cluster, archive/codes/c841b78f0a93b1ff.json)"
 },
 {
 "slug": "lp-585-119-8bd2c5b8",
@@ -1679,7 +1802,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 07:16",
+"found_source": "archive record of the run cc_v7_gpt61sol500_w9_10c_out (cluster, archive/codes/8bd2c5b8b300903d.json)"
 },
 {
 "slug": "lp-585-121-dc333332",
@@ -1717,7 +1843,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-03",
+"found_at": "2026-10-03 17:32",
+"found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive dc33333253c79e16"
 },
 {
 "slug": "lp-588-176-7084834c",
@@ -1755,7 +1884,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-05",
+"found_at": "2026-10-05 16:05",
+"found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive 7084834cc57bd76f"
 },
 {
 "slug": "lp-588-176-b51b14af",
@@ -1793,7 +1925,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-03",
+"found_at": "2026-10-03 21:27",
+"found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive b51b14afe214768f"
 },
 {
 "slug": "lp-592-83-3c772243",
@@ -1831,7 +1966,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-03",
+"found_at": "2026-10-03 22:33",
+"found_source": "archive record of the run (laptop copy): cc_v7_gpt61sol500_w12_10c_out archive 3c7722431bc2662e"
 },
 {
 "slug": "lp-598-195-8031fd1f",
@@ -1869,7 +2007,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-06",
+"found_at": "2026-10-06 11:28",
+"found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive 8031fd1f7b90d19b"
 },
 {
 "slug": "lp-600-120-3f283080",
@@ -1907,7 +2048,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-28",
+"found_at": "2026-10-28 01:35",
+"found_source": "archive record of the run agent_w9cap650_20261027 (cluster, archive/codes/3f283080ae7c63ce.json)"
 },
 {
 "slug": "lp-624-394-2891b800",
@@ -1939,7 +2083,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-11-05",
+"found_at": "2026-11-05 20:39",
+"found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/2891b800e56e7563.json)"
 },
 {
 "slug": "lp-625-125-bde3d315",
@@ -1977,7 +2124,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-28",
+"found_at": "2026-10-28 01:21",
+"found_source": "archive record of the run agent_w9cap650_20261027 (cluster, archive/codes/bde3d31576e7f534.json)"
 },
 {
 "slug": "lp-630-126-51eb4a07",
@@ -2015,7 +2165,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-27",
+"found_at": "2026-10-27 23:12",
+"found_source": "archive record of the run agent_w9cap650_20261027 (cluster, archive/codes/51eb4a07203cf953.json)"
 },
 {
 "slug": "lp-640-128-0c670102",
@@ -2053,7 +2206,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-28",
+"found_at": "2026-10-28 01:46",
+"found_source": "archive record of the run agent_w9cap650_20261027 (cluster, archive/codes/0c67010281dda962.json)"
 },
 {
 "slug": "lp-645-133-c7b7ffd5",
@@ -2140,7 +2296,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-11-05",
+"found_at": "2026-11-05 18:55",
+"found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/c7b7ffd5b24ab18a.json)"
 },
 {
 "slug": "lp-651-190-41d17c46",
@@ -2172,7 +2331,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-11-05",
+"found_at": "2026-11-05 20:34",
+"found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/41d17c46fcccf940.json)"
 },
 {
 "slug": "lp-660-343-c9479d2d",
@@ -2204,7 +2366,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-11-05",
+"found_at": "2026-11-05 18:12",
+"found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/c9479d2d49cded3d.json)"
 },
 {
 "slug": "lp-663-240-61871d9b",
@@ -2236,7 +2401,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-11-05",
+"found_at": "2026-11-05 21:32",
+"found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/61871d9b814e15cc.json)"
 },
 {
 "slug": "lp-680-272-c0163647",
@@ -2268,7 +2436,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-11-05",
+"found_at": "2026-11-05 19:23",
+"found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/c01636475f1420ad.json)"
 },
 {
 "slug": "lp-684-174-5495b1e5",
@@ -2300,7 +2471,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-11-05",
+"found_at": "2026-11-05 23:35",
+"found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/5495b1e52b4f8cc5.json)"
 },
 {
 "slug": "lp-688-100-d1ed0755",
@@ -2332,7 +2506,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-11-05",
+"found_at": "2026-11-05 22:39",
+"found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/d1ed07551b5b2a75.json)"
 },
 {
 "slug": "lp-688-95-5537d129",
@@ -2364,7 +2541,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-11-05",
+"found_at": "2026-11-05 22:39",
+"found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/5537d129ec58fd9b.json)"
 },
 {
 "slug": "lp-690-316-8f1f8818",
@@ -2396,7 +2576,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-07"
+"date": "2026-11-07",
+"found": "2026-11-05",
+"found_at": "2026-11-05 20:16",
+"found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/8f1f88182309f7ff.json)"
 },
 {
 "slug": "lp-780-156-f4290e36",
@@ -2434,7 +2617,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-27",
+"found_at": "2026-10-27 23:04",
+"found_source": "archive record of the run agent_w9cap800_20261027 (cluster, archive/codes/f4290e3668c5bce7.json)"
 },
 {
 "slug": "lp-975-195-3ab42b29",
@@ -2472,7 +2658,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-27",
+"found_at": "2026-10-27 23:15",
+"found_source": "archive record of the run agent_w9cap1000_20261027 (cluster, archive/codes/3ab42b29ae48a336.json)"
 },
 {
 "slug": "lp-975-197-79305313",
@@ -2510,7 +2699,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-28",
+"found_at": "2026-10-28 05:50",
+"found_source": "archive record of the run agent_w9cap1000_r2_20261027 (cluster, archive/codes/79305313c4dd2af7.json)"
 },
 {
 "slug": "lp-975-203-c9c9547d",
@@ -2548,7 +2740,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-28",
+"found_at": "2026-10-28 05:50",
+"found_source": "archive record of the run agent_w9cap1000_r2_20261027 (cluster, archive/codes/c9c9547d1abf2bf0.json)"
 },
 {
 "slug": "pp-520-110-7285ad37",
@@ -2604,7 +2799,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-30",
+"found_at": "2026-10-30 23:53",
+"found_source": "archive record of the run (laptop copy): pp_line scratch archive 7285ad377774473d"
 },
 {
 "slug": "pp-564-194-60f2ec0b",
@@ -2656,7 +2854,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-31",
+"found_at": "2026-10-31 00:02",
+"found_source": "archive record of the run (laptop copy): pp_line scratch archive 60f2ec0b77e748f4"
 },
 {
 "slug": "pp-590-124-64d91a4a",
@@ -2712,7 +2913,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-10-30",
+"found_at": "2026-10-30 22:42",
+"found_source": "archive record of the run (laptop copy): pp_line catalog archive 64d91a4a49e700e7"
 },
 {
 "slug": "pp-636-218-724fb874",
@@ -2766,7 +2970,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": "pp-636-218",
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-02",
+"found_at": "2026-11-02 00:13",
+"found_source": "archive record of the run pp_n700a_20261101 (cluster, archive/codes/724fb87415f9545d.json)"
 },
 {
 "slug": "pp-636-218-e247724a",
@@ -2820,7 +3027,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": "pp-636-218",
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-01",
+"found_at": "2026-11-01 23:40",
+"found_source": "archive record of the run pp_n700a_20261101 (laptop copy, changes/02112026/board_636)"
 },
 {
 "slug": "pp-640-134-b9df990a",
@@ -2852,7 +3062,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-02",
+"found_at": "2026-11-02 00:19",
+"found_source": "archive record of the run pp_n700a_20261101 (cluster, archive/codes/b9df990a83cdd824.json)"
 },
 {
 "slug": "pp-670-140-15e94ea5",
@@ -2884,7 +3097,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-02",
+"found_at": "2026-11-02 22:11",
+"found_source": "archive record of the run pp_v5a_20261102 (cluster, archive/codes/15e94ea54fe5bc15.json)"
 },
 {
 "slug": "pp-680-142-54579668",
@@ -2916,7 +3132,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-01",
+"found_at": "2026-11-01 23:38",
+"found_source": "archive record of the run pp_n700smoke_20261101 (cluster, archive/codes/545796683e8e28d8.json)"
 },
 {
 "slug": "pp-680-144-48ce3d43",
@@ -2948,7 +3167,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-05",
+"found_at": "2026-11-05 18:25",
+"found_source": "archive record of the run pp_v5b_20261105 (cluster, archive/codes/48ce3d431bf7219d.json)"
 },
 {
 "slug": "pp-680-144-c6873368",
@@ -2980,7 +3202,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-01",
+"found_at": "2026-11-01 23:38",
+"found_source": "archive record of the run pp_n700smoke_20261101 (cluster, archive/codes/c6873368c56df888.json)"
 },
 {
 "slug": "pp-680-146-41bbe895",
@@ -3012,7 +3237,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-01",
+"found_at": "2026-11-01 23:38",
+"found_source": "archive record of the run pp_n700smoke_20261101 (cluster, archive/codes/41bbe89574bb496e.json)"
 },
 {
 "slug": "pp-684-234-72b747aa",
@@ -3044,7 +3272,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": "pp-684-234",
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-02",
+"found_at": "2026-11-02 22:40",
+"found_source": "archive record of the run pp_v5a_20261102 (cluster, archive/codes/72b747aad9d63446.json)"
 },
 {
 "slug": "pp-684-234-aa0979d7",
@@ -3076,7 +3307,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": "pp-684-234",
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-02",
+"found_at": "2026-11-02 22:40",
+"found_source": "archive record of the run pp_v5a_20261102 (cluster, archive/codes/aa0979d7bc395762.json)"
 },
 {
 "slug": "pp-684-238-34b56e79",
@@ -3108,7 +3342,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": "pp-684-238",
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-02",
+"found_at": "2026-11-02 21:55",
+"found_source": "archive record of the run pp_v5a_20261102 (cluster, archive/codes/34b56e790ae27e72.json)"
 },
 {
 "slug": "pp-684-238-e403972b",
@@ -3140,7 +3377,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": "pp-684-238",
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-02",
+"found_at": "2026-11-02 22:06",
+"found_source": "archive record of the run pp_v5a_20261102 (cluster, archive/codes/e403972be941771c.json)"
 },
 {
 "slug": "pp-690-144-ea020f49",
@@ -3172,7 +3412,10 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-02",
+"found_at": "2026-11-02 22:47",
+"found_source": "archive record of the run pp_v5a_20261102 (cluster, archive/codes/ea020f49826f14a4.json)"
 },
 {
 "slug": "pp-992-252-0e23013f",
@@ -3222,6 +3465,9 @@
 "claimed": null,
 "pending": null,
 "instance_group": null,
-"date": "2026-11-05"
+"date": "2026-11-05",
+"found": "2026-11-02",
+"found_at": "between 2026-11-01 23:14 and 2026-11-02 01:07",
+"found_source": "worker job 8933791 of the l8a line (sacct) and the start of its certification"
 }
 ]

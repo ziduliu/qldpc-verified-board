@@ -12,7 +12,7 @@
  "wZ": 11,
  "kd2_over_n": 19.6,
  "family": "lifted-product",
- "construction": "group C_11 \u22ca C_5 (order 55), protograph shapes (1,3) \u00d7 (1,3)",
+ "construction": "group C_11 ⋊ C_5 (order 55), protograph shapes (1,3) × (1,3)",
  "origin": "sce",
  "provenance": "run pl10_gpt61sol_out (gpt-6.1-sol, CLER objective), rate cell 6; arXiv:2606.24808 codes/cler/cell6_n550_k220_d8d92f24197070fc_HX.mtx",
  "citation": "arXiv:2606.24808",
@@ -34,5 +34,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-10-06",
+ "found_at": "2026-10-06 07:56",
+ "found_source": "archive record of the run (laptop copy): pl10_gpt61sol_out archive d8d92f24197070fc"
 }

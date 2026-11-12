@@ -12,7 +12,7 @@
  "wZ": 10,
  "kd2_over_n": 143.0,
  "family": "pair-partition",
- "construction": "group C_2 \u00d7 C_2 \u00d7 C_13 (order 52, not cyclic), template (4, 10)",
+ "construction": "group C_2 × C_2 × C_13 (order 52, not cyclic), template (4, 10)",
  "origin": "sce",
  "provenance": "evolution run pp_scratch_opus_20261030 (Claude Opus 5.5 proposer), program f6d864c771909d77, candidate 2",
  "citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
@@ -52,5 +52,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-10-30",
+ "found_at": "2026-10-30 23:53",
+ "found_source": "archive record of the run (laptop copy): pp_line scratch archive 7285ad377774473d"
 }

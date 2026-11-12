@@ -1,6 +1,6 @@
 {
  "slug": "lp-645-133-c7b7ffd5",
- "name": "[[645,133,22\u201326]]",
+ "name": "[[645,133,22–26]]",
  "n": 645,
  "k": 133,
  "d": 26,
@@ -12,7 +12,7 @@
  "wZ": 12,
  "kd2_over_n": 139.39,
  "family": "lifted-product",
- "construction": "group C_43 \u22ca C_3 (y x y\u207b\u00b9 = x\u2076, order 129), protograph shapes (1,2) \u00d7 (1,2)",
+ "construction": "group C_43 ⋊ C_3 (y x y⁻¹ = x⁶, order 129), protograph shapes (1,2) × (1,2)",
  "origin": "sce",
  "provenance": "evolution line n700a (gpt-6.1-sol, 2026-11-05), archive c7b7ffd5b24ab18a",
  "citation": "arXiv:2606.24808",
@@ -83,5 +83,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-07"
+ "date": "2026-11-07",
+ "found": "2026-11-05",
+ "found_at": "2026-11-05 18:55",
+ "found_source": "archive record of the run lp_n700a_20261105 (cluster, archive/codes/c7b7ffd5b24ab18a.json)"
 }

@@ -66,7 +66,9 @@ for key, es in groups.items():
     rows.append(dict(key=key, es=es, name=nm(e), n=e["n"], k=e["k"], d=e["d"], w=e["w"], fom=e["kd2_over_n"], family=e["family"],
                      status=STATUS[e["d_status"]], origin=ORIGIN[e["origin"]], construction=e["construction"],
                      evidence=evidence_text(e), pending=any(x.get("pending") for x in es),
-                     claimed=(e.get("claimed") or {}).get("d"), count=len(es)))
+                     claimed=(e.get("claimed") or {}).get("d"), count=len(es),
+                     found=min([x["found"] for x in es if x.get("found")] or [""]),
+                     found_at=" / ".join(x.get("found_at") or x.get("found") or "" for x in es)))
 
 # ------------------------------------------------------------------ summary
 listed = [e for e in entries if not e.get("pending")]
@@ -235,7 +237,7 @@ def head(lang):
 <p class="small">%s</p>
 <div class="wrap"><table id="t"><thead><tr>
 <th data-k="name">%s</th><th data-k="n" class="num">%s</th><th data-k="k" class="num">%s</th><th data-k="d" class="num">%s</th><th data-k="w" class="num">%s</th>
-<th data-k="fom" class="num">%s</th><th data-k="family">%s</th><th data-k="status">%s</th><th data-k="kind">%s</th>
+<th data-k="fom" class="num">%s</th><th data-k="family">%s</th><th data-k="status">%s</th><th data-k="kind">%s</th><th data-k="found">%s</th>
 <th>%s</th><th>%s</th><th>%s</th></tr></thead><tbody>
 """ % ((t_["h_explore"], t_["f_family"], t_["f_all"], t_["f_status"], t_["f_all"], st["exact"], st["search bound"], st["lower bound"],
             t_["f_origin"], t_["f_all"], org["SCE"], org["leaderboard, re-measured"], t_["f_weight"], t_["f_to"], t_["f_pub"], t_["f_pend"],
@@ -260,6 +262,7 @@ def body(lang):
             tags += ' <span class="tag pend">%s</span>' % t_["tag_pending"]
         out.append("<td><b>%s</b>%s</td><td class=num>%d</td><td class=num>%d</td><td class=num>%d</td><td class=num>%d</td><td class=num>%.1f</td><td>%s</td><td class=st>%s</td><td>%s</td>"
                    % (html.escape(r["name"]), tags, r["n"], r["k"], r["d"], r["w"], r["fom"], r["family"], t_["status"][r["status"]], t_["origin"][r["origin"]]))
+        out.append('<td class="small" title="%s">%s</td>' % (html.escape(r["found_at"]), html.escape(r["found"])))
         det = "<br>".join("<b>%s</b>: %s" % (html.escape(x["slug"]), html.escape(i18n.provenance(x["provenance"], lang))) for x in es)
         cite = html.escape(i18n.citation(es[0].get("citation") or "", lang))
         out.append('<td class="small">%s<details><summary>%s</summary>%s%s</details></td>'
@@ -339,7 +342,7 @@ function apply(){
 for(const id of['fam','st','kd','w','wlo','n','pub','showpend','surf']) document.getElementById(id).addEventListener('input',apply);
 apply();
 let dir={};document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;dir[k]=!dir[k];const tb=document.querySelector('#t tbody');
-const idx=[...th.parentNode.children].indexOf(th);const get=r=>{const t=r.children[idx].textContent;const v=parseFloat(t.replace(/[^0-9.\-]/g,''));return (k==='name'||k==='family'||k==='status'||k==='kind')?t:v;};
+const idx=[...th.parentNode.children].indexOf(th);const get=r=>{const t=r.children[idx].textContent;const v=parseFloat(t.replace(/[^0-9.\-]/g,''));return (k==='name'||k==='family'||k==='status'||k==='kind'||k==='found')?t:v;};
 rows.sort((a,b)=>{const x=get(a),y=get(b);return (x>y?1:x<y?-1:0)*(dir[k]?1:-1);});rows.forEach(r=>tb.appendChild(r));}));
 </script></body></html>"""
 
@@ -386,12 +389,12 @@ fig.tight_layout(rect=(0, 0.05, 1, 1)); fig.savefig(os.path.join(ROOT, "docs", "
 
 # ------------------------------------------------------------------ README (between the markers)
 md = ["### Summary\n"] + summary_md + ["", "### Codes found by SCE (%d rows; ×2 = two inequivalent codes)\n" % sum(1 for r in rows if r["origin"] == "SCE"),
-      "| code | w | k d²/n | family | status | construction | evidence | files |", "|---|---|---|---|---|---|---|---|"]
+      "| code | w | k d²/n | family | status | found | construction | evidence | files |", "|---|---|---|---|---|---|---|---|---|"]
 for r in rows:
     if r["origin"] != "SCE":
         continue
-    md.append("| %s%s%s | %d | %.1f | %s | %s | %s | %s | %s |" % (r["name"], " ×%d" % r["count"] if r["count"] > 1 else "", " (operator file pending)" if r["pending"] else "",
-                                                               r["w"], r["fom"], r["family"], r["status"], r["construction"].replace("|", "/"), r["evidence"].replace("|", "/"), " · ".join(md_link(x) for x in r["es"])))
+    md.append("| %s%s%s | %d | %.1f | %s | %s | %s | %s | %s | %s |" % (r["name"], " ×%d" % r["count"] if r["count"] > 1 else "", " (operator file pending)" if r["pending"] else "",
+                                                                    r["w"], r["fom"], r["family"], r["status"], r["found"], r["construction"].replace("|", "/"), r["evidence"].replace("|", "/"), " · ".join(md_link(x) for x in r["es"])))
 md += ["", "### Leaderboard entries re-measured (%d)\n" % sum(1 for r in rows if r["origin"] != "SCE"), "| entry | w | claimed d | lightest operator we found | k d²/n claimed → re-measured | our search | files |", "|---|---|---|---|---|---|---|"]
 for r in sorted([r for r in rows if r["origin"] != "SCE"], key=lambda r: (-r["fom"], r["w"])):
     e = r["es"][0]; cl = e["k"] * e["claimed"]["d"] ** 2 / e["n"]; heldrow = e["d"] >= e["claimed"]["d"]

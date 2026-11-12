@@ -12,13 +12,13 @@
  "wZ": 12,
  "kd2_over_n": 165.58,
  "family": "pair-partition",
- "construction": "cyclic group C_57 (written C_3 \u00d7 C_19 by the program), template (4, 12), shortened",
+ "construction": "cyclic group C_57 (written C_3 × C_19 by the program), template (4, 12), shortened",
  "origin": "sce",
  "provenance": "evolution line v5a (gpt-6.1-sol, 2026-11-02), archive 72b747aad9d63446; inequivalent to the other code with these parameters (distinct spectra)",
  "citation": "pair-partition construction (Okada and Kasai, arXiv:2607.14091; Lee et al., arXiv:2609.30069)",
  "evidence": {
   "kind": "search",
-  "method": "GPU directed BP+OSD search (v5): 600 s \u00d7 3 and 3600 s \u00d7 2 (v5): 22"
+  "method": "GPU directed BP+OSD search (v5): 600 s × 3 and 3600 s × 2 (v5): 22"
  },
  "witness": "witnesses/pp-684-234-72b747aa.json",
  "matrices": {
@@ -28,5 +28,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": "pp-684-234",
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-11-02",
+ "found_at": "2026-11-02 22:40",
+ "found_source": "archive record of the run pp_v5a_20261102 (cluster, archive/codes/72b747aad9d63446.json)"
 }

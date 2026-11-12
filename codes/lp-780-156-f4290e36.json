@@ -12,9 +12,9 @@
  "wZ": 9,
  "kd2_over_n": 96.8,
  "family": "lifted-product",
- "construction": "group C_13 \u00d7 A_4 (order 156), protograph shapes (1,2) \u00d7 (1,2)",
+ "construction": "group C_13 × A_4 (order 156), protograph shapes (1,2) × (1,2)",
  "origin": "sce",
- "provenance": "agentic SCE line (gpt-6.1-sol with tools, stateful), weight 9, rate 0.2, shapes (1,2) \u00d7 (1,2) frozen, size cap 800, replicate 1 (2026-10-27/28), child 3, slot 0; archive f4290e3668c5bce7; program family r020_c13xa4_12x12_g8_cyclebank_isd4_v2",
+ "provenance": "agentic SCE line (gpt-6.1-sol with tools, stateful), weight 9, rate 0.2, shapes (1,2) × (1,2) frozen, size cap 800, replicate 1 (2026-10-27/28), child 3, slot 0; archive f4290e3668c5bce7; program family r020_c13xa4_12x12_g8_cyclebank_isd4_v2",
  "citation": "arXiv:2606.24808",
  "evidence": {
   "kind": "certificate",
@@ -34,5 +34,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-10-27",
+ "found_at": "2026-10-27 23:04",
+ "found_source": "archive record of the run agent_w9cap800_20261027 (cluster, archive/codes/f4290e3668c5bce7.json)"
 }

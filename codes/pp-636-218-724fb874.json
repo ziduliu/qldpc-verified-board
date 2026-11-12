@@ -50,5 +50,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": "pp-636-218",
- "date": "2026-11-05"
+ "date": "2026-11-05",
+ "found": "2026-11-02",
+ "found_at": "2026-11-02 00:13",
+ "found_source": "archive record of the run pp_n700a_20261101 (cluster, archive/codes/724fb87415f9545d.json)"
 }

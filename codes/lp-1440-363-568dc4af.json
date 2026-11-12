@@ -12,7 +12,7 @@
  "wZ": 12,
  "kd2_over_n": 133.35,
  "family": "lifted-product",
- "construction": "group SL(2,5) (order 120), protograph shapes (1,2) \u00d7 (2,5)",
+ "construction": "group SL(2,5) (order 120), protograph shapes (1,2) × (2,5)",
  "origin": "sce",
  "provenance": "evolution line n1k (gpt-6.1-sol, 2026-10-08), archive 568dc4af580929bf",
  "citation": "arXiv:2606.24808",
@@ -28,5 +28,8 @@
  "claimed": null,
  "pending": null,
  "instance_group": null,
- "date": "2026-11-07"
+ "date": "2026-11-07",
+ "found": "2026-10-09",
+ "found_at": "2026-10-09 20:05",
+ "found_source": "archive record of the run cc_v7_gpt61sol_n1k_w12_10c_out (cluster, archive/codes/568dc4af580929bf.json)"
 }
