@@ -1,0 +1,35 @@
+{
+ "slug": "lp-585-121-2aff3c27",
+ "name": "[[585,121,<=25]]",
+ "n": 585,
+ "k": 121,
+ "d": 25,
+ "d_status": "upper_bound",
+ "d_lower": null,
+ "d_upper": 25,
+ "w": 12,
+ "wX": 12,
+ "wZ": 12,
+ "kd2_over_n": 129.27,
+ "family": "lifted-product",
+ "construction": "group C_13 ⋊ C_9 (order 117), protograph shapes (1,2) × (1,2)",
+ "origin": "sce",
+ "provenance": "evolution line plain_w12c2_r1 (gpt-6.1-sol, 2026-10-27), archive 2aff3c27fd667b0a; inequivalent to the other code with these parameters (distinct spectra)",
+ "citation": "arXiv:2606.24808",
+ "evidence": {
+  "kind": "search",
+  "method": "GPU directed BP+OSD search (v5): 600 s seed 0: 25; 600 s seed 1: 25; 3600 s seed 0: 25; 3600 s seed 1: 25; earlier estimator 7200 s × 2 (2026-10-28): 25 and 25"
+ },
+ "witness": "witnesses/lp-585-121-2aff3c27.json",
+ "matrices": {
+  "HX": "matrices/lp-585-121-2aff3c27/HX.mtx",
+  "HZ": "matrices/lp-585-121-2aff3c27/HZ.mtx"
+ },
+ "claimed": null,
+ "pending": null,
+ "instance_group": "lp-585-121-25",
+ "date": "2026-11-13",
+ "found": "2026-10-27",
+ "found_at": "2026-10-27 21:29",
+ "found_source": "archive record of the run plain_w12c2_r1_20261027 (cluster, archive/codes/2aff3c27fd667b0a.json)"
+}

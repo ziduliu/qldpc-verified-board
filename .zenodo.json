@@ -1,0 +1,14 @@
+{
+ "title": "qldpc-verified-board: quantum LDPC codes with checkable distance evidence",
+ "upload_type": "dataset",
+ "description": "<p>Quantum LDPC codes found by structured concept evolution (SCE, arXiv:2606.24808) and entries of the Unitary Foundation qLDPC challenge re-measured with the same search, for encoding rates k/n above 0.1. Each code is given by its parity-check matrices H_X and H_Z (MatrixMarket format), the lightest logical operators found, and, where available, the records of an exact distance certificate. Every distance statement says what is proven: exact distance, search upper bound or lower bound. The scripts tools/verify.py and tools/check_all.py check the matrices and the operators.</p>",
+ "creators": [
+  {"name": "Liu, Zidu", "affiliation": "Max Planck Institute for the Science of Light, Erlangen, Germany"},
+  {"name": "Marquardt, Florian", "affiliation": "Max Planck Institute for the Science of Light, Erlangen, Germany; Friedrich-Alexander University Erlangen-Nürnberg, Erlangen, Germany"}
+ ],
+ "license": "Apache-2.0",
+ "keywords": ["quantum error correction", "quantum LDPC codes", "lifted-product codes", "pair-partition codes", "code distance"],
+ "related_identifiers": [
+  {"identifier": "arXiv:2606.24808", "relation": "references", "scheme": "arxiv"}
+ ]
+}
